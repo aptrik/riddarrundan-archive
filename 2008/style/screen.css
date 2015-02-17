@@ -1,0 +1,117 @@
+body {
+  background: #fafafa;
+  font-size: 12px;
+  font-family: 'Lucida Grande', Verdana, Arial, Helvetica, Sans-Serif;
+  margin: 1em 1em 3em 1em;
+}
+
+h1, h2, h3 {
+  color:          #005B99;
+  text-align:     left;
+  font-family:    'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Helvetica, Sans-Serif;
+  font-weight:    bold;
+  background:     none;
+  padding:        1ex 0 0.1ex 0;
+  margin:         0 0 0 0;
+  border-bottom:  1px solid #aaa;
+}
+
+h2, h3 {
+  margin: 1em 0 0.5em 0;
+  border-bottom: none;
+}
+h1 { font-size: 250%; }
+h2 { font-size: 150%; }
+h3 { font-size: 132%; }
+
+img {
+  border: none;
+}
+
+a img {
+  border: none;
+}
+
+a.help {
+  cursor: help;
+}
+
+table tr th, table tr td {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+table tr th {
+  text-align: center;
+}
+
+/*---------------------------------------------------------------------------*/
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.name {
+  min-width: 10em;
+  width: 10em;
+}
+
+.count {
+  min-width: 2em;
+  width: 2em;
+}
+
+.number {
+  text-align: right;
+  min-width: 1.5em;
+  width: 1.5em;
+}
+
+/*---------------------------------------------------------------------------*/
+
+table.outlined {
+  empty-cells: show;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  margin-left: 2em;
+}
+
+table.outlined caption {
+  caption-side: bottom;
+  font-size: 12px;
+  width: 90%;
+  text-align: left;
+  font-style: italic;
+  margin-top: 0.5ex;
+  margin-left: 3em;
+}
+
+table.outlined th, table.outlined td {
+  border: none;
+  padding: 0 0.5ex 0 0.5ex;
+  white-space: nowrap;
+}
+
+table.outlined tr th {
+  color: #222;
+  background-color: #d0d7e2;
+  border-bottom: 1px solid gray;
+}
+
+table.outlined tr.d1 td {
+  background-color: #e5ebe5;
+}
+
+table.outlined border.tr {
+  border: 1px solid gray;
+}
+
+/*---------------------------------------------------------------------------*/

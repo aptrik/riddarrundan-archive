@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="Patrik Berglund" />
+  <meta name="robots" content="all" />
+
+  <title>Robert Dalvald</title>
+
+  <link rel="shortcut icon"
+        type="image/x-icon"
+        href="../img/favicon_RR_shield.ico" />
+  <link rel="apple-touch-icon"
+        href="../img/iDevice_head_RR.png" />
+
+  <link rel="stylesheet" type="text/css" media="screen, projection"
+        href="../style/screen.css" />
+  <link rel="stylesheet" type="text/css" media="print"
+        href="../style/print.css" />
+  <link rel="stylesheet" type="text/css" media="handheld"
+        href="../style/handheld.css" />
+  <!--[if lt IE 8]>
+      <link href="style/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+
+  <!--[if IE]><script type="text/javascript" src="../js/excanvas.js"></script><![endif]-->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.flot.min.js"></script>
+  <script type="text/javascript" src="../js/rr_graph.js"></script>
+
+  <style type="text/css" media="screen">
+<!--
+table.outlined tr td.hdr {
+  font-weight: bold;
+  background-color: #ddd;
+  // border-left: 1px solid gray;
+}
+
+.ace {
+  background-color: yellow;
+  color: black;
+}
+
+.eagle {
+  background-color: mediumseagreen;
+  color: white;
+}
+
+.birdie {
+  background-color: lightgreen;
+}
+
+.par {
+}
+
+.bogey {
+  background-color: tomato;
+}
+
+.Bogey {
+  background-color: #6666ff;
+  color: white;
+}
+
+.penalty {
+  text-decoration: underline;
+}
+-->
+  </style>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26307613-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<div id="wrap">
+<div id="content">
+
+<div class="subtitle">
+  <img src="../img/soldier_shield_page.png" alt="" />
+  <div>
+    <img src="../img/riddarrundan_head.png" alt="" />
+    <p>Robert Dalvald 2012</p>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="section" id="resultat">
+<h3>Resultat<a class="headerlink" href="#resultat" title="Permlink to this headline">¶</a></h3>
+</div>
+
+<table class="outlined knektar">
+  <tr>
+    <th rowspan="2">Datum</th>
+    <th colspan="9">H&aring;l</th>
+    <th rowspan="2">Ut</th>
+    <th colspan="9">H&aring;l</th>
+    <th rowspan="2">In</th>
+    <th rowspan="2">Totalt</th>
+  <tr>
+    <th class="number">1</th>
+    <th class="number">2</th>
+    <th class="number">3</th>
+    <th class="number">4</th>
+    <th class="number">5</th>
+    <th class="number">6</th>
+    <th class="number">7</th>
+    <th class="number">8</th>
+    <th class="number">9</th>
+    <th class="number">10</th>
+    <th class="number">11</th>
+    <th class="number">12</th>
+    <th class="number">13</th>
+    <th class="number">14</th>
+    <th class="number">15</th>
+    <th class="number">16</th>
+    <th class="number">17</th>
+    <th class="number">18</th>
+  </tr>
+
+  <tr>
+    <td class="hdr">2012-07-17</td>
+    <td class="number bogey">4</td>
+    <td class="number Bogey">5</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">33</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number Bogey">5</td>
+    <td class="number par">3</td>
+    <td class="hdr number">34</td>
+    <td class="hdr number">67</td>
+  </tr>
+</table>
+
+
+<div class="section" id="hal-statistik">
+<h3>Resultat per hål<a class="headerlink" href="#hal-statistik" title="Permlink to this headline">¶</a></h3>
+</div>
+
+<div id="summary_player" class="graph"></div>
+
+<table class="outlined knektar">
+  <tr class="border" style="vertical-align: bottom;">
+    <th class="right" rowspan="2">H&aring;l</th>
+    <th class="right" rowspan="2">antal</th>
+    <th rowspan="2">l&auml;gst</th>
+    <th class="right" rowspan="2">medel</th>
+    <th rowspan="2">h&ouml;gst</th>
+    <th rowspan="2">&sigma;</th>
+    <th colspan="12">F&ouml;rdelning (%)</th>
+  </tr>
+  <tr>
+    <th class="right">1</th>
+    <th class="right">2</th>
+    <th class="right">3</th>
+    <th class="right">4</th>
+    <th class="right">5</th>
+    <th class="right">6</th>
+    <th class="right">7</th>
+    <th class="right">8</th>
+    <th class="right">9</th>
+    <th class="right">10</th>
+    <th class="right">11</th>
+    <th class="right">12</th>
+  </tr>
+  <tr class="d0">
+    <td class="right">3</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">5</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">7</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">8</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">10</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">12</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">18</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">1</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">4</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">6</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">9</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">11</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">13</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">14</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">15</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">16</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">2</td>
+    <td class="right">1</td>
+    <td class="right">5</td>
+    <td class="right">5.00</td>
+    <td class="right">5</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">17</td>
+    <td class="right">1</td>
+    <td class="right">5</td>
+    <td class="right">5.00</td>
+    <td class="right">5</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+</table>
+
+<div class="section" id="ctp">
+<h2>CTP<a class="headerlink" href="#ctp" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_ctp" class="graph"></div>
+
+
+</div>
+</div>
+
+<div id="footer"></div>
+
+
+<script id="source" type="text/javascript">
+$(document).ready(function() {
+
+
+    rr_summary_graph("summary_player", [{"label":"Robert Dalvald","data":[[1,4.0],[2,5.0],[3,3.0],[4,4.0],[5,3.0],[6,4.0],[7,3.0],[8,3.0],[9,4.0],[10,3.0],[11,4.0],[12,3.0],[13,4.0],[14,4.0],[15,4.0],[16,4.0],[17,5.0],[18,3.0]]},{"label":"Knektar","data":[[1,3.06],[2,3.4],[3,3.17],[4,3.56],[5,3.44],[6,3.23],[7,3.63],[8,3.5],[9,3.39],[10,3.37],[11,3.25],[12,3.27],[13,3.44],[14,3.5],[15,3.1],[16,3.25],[17,3.66],[18,3.19]]},{"label":"Alla","data":[[1,2.98],[2,3.29],[3,3.11],[4,3.4],[5,3.35],[6,3.16],[7,3.51],[8,3.44],[9,3.28],[10,3.24],[11,3.17],[12,3.16],[13,3.34],[14,3.38],[15,3.03],[16,3.14],[17,3.52],[18,3.09]]}], ["#007e84","#b3d8da","#a02020"]);
+
+
+    rr_summary_ctp_graph("summary_ctp", [{"label":"Robert Dalvald","data":[[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0],[10,0],[11,0],[12,0],[13,0],[14,0],[15,0],[16,0],[17,0],[18,0]]}], ["#007e84"]);
+
+
+});
+</script>
+
+
+</body>
+</html>

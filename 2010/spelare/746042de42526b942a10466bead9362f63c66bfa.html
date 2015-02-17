@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+          "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+
+<head>
+  <title>Riddarrundan 2011 &ndash; Johannes A.</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="Patrik Berglund" />
+  <meta name="robots" content="all" />
+  <link rel="shortcut icon" type="image/x-icon"
+        href="img/slottskorgen.png" />
+  <link rel="apple-touch-icon" href="img/touch_icon.png" />
+
+  <link rel="stylesheet" type="text/css"
+        href="http://fonts.googleapis.com/css?family=Vollkorn&amp;subset=latin" />
+
+  <link rel="stylesheet" type="text/css" media="screen"
+        href="../style/screen.css" />
+  <link rel="stylesheet" type="text/css" media="print"
+        href="../style/print.css" />
+  <link rel="stylesheet" type="text/css" media="handheld"
+        href="../style/handheld.css" />
+
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)"
+        href="style/handheld.css" />
+
+  <!--[if IE]><script type="text/javascript" src="../js/excanvas.js"></script><![endif]-->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.flot.min.js"></script>
+  <script type="text/javascript" src="../js/rr_graph.js"></script>
+
+  <style type="text/css" media="screen">
+<!--
+table.outlined tr td.hdr {
+  font-weight: bold;
+  background-color: #ddd;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.hl {
+  background-color: #b5d5ff;
+}
+
+.ace {
+  background-color: yellow;
+  color: black;
+}
+
+.eagle {
+  background-color: mediumseagreen;
+  color: white;
+}
+
+.birdie {
+  background-color: lightgreen;
+}
+
+.par {
+}
+
+.bogey {
+  background-color: tomato;
+}
+
+.Bogey {
+  background-color: #6666ff;
+  color: white;
+}
+
+.penalty {
+  text-decoration: underline;
+}
+-->
+  </style>
+</head>
+
+<body>
+
+<div id="content">
+
+<div id="header">
+  <a href="http://www.slottskorgen.se/"><img src="../img/slottskorgen_logo.png" alt="" /></a>
+</div>
+
+<h1>Riddarrundan 2010</h1>
+<div class="toc">
+  <ul>
+    <li><a href="../rr_regler_2010.pdf"><img src="../img/pdf.png" alt="" /> Regler</a></li>
+    <li><a href="../index.html">Totalställning</a></li>
+    <li><a href="../gyllene-snittet.html">Gyllene snittet</a></li>
+    <li><a href="../statistik.html">Statistik</a></li>
+  </ul>
+</div>
+
+<h2>Johannes A.</h2>
+
+
+<h3>Resultat</h3>
+
+<table class="outlined" summary="">
+  <tr>
+    <th rowspan="2" style="border-bottom: none">Datum</th>
+    <th colspan="9">H&aring;l</th>
+    <th rowspan="2" style="border-bottom: none">Ut</th>
+    <th colspan="9">H&aring;l</th>
+    <th rowspan="2" style="border-bottom: none">In</th>
+    <th rowspan="2" style="border-bottom: none">Totalt</th>
+  <tr>
+    <th class="number">1</th>
+    <th class="number">2</th>
+    <th class="number">3</th>
+    <th class="number">4</th>
+    <th class="number">5</th>
+    <th class="number">6</th>
+    <th class="number">7</th>
+    <th class="number">8</th>
+    <th class="number">9</th>
+    <th class="number">10</th>
+    <th class="number">11</th>
+    <th class="number">12</th>
+    <th class="number">13</th>
+    <th class="number">14</th>
+    <th class="number">15</th>
+    <th class="number">16</th>
+    <th class="number">17</th>
+    <th class="number">18</th>
+  </tr>
+
+  <tr>
+    <td class="hdr">2010-08-10</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">32</td>
+    <td class="number birdie">2</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number birdie">2</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number" style="border-right: none">29</td>
+    <td class="hdr number" style="border-left: none">61</td>
+  </tr>
+</table>
+
+
+<h3>Statistik</h3>
+
+<div id="summary_player" class="graph"></div>
+
+<table class="outlined" summary="">
+  <tr class="border" valign="bottom">
+    <th class="right" rowspan="2">H&aring;l</th>
+    <th class="right" rowspan="2">antal</th>
+    <th rowspan="2">l&auml;gst</th>
+    <th class="right" rowspan="2">medel</th>
+    <th rowspan="2">h&ouml;gst</th>
+    <th rowspan="2">&sigma;</th>
+    <th colspan="3">F&ouml;rdelning (%)</th>
+  </tr>
+  <tr>
+    <th class="right">2</th>
+    <th class="right">3</th>
+    <th class="right">4</th>
+  </tr>
+  <tr class="d0">
+    <td class="right">10</td>
+    <td class="right">1</td>
+    <td class="right">2</td>
+    <td class="right">2.00</td>
+    <td class="right">2</td>
+    <td class="right">0.00</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">16</td>
+    <td class="right">1</td>
+    <td class="right">2</td>
+    <td class="right">2.00</td>
+    <td class="right">2</td>
+    <td class="right">0.00</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">1</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">4</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">2</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">6</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">15</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">14</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">12</td>
+    <td class="right">1</td>
+    <td class="right">3</td>
+    <td class="right">3.00</td>
+    <td class="right">3</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">11</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">3</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">9</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">13</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">8</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">7</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">5</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">17</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">18</td>
+    <td class="right">1</td>
+    <td class="right">4</td>
+    <td class="right">4.00</td>
+    <td class="right">4</td>
+    <td class="right">0.00</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #ffcccc;">100.0</td>
+  </tr>
+</table>
+
+</div>
+
+
+<script id="source" language="javascript" type="text/javascript">
+$(document).ready(function() {
+    rr_summary_graph("summary_player", [{"label":"Johannes A.","data":[[1,3.0],[2,3.0],[3,4.0],[4,3.0],[5,4.0],[6,3.0],[7,4.0],[8,4.0],[9,4.0],[10,2.0],[11,4.0],[12,3.0],[13,4.0],[14,3.0],[15,3.0],[16,2.0],[17,4.0],[18,4.0]]}], 2);
+
+});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,245 @@
+/* @import "reset.css"; */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: Arial, Sans-Serif;
+  background-color: #fff;
+  background-image: url("../img/noise.png");
+  background-repeat: repeat;
+}
+
+/*---------------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  margin: 1ex 0 0;
+  padding: 0 15px 0;
+  color: #003a00;
+  font-family: 'Vollkorn', 'Georgia', serif;
+  font-weight: normal;
+  text-align: left;
+}
+
+h1 {font-size: 260%;}
+h2 {font-size: 180%;}
+h3 {font-size: 140%;}
+
+a {
+  color: #003a00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003a00;
+  background: #bed638;
+}
+
+/* :link, :visited, :link:hover, :visited:hover { */
+/*   color: #003a00; */
+/*   text-decoration: none; */
+/*   border-bottom: 1px dotted lightgray; */
+/* } */
+
+/* :link:hover, :visited:hover { */
+/*   color: #bed638; */
+/*   border-bottom: none;/\* 1px solid #bed638; *\/ */
+/* } */
+
+img {
+  border: none;
+}
+
+a img {
+  border: none;
+}
+
+a.help {
+  cursor: help;
+}
+
+table {
+  margin: 0 15px 0;
+}
+
+table tr th, table tr td {
+  /* font-size: 12px; */
+  vertical-align: middle;
+}
+
+table tr th {
+  text-align: center;
+}
+
+
+::selection {
+  background: #b5d5ff;
+}
+
+::-moz-selection {
+  background: #b5d5ff;
+}
+
+::-webkit-selection {
+  background: #b5d5ff;
+}
+
+/*---------------------------------------------------------------------------*/
+
+#header {
+  margin: 0;
+  padding: 15px 20px 11px;
+  background-color: #003a00;
+  background-image: url("../img/header_bg.png");
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+#header :link, #header :visited, #header :link:hover, #header :visited:hover {
+  border-bottom: none;
+}
+
+#content {
+  position: relative;
+  display: table;
+  min-width: 150ex;
+  margin: 0 auto 0;
+  padding: 0 0 2em;
+  background-color: white;
+
+  box-shadow: black 0 0 10px;
+  -moz-box-shadow: black 0 0 10px;
+  -webkit-box-shadow: black 0px 0px 10px;
+
+  /* background-image: url("../img/knight-jousting.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-position: 90% 80px; */
+}
+
+/*---------------------------------------------------------------------------*/
+
+.hl {
+  background-color: #b5d5ff;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.date {
+  text-align: center;
+}
+
+.number {
+  text-align: right;
+}
+
+.fnumber {
+  text-align: right;
+}
+
+.shield {
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px;
+}
+
+.graph {
+  margin: 20px 15px 20px;
+  width: 600px;
+  height: 400px;
+
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; */
+  /* -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset; */
+  /* -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; */
+}
+
+* html .toc ul {
+  height: 1px;
+}
+
+.toc {
+  margin: 0;
+  padding: 0;
+  font-family: 'Vollkorn', 'Georgia', serif;
+  font-variant: small-caps;
+}
+
+.toc ul {
+  margin: 0 1em 0;
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.toc ul li img {
+  vertical-align: top;
+}
+
+.toc ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+ }
+
+.toc li {
+  float: left;
+  padding-left: 1em;
+}
+
+/*---------------------------------------------------------------------------*/
+
+table.outlined {
+  background-color: white;
+  empty-cells: show;
+  border: 1px solid gray;
+  border-collapse: collapse;
+
+  box-shadow:         0 1px 8px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow:    0 1px 8px rgba(0, 0, 0, 0.27);
+}
+
+table.outlined caption {
+  caption-side: bottom;
+  /* font-size: 12px; */
+  width: 90%;
+  text-align: left;
+  font-style: italic;
+  margin-top: 0.5ex;
+  margin-left: 3em;
+}
+
+table.outlined tr {
+  height: 19px;
+}
+
+table.outlined tr th {
+  /* background-color: rgba(221, 221, 221, 0.7); */
+  background-color: #ddd;
+  border-bottom: 1px solid gray;
+  min-width: 2.5em;
+  width: 2.5em;
+}
+
+table.outlined th, table.outlined td {
+  padding: 0 0.5ex 0 0.5ex;
+  white-space: nowrap;
+}
+
+table.outlined tr.d1 td {
+  /* background-color: rgba(229, 234, 229, 0.3); */
+  background-color: #e5ebe5;
+}

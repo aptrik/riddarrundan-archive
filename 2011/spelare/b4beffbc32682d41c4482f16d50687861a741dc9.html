@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="Patrik Berglund" />
+  <meta name="robots" content="all" />
+
+  <title>Jimmy Byström</title>
+
+  <link rel="shortcut icon"
+        type="image/x-icon"
+        href="../img/favicon_RR_shield.ico" />
+  <link rel="apple-touch-icon"
+        href="../img/iDevice_head_RR.png" />
+
+  <link rel="stylesheet" type="text/css" media="screen, projection"
+        href="../style/screen.css" />
+  <link rel="stylesheet" type="text/css" media="print"
+        href="../style/print.css" />
+  <link rel="stylesheet" type="text/css" media="handheld"
+        href="../style/handheld.css" />
+  <!--[if lt IE 8]>
+      <link href="style/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+
+  <!--[if IE]><script type="text/javascript" src="../js/excanvas.js"></script><![endif]-->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.flot.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.flot.stack.js"></script>
+  <script type="text/javascript" src="../js/rr_graph.js"></script>
+
+  <style type="text/css" media="screen">
+<!--
+table.outlined tr td.hdr {
+  font-weight: bold;
+  background-color: #ddd;
+  // border-left: 1px solid gray;
+}
+
+.ace {
+  background-color: yellow;
+  color: black;
+}
+
+.eagle {
+  background-color: mediumseagreen;
+  color: white;
+}
+
+.birdie {
+  background-color: lightgreen;
+}
+
+.par {
+}
+
+.bogey {
+  background-color: tomato;
+}
+
+.Bogey {
+  background-color: #6666ff;
+  color: white;
+}
+
+.penalty {
+  text-decoration: underline;
+}
+-->
+  </style>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26307613-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<div id="wrap">
+<div id="content">
+
+<div class="subtitle">
+  <img src="../img/soldier_shield_page.png" alt="" />
+  <div>
+    <img src="../img/riddarrundan_head.png" alt="" />
+    <p>Jimmy Byström 2011</p>
+  </div>
+</div>
+
+
+
+
+
+<div class="section" id="form-kurva">
+<h3>Formkurva<a class="headerlink" href="#form-kurva" title="Permlink to this headline">¶</a></h3>
+</div>
+
+<div id="formkurva" class="graph-small"></div>
+
+<div class="section" id="resultat">
+<h3>Resultat<a class="headerlink" href="#resultat" title="Permlink to this headline">¶</a></h3>
+</div>
+
+<table class="outlined knektar">
+  <tr>
+    <th rowspan="2">Datum</th>
+    <th colspan="9">H&aring;l</th>
+    <th rowspan="2">Ut</th>
+    <th colspan="9">H&aring;l</th>
+    <th rowspan="2">In</th>
+    <th rowspan="2">Totalt</th>
+  <tr>
+    <th class="number">1</th>
+    <th class="number">2</th>
+    <th class="number">3</th>
+    <th class="number">4</th>
+    <th class="number">5</th>
+    <th class="number">6</th>
+    <th class="number">7</th>
+    <th class="number">8</th>
+    <th class="number">9</th>
+    <th class="number">10</th>
+    <th class="number">11</th>
+    <th class="number">12</th>
+    <th class="number">13</th>
+    <th class="number">14</th>
+    <th class="number">15</th>
+    <th class="number">16</th>
+    <th class="number">17</th>
+    <th class="number">18</th>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-04-19</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number Bogey">5</td>
+    <td class="number par">3</td>
+    <td class="number Bogey">5</td>
+    <td class="number Bogey">5</td>
+    <td class="hdr number">34</td>
+    <td class="number par">3</td>
+    <td class="number Bogey">5</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">32</td>
+    <td class="hdr number">66</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-04-26</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number Bogey">5</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">33</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">34</td>
+    <td class="hdr number">67</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-05-03</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number Bogey">5</td>
+    <td class="number par">3</td>
+    <td class="hdr number">31</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">30</td>
+    <td class="hdr number">61</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-05-10</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number birdie">2</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">29</td>
+    <td class="number birdie">2</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">29</td>
+    <td class="hdr number">58</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-05-17</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">30</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number Bogey">5</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">32</td>
+    <td class="hdr number">62</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-05-31</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number Bogey">5</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number Bogey">6</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">37</td>
+    <td class="number par">3</td>
+    <td class="number Bogey">6</td>
+    <td class="number birdie">2</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number birdie">2</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">31</td>
+    <td class="hdr number">68</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-06-07</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">31</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number birdie">2</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number birdie">2</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="hdr number">28</td>
+    <td class="hdr number">59</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-06-14</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number birdie">&bull;2</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="hdr number">29</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="hdr number">29</td>
+    <td class="hdr number">58</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-06-28</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number birdie">2</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="hdr number">28</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number Bogey">5</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="number birdie">2</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">31</td>
+    <td class="hdr number">59</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-08-02</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">30</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="hdr number">27</td>
+    <td class="hdr number">57</td>
+  </tr>
+
+  <tr>
+    <td class="hdr">2011-08-23</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number birdie">&bull;2</td>
+    <td class="number par">3</td>
+    <td class="number birdie">2</td>
+    <td class="number birdie">2</td>
+    <td class="number bogey">4</td>
+    <td class="number bogey">4</td>
+    <td class="hdr number">27</td>
+    <td class="number birdie">&bull;2</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number Bogey">5</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="number bogey">4</td>
+    <td class="number par">3</td>
+    <td class="number par">3</td>
+    <td class="hdr number">30</td>
+    <td class="hdr number">57</td>
+  </tr>
+</table>
+
+
+<div class="section" id="hal-statistik">
+<h3>Resultat per hål<a class="headerlink" href="#hal-statistik" title="Permlink to this headline">¶</a></h3>
+</div>
+
+<div id="summary_player" class="graph"></div>
+
+<table class="outlined knektar">
+  <tr class="border" style="vertical-align: bottom;">
+    <th class="right" rowspan="2">H&aring;l</th>
+    <th class="right" rowspan="2">antal</th>
+    <th rowspan="2">l&auml;gst</th>
+    <th class="right" rowspan="2">medel</th>
+    <th rowspan="2">h&ouml;gst</th>
+    <th rowspan="2">&sigma;</th>
+    <th colspan="9">F&ouml;rdelning (%)</th>
+  </tr>
+  <tr>
+    <th class="right">1</th>
+    <th class="right">2</th>
+    <th class="right">3</th>
+    <th class="right">4</th>
+    <th class="right">5</th>
+    <th class="right">6</th>
+    <th class="right">7</th>
+    <th class="right">8</th>
+    <th class="right">9</th>
+  </tr>
+  <tr class="d0">
+    <td class="right">10</td>
+    <td class="right">11</td>
+    <td class="right">2</td>
+    <td class="right">3.00</td>
+    <td class="right">4</td>
+    <td class="right">0.63</td>
+    <td class="right">0</td>
+    <td class="right">18.2</td>
+    <td class="right">63.6</td>
+    <td class="right">18.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">7</td>
+    <td class="right">11</td>
+    <td class="right">2</td>
+    <td class="right">3.00</td>
+    <td class="right">4</td>
+    <td class="right">0.63</td>
+    <td class="right">0</td>
+    <td class="right">18.2</td>
+    <td class="right">63.6</td>
+    <td class="right">18.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">12</td>
+    <td class="right">11</td>
+    <td class="right">2</td>
+    <td class="right">3.00</td>
+    <td class="right">4</td>
+    <td class="right">0.63</td>
+    <td class="right">0</td>
+    <td class="right">18.2</td>
+    <td class="right">63.6</td>
+    <td class="right">18.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">15</td>
+    <td class="right">11</td>
+    <td class="right">2</td>
+    <td class="right">3.09</td>
+    <td class="right">4</td>
+    <td class="right">0.70</td>
+    <td class="right">0</td>
+    <td class="right">18.2</td>
+    <td class="right">54.5</td>
+    <td class="right">27.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">2</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">3.18</td>
+    <td class="right">4</td>
+    <td class="right">0.40</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">81.8</td>
+    <td class="right">18.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">3</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">3.18</td>
+    <td class="right">4</td>
+    <td class="right">0.40</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">81.8</td>
+    <td class="right">18.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">17</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">3.27</td>
+    <td class="right">4</td>
+    <td class="right">0.47</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">72.7</td>
+    <td class="right">27.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">16</td>
+    <td class="right">11</td>
+    <td class="right">2</td>
+    <td class="right">3.27</td>
+    <td class="right">4</td>
+    <td class="right">0.65</td>
+    <td class="right">0</td>
+    <td class="right">9.1</td>
+    <td class="right">54.5</td>
+    <td class="right">36.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">5</td>
+    <td class="right">11</td>
+    <td class="right">2</td>
+    <td class="right">3.27</td>
+    <td class="right">4</td>
+    <td class="right">0.65</td>
+    <td class="right">0</td>
+    <td class="right">9.1</td>
+    <td class="right">54.5</td>
+    <td class="right">36.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">4</td>
+    <td class="right">11</td>
+    <td class="right">2</td>
+    <td class="right">3.27</td>
+    <td class="right">5</td>
+    <td class="right">0.90</td>
+    <td class="right">0</td>
+    <td class="right">18.2</td>
+    <td class="right">45.5</td>
+    <td class="right">27.3</td>
+    <td class="right">9.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">1</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">3.36</td>
+    <td class="right">4</td>
+    <td class="right">0.50</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">63.6</td>
+    <td class="right">36.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">14</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">3.55</td>
+    <td class="right">4</td>
+    <td class="right">0.52</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">45.5</td>
+    <td class="right">54.5</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">6</td>
+    <td class="right">11</td>
+    <td class="right">2</td>
+    <td class="right">3.55</td>
+    <td class="right">5</td>
+    <td class="right">0.93</td>
+    <td class="right">0</td>
+    <td class="right">9.1</td>
+    <td class="right">45.5</td>
+    <td class="right">27.3</td>
+    <td class="right">18.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">18</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">3.64</td>
+    <td class="right">4</td>
+    <td class="right">0.50</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">36.4</td>
+    <td class="right">63.6</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">11</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">3.64</td>
+    <td class="right">6</td>
+    <td class="right">1.03</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">63.6</td>
+    <td class="right">18.2</td>
+    <td class="right">9.1</td>
+    <td class="right">9.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">9</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">3.82</td>
+    <td class="right">5</td>
+    <td class="right">0.60</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">27.3</td>
+    <td class="right">63.6</td>
+    <td class="right">9.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d0">
+    <td class="right">13</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">3.82</td>
+    <td class="right">5</td>
+    <td class="right">0.87</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">45.5</td>
+    <td class="right">27.3</td>
+    <td class="right">27.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr class="d1">
+    <td class="right">8</td>
+    <td class="right">11</td>
+    <td class="right">3</td>
+    <td class="right">4.18</td>
+    <td class="right">6</td>
+    <td class="right">0.87</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">18.2</td>
+    <td class="right">54.5</td>
+    <td class="right">18.2</td>
+    <td class="right">9.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+</table>
+
+<div class="section" id="ctp">
+<h2>CTP<a class="headerlink" href="#ctp" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_ctp" class="graph"></div>
+
+<div class="section" id="hal-1">
+<h3>Hål 1<a class="headerlink" href="#hal-1" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_1" class="graph"></div>
+<div class="section" id="hal-2">
+<h3>Hål 2<a class="headerlink" href="#hal-2" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_2" class="graph"></div>
+<div class="section" id="hal-3">
+<h3>Hål 3<a class="headerlink" href="#hal-3" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_3" class="graph"></div>
+<div class="section" id="hal-4">
+<h3>Hål 4<a class="headerlink" href="#hal-4" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_4" class="graph"></div>
+<div class="section" id="hal-5">
+<h3>Hål 5<a class="headerlink" href="#hal-5" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_5" class="graph"></div>
+<div class="section" id="hal-6">
+<h3>Hål 6<a class="headerlink" href="#hal-6" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_6" class="graph"></div>
+<div class="section" id="hal-7">
+<h3>Hål 7<a class="headerlink" href="#hal-7" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_7" class="graph"></div>
+<div class="section" id="hal-8">
+<h3>Hål 8<a class="headerlink" href="#hal-8" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_8" class="graph"></div>
+<div class="section" id="hal-9">
+<h3>Hål 9<a class="headerlink" href="#hal-9" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_9" class="graph"></div>
+<div class="section" id="hal-10">
+<h3>Hål 10<a class="headerlink" href="#hal-10" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_10" class="graph"></div>
+<div class="section" id="hal-11">
+<h3>Hål 11<a class="headerlink" href="#hal-11" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_11" class="graph"></div>
+<div class="section" id="hal-12">
+<h3>Hål 12<a class="headerlink" href="#hal-12" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_12" class="graph"></div>
+<div class="section" id="hal-13">
+<h3>Hål 13<a class="headerlink" href="#hal-13" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_13" class="graph"></div>
+<div class="section" id="hal-14">
+<h3>Hål 14<a class="headerlink" href="#hal-14" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_14" class="graph"></div>
+<div class="section" id="hal-15">
+<h3>Hål 15<a class="headerlink" href="#hal-15" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_15" class="graph"></div>
+<div class="section" id="hal-16">
+<h3>Hål 16<a class="headerlink" href="#hal-16" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_16" class="graph"></div>
+<div class="section" id="hal-17">
+<h3>Hål 17<a class="headerlink" href="#hal-17" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_17" class="graph"></div>
+<div class="section" id="hal-18">
+<h3>Hål 18<a class="headerlink" href="#hal-18" title="Permlink to this headline">¶</a></h3>
+</div>
+<div id="summary_hole_18" class="graph"></div>
+
+</div>
+</div>
+
+<div id="footer"></div>
+
+
+<script id="source" type="text/javascript">
+$(document).ready(function() {
+
+    rr_form_graph("formkurva", [1303228800000,1303833600000,1304438400000,1305043200000,1305648000000,1306252800000,1306857600000,1307462400000,1308067200000,1308672000000,1309276800000,1309881600000,1310486400000,1311091200000,1311696000000,1312300800000,1312905600000,1313510400000,1314115200000,1314720000000], [{"label":"Jimmy Bystr&ouml;m","data":[[1303228800000,66],[1303833600000,67],[1304438400000,61],[1305043200000,58],[1305648000000,62],[1306857600000,68],[1307462400000,59],[1308067200000,58],[1309276800000,59],[1312300800000,57],[1314115200000,57]]}], ["#007e84"]);
+
+
+    rr_summary_graph("summary_player", [{"label":"Knektar","data":[[1,3.11],[2,3.15],[3,3.27],[4,3.17],[5,3.45],[6,3.42],[7,2.91],[8,3.58],[9,3.62],[10,3.01],[11,3.35],[12,3.14],[13,3.47],[14,3.42],[15,3.18],[16,3.55],[17,3.28],[18,3.16]]},{"label":"Jimmy Bystr&ouml;m","data":[[1,3.36],[2,3.18],[3,3.18],[4,3.27],[5,3.27],[6,3.55],[7,3.0],[8,4.18],[9,3.82],[10,3.0],[11,3.64],[12,3.0],[13,3.82],[14,3.55],[15,3.09],[16,3.27],[17,3.27],[18,3.64]]}], ["#b3d8da","#007e84"]);
+
+
+    rr_summary_ctp_graph("summary_ctp", "Jimmy Bystr&ouml;m gjort", [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,0],[4,1],[5,0],[6,0],[7,1],[8,0],[9,0],[10,1],[11,0],[12,0],[13,0],[14,0],[15,0],[16,0],[17,0],[18,0]]}], ["#007e84"]);
+
+
+    rr_hole_graph(1, "summary_hole_1", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,63.63636363636363],[4,36.36363636363637],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(2, "summary_hole_2", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,81.81818181818183],[4,18.181818181818183],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(3, "summary_hole_3", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,81.81818181818183],[4,18.181818181818183],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(4, "summary_hole_4", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,18.181818181818183],[3,45.45454545454545],[4,27.27272727272727],[5,9.090909090909092],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(5, "summary_hole_5", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,9.090909090909092],[3,54.54545454545454],[4,36.36363636363637],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(6, "summary_hole_6", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,9.090909090909092],[3,45.45454545454545],[4,27.27272727272727],[5,18.181818181818183],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(7, "summary_hole_7", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,18.181818181818183],[3,63.63636363636363],[4,18.181818181818183],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(8, "summary_hole_8", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,18.181818181818183],[4,54.54545454545454],[5,18.181818181818183],[6,9.090909090909092],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(9, "summary_hole_9", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,27.27272727272727],[4,63.63636363636363],[5,9.090909090909092],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(10, "summary_hole_10", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,18.181818181818183],[3,63.63636363636363],[4,18.181818181818183],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(11, "summary_hole_11", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,63.63636363636363],[4,18.181818181818183],[5,9.090909090909092],[6,9.090909090909092],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(12, "summary_hole_12", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,18.181818181818183],[3,63.63636363636363],[4,18.181818181818183],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(13, "summary_hole_13", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,45.45454545454545],[4,27.27272727272727],[5,27.27272727272727],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(14, "summary_hole_14", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,45.45454545454545],[4,54.54545454545454],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(15, "summary_hole_15", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,18.181818181818183],[3,54.54545454545454],[4,27.27272727272727],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(16, "summary_hole_16", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,9.090909090909092],[3,54.54545454545454],[4,36.36363636363637],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(17, "summary_hole_17", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,72.72727272727273],[4,27.27272727272727],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+    rr_hole_graph(18, "summary_hole_18", 1, 9, [{"label":"Jimmy Bystr&ouml;m","data":[[1,0],[2,0],[3,36.36363636363637],[4,63.63636363636363],[5,0],[6,0],[7,0],[8,0],[9,0]]}], ["#007e84"]);
+
+});
+</script>
+
+
+</body>
+</html>

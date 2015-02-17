@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="Patrik Berglund" />
+  <meta name="robots" content="all" />
+
+  <title>Statistik</title>
+
+  <link rel="shortcut icon"
+        type="image/x-icon"
+        href="img/favicon_RR_shield.ico" />
+  <link rel="apple-touch-icon"
+        href="img/iDevice_head_RR.png" />
+
+  <link rel="stylesheet" type="text/css" media="screen, projection"
+        href="style/screen.css" />
+  <link rel="stylesheet" type="text/css" media="print"
+        href="style/print.css" />
+  <link rel="stylesheet" type="text/css" media="handheld"
+        href="style/handheld.css" />
+  <!--[if lt IE 8]>
+      <link href="style/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+
+  <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.flot.min.js"></script>
+  <script type="text/javascript" src="js/jquery.flot.stack.js"></script>
+  <script type="text/javascript" src="js/rr_graph.js"></script>
+  <!-- <script type="text/javascript" src="js/poi.js"></script> -->
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26307613-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<div id="wrap">
+<div id="content">
+
+<div class="subtitle">
+  <img src="img/statistics_shield_page.png" alt="" />
+  <div>
+    <img src="img/riddarrundan_head_small.png" alt="" />
+    <p>Statistik 2011</p>
+  </div>
+</div>
+
+
+<!-- <div class="section" id="statistik"> -->
+<!-- <h2>Statistik<a class="headerlink" href="#statistik" title="Permlink to this headline">¶</a></h2> -->
+<!-- </div> -->
+
+<div id="summary_graph" class="graph"></div>
+
+
+<div class="section" id="alla">
+<h2>Alla<a class="headerlink" href="#alla" title="Permlink to this headline">¶</a></h2>
+</div>
+
+<table class="outlined">
+  <tr>
+    <th class="right" rowspan="2">Hål</th>
+    <th class="right" rowspan="2">antal</th>
+    <th rowspan="2">lägst</th>
+    <th class="hl right" rowspan="2">medel</th>
+    <th rowspan="2">högst</th>
+    <th rowspan="2">&sigma;</th>
+    <th colspan="9">Fördelning (%)</th>
+  </tr>
+  <tr>
+    <th class="right">1</th>
+    <th class="right">2</th>
+    <th class="right">3</th>
+    <th class="right">4</th>
+    <th class="right">5</th>
+    <th class="right">6</th>
+    <th class="right">7</th>
+    <th class="right">8</th>
+    <th class="right">9</th>
+  </tr>
+  <tr>
+    <td class="right">7</td>
+    <td class="right">974</td>
+    <td class="right">1</td>
+    <td class="hl right">2.87</td>
+    <td class="right">7</td>
+    <td class="right">0.71</td>
+    <td class="right">0.3</td>
+    <td class="right">29.1</td>
+    <td class="right hl" style="background-color: #fcf6cf;">56.3</td>
+    <td class="right">12.5</td>
+    <td class="right">1.5</td>
+    <td class="right">0.2</td>
+    <td class="right">0.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">10</td>
+    <td class="right">973</td>
+    <td class="right">2</td>
+    <td class="hl right">2.98</td>
+    <td class="right">7</td>
+    <td class="right">0.77</td>
+    <td class="right">0</td>
+    <td class="right">25.0</td>
+    <td class="right hl" style="background-color: #fcf6cf;">56.6</td>
+    <td class="right">15.3</td>
+    <td class="right">2.1</td>
+    <td class="right">0.8</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">1</td>
+    <td class="right">967</td>
+    <td class="right">2</td>
+    <td class="hl right">3.07</td>
+    <td class="right">7</td>
+    <td class="right">0.71</td>
+    <td class="right">0</td>
+    <td class="right">17.0</td>
+    <td class="right hl" style="background-color: #fcf6cf;">62.6</td>
+    <td class="right">17.4</td>
+    <td class="right">2.6</td>
+    <td class="right">0.3</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">2</td>
+    <td class="right">967</td>
+    <td class="right">1</td>
+    <td class="hl right">3.09</td>
+    <td class="right">7</td>
+    <td class="right">0.75</td>
+    <td class="right">0.1</td>
+    <td class="right">18.3</td>
+    <td class="right hl" style="background-color: #fcf6cf;">59.0</td>
+    <td class="right">18.7</td>
+    <td class="right">3.2</td>
+    <td class="right">0.5</td>
+    <td class="right">0.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">4</td>
+    <td class="right">969</td>
+    <td class="right">2</td>
+    <td class="hl right">3.09</td>
+    <td class="right">7</td>
+    <td class="right">0.79</td>
+    <td class="right">0</td>
+    <td class="right">21.1</td>
+    <td class="right hl" style="background-color: #fcf6cf;">53.7</td>
+    <td class="right">20.8</td>
+    <td class="right">4.0</td>
+    <td class="right">0.3</td>
+    <td class="right">0.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">18</td>
+    <td class="right">967</td>
+    <td class="right">1</td>
+    <td class="hl right">3.12</td>
+    <td class="right">8</td>
+    <td class="right">0.89</td>
+    <td class="right">0.1</td>
+    <td class="right">22.8</td>
+    <td class="right hl" style="background-color: #fcf6cf;">50.6</td>
+    <td class="right">20.4</td>
+    <td class="right">4.6</td>
+    <td class="right">1.1</td>
+    <td class="right">0.4</td>
+    <td class="right">0.1</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">12</td>
+    <td class="right">972</td>
+    <td class="right">2</td>
+    <td class="hl right">3.13</td>
+    <td class="right">9</td>
+    <td class="right">0.93</td>
+    <td class="right">0</td>
+    <td class="right">23.8</td>
+    <td class="right">49.6</td>
+    <td class="right">19.1</td>
+    <td class="right">5.5</td>
+    <td class="right">1.6</td>
+    <td class="right">0.3</td>
+    <td class="right">0</td>
+    <td class="right">0.1</td>
+  </tr>
+  <tr>
+    <td class="right">15</td>
+    <td class="right">966</td>
+    <td class="right">1</td>
+    <td class="hl right">3.14</td>
+    <td class="right">8</td>
+    <td class="right">0.81</td>
+    <td class="right">0.1</td>
+    <td class="right">17.4</td>
+    <td class="right hl" style="background-color: #fcf6cf;">58.1</td>
+    <td class="right">19.0</td>
+    <td class="right">4.5</td>
+    <td class="right">0.5</td>
+    <td class="right">0.3</td>
+    <td class="right">0.1</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">3</td>
+    <td class="right">969</td>
+    <td class="right">2</td>
+    <td class="hl right">3.20</td>
+    <td class="right">7</td>
+    <td class="right">0.78</td>
+    <td class="right">0</td>
+    <td class="right">13.6</td>
+    <td class="right hl" style="background-color: #fcf6cf;">59.5</td>
+    <td class="right">21.1</td>
+    <td class="right">4.5</td>
+    <td class="right">1.0</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">17</td>
+    <td class="right">966</td>
+    <td class="right">2</td>
+    <td class="hl right">3.23</td>
+    <td class="right">6</td>
+    <td class="right">0.88</td>
+    <td class="right">0</td>
+    <td class="right">18.6</td>
+    <td class="right">48.7</td>
+    <td class="right">24.9</td>
+    <td class="right">6.2</td>
+    <td class="right">1.6</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">11</td>
+    <td class="right">975</td>
+    <td class="right">2</td>
+    <td class="hl right">3.25</td>
+    <td class="right">9</td>
+    <td class="right">0.86</td>
+    <td class="right">0</td>
+    <td class="right">15.2</td>
+    <td class="right hl" style="background-color: #fcf6cf;">54.1</td>
+    <td class="right">23.6</td>
+    <td class="right">5.5</td>
+    <td class="right">1.3</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0.1</td>
+  </tr>
+  <tr>
+    <td class="right">14</td>
+    <td class="right">966</td>
+    <td class="right">2</td>
+    <td class="hl right">3.36</td>
+    <td class="right">7</td>
+    <td class="right">0.78</td>
+    <td class="right">0</td>
+    <td class="right">8.5</td>
+    <td class="right hl" style="background-color: #fcf6cf;">55.4</td>
+    <td class="right">28.9</td>
+    <td class="right">5.9</td>
+    <td class="right">1.1</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">6</td>
+    <td class="right">969</td>
+    <td class="right">2</td>
+    <td class="hl right">3.36</td>
+    <td class="right">8</td>
+    <td class="right">0.96</td>
+    <td class="right">0</td>
+    <td class="right">15.9</td>
+    <td class="right">46.1</td>
+    <td class="right">27.0</td>
+    <td class="right">8.0</td>
+    <td class="right">2.5</td>
+    <td class="right">0.3</td>
+    <td class="right">0.1</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">5</td>
+    <td class="right">969</td>
+    <td class="right">2</td>
+    <td class="hl right">3.38</td>
+    <td class="right">7</td>
+    <td class="right">0.93</td>
+    <td class="right">0</td>
+    <td class="right">14.0</td>
+    <td class="right">48.2</td>
+    <td class="right">26.2</td>
+    <td class="right">9.3</td>
+    <td class="right">2.0</td>
+    <td class="right">0.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">13</td>
+    <td class="right">966</td>
+    <td class="right">2</td>
+    <td class="hl right">3.39</td>
+    <td class="right">8</td>
+    <td class="right">1.08</td>
+    <td class="right">0</td>
+    <td class="right">24.0</td>
+    <td class="right">30.6</td>
+    <td class="right">31.6</td>
+    <td class="right">10.8</td>
+    <td class="right">2.3</td>
+    <td class="right">0.5</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">8</td>
+    <td class="right">974</td>
+    <td class="right">2</td>
+    <td class="hl right">3.49</td>
+    <td class="right">9</td>
+    <td class="right">0.91</td>
+    <td class="right">0</td>
+    <td class="right">10.1</td>
+    <td class="right">45.3</td>
+    <td class="right">32.9</td>
+    <td class="right">9.3</td>
+    <td class="right">2.2</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0.1</td>
+  </tr>
+  <tr>
+    <td class="right">16</td>
+    <td class="right">965</td>
+    <td class="right">2</td>
+    <td class="hl right">3.50</td>
+    <td class="right">9</td>
+    <td class="right">0.94</td>
+    <td class="right">0</td>
+    <td class="right">7.8</td>
+    <td class="right hl" style="background-color: #fcf6cf;">51.3</td>
+    <td class="right">28.9</td>
+    <td class="right">8.8</td>
+    <td class="right">2.3</td>
+    <td class="right">0.4</td>
+    <td class="right">0.4</td>
+    <td class="right">0.1</td>
+  </tr>
+  <tr>
+    <td class="right">9</td>
+    <td class="right">972</td>
+    <td class="right">1</td>
+    <td class="hl right">3.55</td>
+    <td class="right">7</td>
+    <td class="right">0.90</td>
+    <td class="right">0.1</td>
+    <td class="right">8.4</td>
+    <td class="right">44.3</td>
+    <td class="right">33.7</td>
+    <td class="right">11.1</td>
+    <td class="right">1.9</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+</table>
+
+<div class="section" id="riddare">
+<h2>Riddare<a class="headerlink" href="#riddare" title="Permlink to this headline">¶</a></h2>
+</div>
+
+<table class="outlined riddare">
+  <tr>
+    <th class="right" rowspan="2">Hål</th>
+    <th class="right" rowspan="2">antal</th>
+    <th rowspan="2">lägst</th>
+    <th class="hl right" rowspan="2">medel</th>
+    <th rowspan="2">högst</th>
+    <th rowspan="2">&sigma;</th>
+    <th colspan="9">Fördelning (%)</th>
+  </tr>
+  <tr>
+    <th class="right">1</th>
+    <th class="right">2</th>
+    <th class="right">3</th>
+    <th class="right">4</th>
+    <th class="right">5</th>
+    <th class="right">6</th>
+    <th class="right">7</th>
+    <th class="right">8</th>
+    <th class="right">9</th>
+  </tr>
+  <tr>
+    <td class="right">4</td>
+    <td class="right">239</td>
+    <td class="right">2</td>
+    <td class="hl right">2.59</td>
+    <td class="right">5</td>
+    <td class="right">0.63</td>
+    <td class="right">0</td>
+    <td class="right">48.1</td>
+    <td class="right">45.2</td>
+    <td class="right">6.3</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">7</td>
+    <td class="right">239</td>
+    <td class="right">1</td>
+    <td class="hl right">2.59</td>
+    <td class="right">7</td>
+    <td class="right">0.64</td>
+    <td class="right">0.4</td>
+    <td class="right">45.6</td>
+    <td class="right">49.8</td>
+    <td class="right">3.8</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">10</td>
+    <td class="right">238</td>
+    <td class="right">2</td>
+    <td class="hl right">2.61</td>
+    <td class="right">5</td>
+    <td class="right">0.58</td>
+    <td class="right">0</td>
+    <td class="right">43.3</td>
+    <td class="right hl" style="background-color: #fcf6cf;">52.9</td>
+    <td class="right">3.4</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">15</td>
+    <td class="right">237</td>
+    <td class="right">1</td>
+    <td class="hl right">2.63</td>
+    <td class="right">5</td>
+    <td class="right">0.59</td>
+    <td class="right">0.4</td>
+    <td class="right">40.5</td>
+    <td class="right hl" style="background-color: #fcf6cf;">54.9</td>
+    <td class="right">3.8</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">1</td>
+    <td class="right">239</td>
+    <td class="right">2</td>
+    <td class="hl right">2.67</td>
+    <td class="right">6</td>
+    <td class="right">0.62</td>
+    <td class="right">0</td>
+    <td class="right">39.7</td>
+    <td class="right hl" style="background-color: #fcf6cf;">55.2</td>
+    <td class="right">4.2</td>
+    <td class="right">0.4</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">2</td>
+    <td class="right">238</td>
+    <td class="right">2</td>
+    <td class="hl right">2.68</td>
+    <td class="right">5</td>
+    <td class="right">0.62</td>
+    <td class="right">0</td>
+    <td class="right">40.3</td>
+    <td class="right hl" style="background-color: #fcf6cf;">52.1</td>
+    <td class="right">7.1</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">12</td>
+    <td class="right">237</td>
+    <td class="right">2</td>
+    <td class="hl right">2.73</td>
+    <td class="right">6</td>
+    <td class="right">0.75</td>
+    <td class="right">0</td>
+    <td class="right">41.8</td>
+    <td class="right">45.6</td>
+    <td class="right">10.5</td>
+    <td class="right">1.7</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">18</td>
+    <td class="right">237</td>
+    <td class="right">2</td>
+    <td class="hl right">2.74</td>
+    <td class="right">8</td>
+    <td class="right">0.90</td>
+    <td class="right">0</td>
+    <td class="right">44.3</td>
+    <td class="right">43.0</td>
+    <td class="right">10.5</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">1.3</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">11</td>
+    <td class="right">238</td>
+    <td class="right">2</td>
+    <td class="hl right">2.78</td>
+    <td class="right">5</td>
+    <td class="right">0.64</td>
+    <td class="right">0</td>
+    <td class="right">32.4</td>
+    <td class="right hl" style="background-color: #fcf6cf;">58.4</td>
+    <td class="right">8.0</td>
+    <td class="right">1.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">3</td>
+    <td class="right">239</td>
+    <td class="right">2</td>
+    <td class="hl right">2.81</td>
+    <td class="right">5</td>
+    <td class="right">0.64</td>
+    <td class="right">0</td>
+    <td class="right">31.0</td>
+    <td class="right hl" style="background-color: #fcf6cf;">57.3</td>
+    <td class="right">11.3</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">17</td>
+    <td class="right">237</td>
+    <td class="right">2</td>
+    <td class="hl right">2.83</td>
+    <td class="right">6</td>
+    <td class="right">0.71</td>
+    <td class="right">0</td>
+    <td class="right">32.9</td>
+    <td class="right hl" style="background-color: #fcf6cf;">53.6</td>
+    <td class="right">11.8</td>
+    <td class="right">1.3</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">5</td>
+    <td class="right">239</td>
+    <td class="right">2</td>
+    <td class="hl right">2.85</td>
+    <td class="right">5</td>
+    <td class="right">0.70</td>
+    <td class="right">0</td>
+    <td class="right">31.4</td>
+    <td class="right hl" style="background-color: #fcf6cf;">53.6</td>
+    <td class="right">13.4</td>
+    <td class="right">1.7</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">6</td>
+    <td class="right">239</td>
+    <td class="right">2</td>
+    <td class="hl right">2.85</td>
+    <td class="right">6</td>
+    <td class="right">0.81</td>
+    <td class="right">0</td>
+    <td class="right">37.7</td>
+    <td class="right">43.1</td>
+    <td class="right">16.3</td>
+    <td class="right">2.5</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">13</td>
+    <td class="right">237</td>
+    <td class="right">2</td>
+    <td class="hl right">2.88</td>
+    <td class="right">8</td>
+    <td class="right">1.03</td>
+    <td class="right">0</td>
+    <td class="right">45.1</td>
+    <td class="right">31.6</td>
+    <td class="right">16.0</td>
+    <td class="right">5.1</td>
+    <td class="right">1.7</td>
+    <td class="right">0</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">14</td>
+    <td class="right">237</td>
+    <td class="right">2</td>
+    <td class="hl right">2.96</td>
+    <td class="right">5</td>
+    <td class="right">0.64</td>
+    <td class="right">0</td>
+    <td class="right">20.7</td>
+    <td class="right hl" style="background-color: #fcf6cf;">64.6</td>
+    <td class="right">13.1</td>
+    <td class="right">1.7</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">8</td>
+    <td class="right">239</td>
+    <td class="right">2</td>
+    <td class="hl right">2.97</td>
+    <td class="right">5</td>
+    <td class="right">0.75</td>
+    <td class="right">0</td>
+    <td class="right">26.4</td>
+    <td class="right hl" style="background-color: #fcf6cf;">53.1</td>
+    <td class="right">17.6</td>
+    <td class="right">2.9</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">16</td>
+    <td class="right">237</td>
+    <td class="right">2</td>
+    <td class="hl right">3.05</td>
+    <td class="right">7</td>
+    <td class="right">0.77</td>
+    <td class="right">0</td>
+    <td class="right">20.7</td>
+    <td class="right hl" style="background-color: #fcf6cf;">59.5</td>
+    <td class="right">15.2</td>
+    <td class="right">4.2</td>
+    <td class="right">0</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">9</td>
+    <td class="right">238</td>
+    <td class="right">2</td>
+    <td class="hl right">3.16</td>
+    <td class="right">7</td>
+    <td class="right">0.84</td>
+    <td class="right">0</td>
+    <td class="right">18.9</td>
+    <td class="right hl" style="background-color: #fcf6cf;">54.6</td>
+    <td class="right">19.7</td>
+    <td class="right">5.9</td>
+    <td class="right">0.4</td>
+    <td class="right">0.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+</table>
+
+<div class="section" id="dam">
+<h2>Damer<a class="headerlink" href="#dam" title="Permlink to this headline">¶</a></h2>
+</div>
+
+<table class="outlined damer">
+  <tr>
+    <th class="right" rowspan="2">Hål</th>
+    <th class="right" rowspan="2">antal</th>
+    <th rowspan="2">lägst</th>
+    <th class="hl right" rowspan="2">medel</th>
+    <th rowspan="2">högst</th>
+    <th rowspan="2">&sigma;</th>
+    <th colspan="9">Fördelning (%)</th>
+  </tr>
+  <tr>
+    <th class="right">1</th>
+    <th class="right">2</th>
+    <th class="right">3</th>
+    <th class="right">4</th>
+    <th class="right">5</th>
+    <th class="right">6</th>
+    <th class="right">7</th>
+    <th class="right">8</th>
+    <th class="right">9</th>
+  </tr>
+  <tr>
+    <td class="right">7</td>
+    <td class="right">92</td>
+    <td class="right">2</td>
+    <td class="hl right">3.14</td>
+    <td class="right">5</td>
+    <td class="right">0.67</td>
+    <td class="right">0</td>
+    <td class="right">13.0</td>
+    <td class="right hl" style="background-color: #fcf6cf;">63.0</td>
+    <td class="right">20.7</td>
+    <td class="right">3.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">2</td>
+    <td class="right">91</td>
+    <td class="right">2</td>
+    <td class="hl right">3.42</td>
+    <td class="right">6</td>
+    <td class="right">0.73</td>
+    <td class="right">0</td>
+    <td class="right">5.5</td>
+    <td class="right hl" style="background-color: #fcf6cf;">54.9</td>
+    <td class="right">33.0</td>
+    <td class="right">5.5</td>
+    <td class="right">1.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">3</td>
+    <td class="right">91</td>
+    <td class="right">2</td>
+    <td class="hl right">3.45</td>
+    <td class="right">5</td>
+    <td class="right">0.62</td>
+    <td class="right">0</td>
+    <td class="right">2.2</td>
+    <td class="right hl" style="background-color: #fcf6cf;">54.9</td>
+    <td class="right">38.5</td>
+    <td class="right">4.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">10</td>
+    <td class="right">92</td>
+    <td class="right">2</td>
+    <td class="hl right">3.48</td>
+    <td class="right">6</td>
+    <td class="right">0.83</td>
+    <td class="right">0</td>
+    <td class="right">9.8</td>
+    <td class="right">43.5</td>
+    <td class="right">37.0</td>
+    <td class="right">8.7</td>
+    <td class="right">1.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">18</td>
+    <td class="right">92</td>
+    <td class="right">2</td>
+    <td class="hl right">3.52</td>
+    <td class="right">6</td>
+    <td class="right">0.82</td>
+    <td class="right">0</td>
+    <td class="right">7.6</td>
+    <td class="right">44.6</td>
+    <td class="right">37.0</td>
+    <td class="right">9.8</td>
+    <td class="right">1.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">4</td>
+    <td class="right">91</td>
+    <td class="right">2</td>
+    <td class="hl right">3.53</td>
+    <td class="right">5</td>
+    <td class="right">0.86</td>
+    <td class="right">0</td>
+    <td class="right">12.1</td>
+    <td class="right">35.2</td>
+    <td class="right">40.7</td>
+    <td class="right">12.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">1</td>
+    <td class="right">91</td>
+    <td class="right">3</td>
+    <td class="hl right">3.55</td>
+    <td class="right">5</td>
+    <td class="right">0.60</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right hl" style="background-color: #fcf6cf;">50.5</td>
+    <td class="right">44.0</td>
+    <td class="right">5.5</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">11</td>
+    <td class="right">93</td>
+    <td class="right">2</td>
+    <td class="hl right">3.57</td>
+    <td class="right">5</td>
+    <td class="right">0.76</td>
+    <td class="right">0</td>
+    <td class="right">5.4</td>
+    <td class="right">43.0</td>
+    <td class="right">40.9</td>
+    <td class="right">10.8</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">17</td>
+    <td class="right">92</td>
+    <td class="right">2</td>
+    <td class="hl right">3.63</td>
+    <td class="right">6</td>
+    <td class="right">0.98</td>
+    <td class="right">0</td>
+    <td class="right">10.9</td>
+    <td class="right">37.0</td>
+    <td class="right">33.7</td>
+    <td class="right">15.2</td>
+    <td class="right">3.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">12</td>
+    <td class="right">93</td>
+    <td class="right">2</td>
+    <td class="hl right">3.71</td>
+    <td class="right">7</td>
+    <td class="right">1.09</td>
+    <td class="right">0</td>
+    <td class="right">9.7</td>
+    <td class="right">36.6</td>
+    <td class="right">36.6</td>
+    <td class="right">9.7</td>
+    <td class="right">5.4</td>
+    <td class="right">2.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">14</td>
+    <td class="right">92</td>
+    <td class="right">3</td>
+    <td class="hl right">3.72</td>
+    <td class="right">6</td>
+    <td class="right">0.79</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">46.7</td>
+    <td class="right">37.0</td>
+    <td class="right">14.1</td>
+    <td class="right">2.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">9</td>
+    <td class="right">92</td>
+    <td class="right">1</td>
+    <td class="hl right">3.79</td>
+    <td class="right">6</td>
+    <td class="right">0.97</td>
+    <td class="right">1.1</td>
+    <td class="right">3.3</td>
+    <td class="right">38.0</td>
+    <td class="right">34.8</td>
+    <td class="right">18.5</td>
+    <td class="right">4.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">13</td>
+    <td class="right">92</td>
+    <td class="right">2</td>
+    <td class="hl right">3.83</td>
+    <td class="right">6</td>
+    <td class="right">0.83</td>
+    <td class="right">0</td>
+    <td class="right">4.3</td>
+    <td class="right">28.3</td>
+    <td class="right hl" style="background-color: #fcf6cf;">51.1</td>
+    <td class="right">13.0</td>
+    <td class="right">3.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">15</td>
+    <td class="right">92</td>
+    <td class="right">2</td>
+    <td class="hl right">3.85</td>
+    <td class="right">8</td>
+    <td class="right">0.93</td>
+    <td class="right">0</td>
+    <td class="right">1.1</td>
+    <td class="right">34.8</td>
+    <td class="right hl" style="background-color: #fcf6cf;">50.0</td>
+    <td class="right">10.9</td>
+    <td class="right">0</td>
+    <td class="right">2.2</td>
+    <td class="right">1.1</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">5</td>
+    <td class="right">91</td>
+    <td class="right">2</td>
+    <td class="hl right">3.87</td>
+    <td class="right">6</td>
+    <td class="right">0.92</td>
+    <td class="right">0</td>
+    <td class="right">2.2</td>
+    <td class="right">38.5</td>
+    <td class="right">34.1</td>
+    <td class="right">20.9</td>
+    <td class="right">4.4</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">8</td>
+    <td class="right">92</td>
+    <td class="right">3</td>
+    <td class="hl right">3.97</td>
+    <td class="right">6</td>
+    <td class="right">0.84</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">32.6</td>
+    <td class="right">42.4</td>
+    <td class="right">20.7</td>
+    <td class="right">4.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">6</td>
+    <td class="right">91</td>
+    <td class="right">2</td>
+    <td class="hl right">3.99</td>
+    <td class="right">7</td>
+    <td class="right">0.99</td>
+    <td class="right">0</td>
+    <td class="right">1.1</td>
+    <td class="right">35.2</td>
+    <td class="right">37.4</td>
+    <td class="right">17.6</td>
+    <td class="right">7.7</td>
+    <td class="right">1.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">16</td>
+    <td class="right">92</td>
+    <td class="right">2</td>
+    <td class="hl right">4.08</td>
+    <td class="right">9</td>
+    <td class="right">1.17</td>
+    <td class="right">0</td>
+    <td class="right">2.2</td>
+    <td class="right">29.3</td>
+    <td class="right">44.6</td>
+    <td class="right">13.0</td>
+    <td class="right">7.6</td>
+    <td class="right">1.1</td>
+    <td class="right">1.1</td>
+    <td class="right">1.1</td>
+  </tr>
+</table>
+
+<div class="section" id="knektar">
+<h2>Knektar<a class="headerlink" href="#knektar" title="Permlink to this headline">¶</a></h2>
+</div>
+
+<table class="outlined knektar">
+  <tr>
+    <th class="right" rowspan="2">Hål</th>
+    <th class="right" rowspan="2">antal</th>
+    <th rowspan="2">lägst</th>
+    <th class="hl right" rowspan="2">medel</th>
+    <th rowspan="2">högst</th>
+    <th rowspan="2">&sigma;</th>
+    <th colspan="9">Fördelning (%)</th>
+  </tr>
+  <tr>
+    <th class="right">1</th>
+    <th class="right">2</th>
+    <th class="right">3</th>
+    <th class="right">4</th>
+    <th class="right">5</th>
+    <th class="right">6</th>
+    <th class="right">7</th>
+    <th class="right">8</th>
+    <th class="right">9</th>
+  </tr>
+  <tr>
+    <td class="right">7</td>
+    <td class="right">611</td>
+    <td class="right">1</td>
+    <td class="hl right">2.91</td>
+    <td class="right">6</td>
+    <td class="right">0.69</td>
+    <td class="right">0.3</td>
+    <td class="right">25.5</td>
+    <td class="right hl" style="background-color: #fcf6cf;">58.4</td>
+    <td class="right">14.4</td>
+    <td class="right">1.0</td>
+    <td class="right">0.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">10</td>
+    <td class="right">611</td>
+    <td class="right">2</td>
+    <td class="hl right">3.01</td>
+    <td class="right">7</td>
+    <td class="right">0.75</td>
+    <td class="right">0</td>
+    <td class="right">21.1</td>
+    <td class="right hl" style="background-color: #fcf6cf;">60.4</td>
+    <td class="right">15.9</td>
+    <td class="right">1.5</td>
+    <td class="right">0.8</td>
+    <td class="right">0.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">1</td>
+    <td class="right">605</td>
+    <td class="right">2</td>
+    <td class="hl right">3.11</td>
+    <td class="right">7</td>
+    <td class="right">0.62</td>
+    <td class="right">0</td>
+    <td class="right">11.2</td>
+    <td class="right hl" style="background-color: #fcf6cf;">68.9</td>
+    <td class="right">17.5</td>
+    <td class="right">2.1</td>
+    <td class="right">0</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">12</td>
+    <td class="right">610</td>
+    <td class="right">2</td>
+    <td class="hl right">3.14</td>
+    <td class="right">7</td>
+    <td class="right">0.85</td>
+    <td class="right">0</td>
+    <td class="right">20.2</td>
+    <td class="right hl" style="background-color: #fcf6cf;">53.8</td>
+    <td class="right">19.5</td>
+    <td class="right">5.1</td>
+    <td class="right">1.3</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">2</td>
+    <td class="right">606</td>
+    <td class="right">1</td>
+    <td class="hl right">3.15</td>
+    <td class="right">6</td>
+    <td class="right">0.69</td>
+    <td class="right">0.2</td>
+    <td class="right">12.4</td>
+    <td class="right hl" style="background-color: #fcf6cf;">64.0</td>
+    <td class="right">19.6</td>
+    <td class="right">3.5</td>
+    <td class="right">0.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">18</td>
+    <td class="right">606</td>
+    <td class="right">1</td>
+    <td class="hl right">3.16</td>
+    <td class="right">7</td>
+    <td class="right">0.83</td>
+    <td class="right">0.2</td>
+    <td class="right">17.5</td>
+    <td class="right hl" style="background-color: #fcf6cf;">56.3</td>
+    <td class="right">20.3</td>
+    <td class="right">4.1</td>
+    <td class="right">1.5</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">4</td>
+    <td class="right">607</td>
+    <td class="right">2</td>
+    <td class="hl right">3.17</td>
+    <td class="right">6</td>
+    <td class="right">0.70</td>
+    <td class="right">0</td>
+    <td class="right">12.9</td>
+    <td class="right hl" style="background-color: #fcf6cf;">61.0</td>
+    <td class="right">22.6</td>
+    <td class="right">3.3</td>
+    <td class="right">0.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">15</td>
+    <td class="right">605</td>
+    <td class="right">2</td>
+    <td class="hl right">3.18</td>
+    <td class="right">6</td>
+    <td class="right">0.70</td>
+    <td class="right">0</td>
+    <td class="right">11.6</td>
+    <td class="right hl" style="background-color: #fcf6cf;">64.0</td>
+    <td class="right">19.8</td>
+    <td class="right">4.3</td>
+    <td class="right">0.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">3</td>
+    <td class="right">607</td>
+    <td class="right">2</td>
+    <td class="hl right">3.27</td>
+    <td class="right">6</td>
+    <td class="right">0.75</td>
+    <td class="right">0</td>
+    <td class="right">9.1</td>
+    <td class="right hl" style="background-color: #fcf6cf;">62.6</td>
+    <td class="right">21.7</td>
+    <td class="right">5.4</td>
+    <td class="right">1.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">17</td>
+    <td class="right">605</td>
+    <td class="right">2</td>
+    <td class="hl right">3.28</td>
+    <td class="right">6</td>
+    <td class="right">0.84</td>
+    <td class="right">0</td>
+    <td class="right">15.0</td>
+    <td class="right hl" style="background-color: #fcf6cf;">50.1</td>
+    <td class="right">28.1</td>
+    <td class="right">5.3</td>
+    <td class="right">1.5</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">11</td>
+    <td class="right">612</td>
+    <td class="right">2</td>
+    <td class="hl right">3.35</td>
+    <td class="right">9</td>
+    <td class="right">0.85</td>
+    <td class="right">0</td>
+    <td class="right">10.1</td>
+    <td class="right hl" style="background-color: #fcf6cf;">55.7</td>
+    <td class="right">26.3</td>
+    <td class="right">5.7</td>
+    <td class="right">1.8</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0.2</td>
+  </tr>
+  <tr>
+    <td class="right">14</td>
+    <td class="right">605</td>
+    <td class="right">2</td>
+    <td class="hl right">3.42</td>
+    <td class="right">7</td>
+    <td class="right">0.72</td>
+    <td class="right">0</td>
+    <td class="right">5.5</td>
+    <td class="right hl" style="background-color: #fcf6cf;">54.4</td>
+    <td class="right">34.0</td>
+    <td class="right">5.3</td>
+    <td class="right">0.7</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">6</td>
+    <td class="right">607</td>
+    <td class="right">2</td>
+    <td class="hl right">3.42</td>
+    <td class="right">8</td>
+    <td class="right">0.88</td>
+    <td class="right">0</td>
+    <td class="right">10.2</td>
+    <td class="right hl" style="background-color: #fcf6cf;">50.7</td>
+    <td class="right">28.8</td>
+    <td class="right">7.7</td>
+    <td class="right">2.3</td>
+    <td class="right">0</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">5</td>
+    <td class="right">607</td>
+    <td class="right">2</td>
+    <td class="hl right">3.45</td>
+    <td class="right">7</td>
+    <td class="right">0.87</td>
+    <td class="right">0</td>
+    <td class="right">9.6</td>
+    <td class="right">49.1</td>
+    <td class="right">29.8</td>
+    <td class="right">10.0</td>
+    <td class="right">1.2</td>
+    <td class="right">0.3</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">13</td>
+    <td class="right">605</td>
+    <td class="right">2</td>
+    <td class="hl right">3.47</td>
+    <td class="right">7</td>
+    <td class="right">1.03</td>
+    <td class="right">0</td>
+    <td class="right">19.8</td>
+    <td class="right">30.7</td>
+    <td class="right">35.2</td>
+    <td class="right">11.7</td>
+    <td class="right">1.8</td>
+    <td class="right">0.7</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">16</td>
+    <td class="right">604</td>
+    <td class="right">2</td>
+    <td class="hl right">3.55</td>
+    <td class="right">8</td>
+    <td class="right">0.88</td>
+    <td class="right">0</td>
+    <td class="right">4.0</td>
+    <td class="right hl" style="background-color: #fcf6cf;">53.1</td>
+    <td class="right">31.5</td>
+    <td class="right">8.4</td>
+    <td class="right">2.2</td>
+    <td class="right">0.3</td>
+    <td class="right">0.5</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">8</td>
+    <td class="right">611</td>
+    <td class="right">2</td>
+    <td class="hl right">3.58</td>
+    <td class="right">7</td>
+    <td class="right">0.84</td>
+    <td class="right">0</td>
+    <td class="right">5.6</td>
+    <td class="right">45.7</td>
+    <td class="right">36.3</td>
+    <td class="right">10.0</td>
+    <td class="right">2.3</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">9</td>
+    <td class="right">610</td>
+    <td class="right">2</td>
+    <td class="hl right">3.62</td>
+    <td class="right">7</td>
+    <td class="right">0.83</td>
+    <td class="right">0</td>
+    <td class="right">5.2</td>
+    <td class="right">42.6</td>
+    <td class="right">39.2</td>
+    <td class="right">11.0</td>
+    <td class="right">1.8</td>
+    <td class="right">0.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+</table>
+
+<div class="section" id="vaepnare">
+<h2>Väpnare<a class="headerlink" href="#vaepnare" title="Permlink to this headline">¶</a></h2>
+</div>
+
+<table class="outlined vaepnare">
+  <tr>
+    <th class="right" rowspan="2">Hål</th>
+    <th class="right" rowspan="2">antal</th>
+    <th rowspan="2">lägst</th>
+    <th class="hl right" rowspan="2">medel</th>
+    <th rowspan="2">högst</th>
+    <th rowspan="2">&sigma;</th>
+    <th colspan="9">Fördelning (%)</th>
+  </tr>
+  <tr>
+    <th class="right">1</th>
+    <th class="right">2</th>
+    <th class="right">3</th>
+    <th class="right">4</th>
+    <th class="right">5</th>
+    <th class="right">6</th>
+    <th class="right">7</th>
+    <th class="right">8</th>
+    <th class="right">9</th>
+  </tr>
+  <tr>
+    <td class="right">7</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">3.38</td>
+    <td class="right">5</td>
+    <td class="right">1.01</td>
+    <td class="right">0</td>
+    <td class="right">18.8</td>
+    <td class="right">43.8</td>
+    <td class="right">18.8</td>
+    <td class="right">18.8</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">10</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">3.56</td>
+    <td class="right">6</td>
+    <td class="right">0.95</td>
+    <td class="right">0</td>
+    <td class="right">6.2</td>
+    <td class="right hl" style="background-color: #fcf6cf;">50.0</td>
+    <td class="right">31.2</td>
+    <td class="right">6.2</td>
+    <td class="right">6.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">11</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">3.94</td>
+    <td class="right">7</td>
+    <td class="right">1.22</td>
+    <td class="right">0</td>
+    <td class="right">12.5</td>
+    <td class="right">21.9</td>
+    <td class="right">37.5</td>
+    <td class="right">18.8</td>
+    <td class="right">6.2</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">2</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.00</td>
+    <td class="right">7</td>
+    <td class="right">1.05</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+    <td class="right">28.1</td>
+    <td class="right">46.9</td>
+    <td class="right">12.5</td>
+    <td class="right">6.2</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">1</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.03</td>
+    <td class="right">7</td>
+    <td class="right">1.09</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+    <td class="right">31.2</td>
+    <td class="right">37.5</td>
+    <td class="right">18.8</td>
+    <td class="right">6.2</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">15</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.03</td>
+    <td class="right">7</td>
+    <td class="right">1.18</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+    <td class="right">37.5</td>
+    <td class="right">28.1</td>
+    <td class="right">18.8</td>
+    <td class="right">9.4</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">18</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.06</td>
+    <td class="right">6</td>
+    <td class="right">0.91</td>
+    <td class="right">0</td>
+    <td class="right">6.2</td>
+    <td class="right">15.6</td>
+    <td class="right">46.9</td>
+    <td class="right">28.1</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">4</td>
+    <td class="right">32</td>
+    <td class="right">3</td>
+    <td class="hl right">4.06</td>
+    <td class="right">7</td>
+    <td class="right">0.98</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">31.2</td>
+    <td class="right">40.6</td>
+    <td class="right">21.9</td>
+    <td class="right">3.1</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">3</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.19</td>
+    <td class="right">7</td>
+    <td class="right">1.26</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+    <td class="right">31.2</td>
+    <td class="right">31.2</td>
+    <td class="right">18.8</td>
+    <td class="right">9.4</td>
+    <td class="right">6.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">12</td>
+    <td class="right">32</td>
+    <td class="right">3</td>
+    <td class="hl right">4.19</td>
+    <td class="right">9</td>
+    <td class="right">1.31</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">37.5</td>
+    <td class="right">25.0</td>
+    <td class="right">28.1</td>
+    <td class="right">6.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+  </tr>
+  <tr>
+    <td class="right">17</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.22</td>
+    <td class="right">6</td>
+    <td class="right">0.94</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+    <td class="right">18.8</td>
+    <td class="right">37.5</td>
+    <td class="right">34.4</td>
+    <td class="right">6.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">16</td>
+    <td class="right">32</td>
+    <td class="right">3</td>
+    <td class="hl right">4.31</td>
+    <td class="right">6</td>
+    <td class="right">0.86</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">18.8</td>
+    <td class="right">37.5</td>
+    <td class="right">37.5</td>
+    <td class="right">6.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">9</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.31</td>
+    <td class="right">7</td>
+    <td class="right">1.23</td>
+    <td class="right">0</td>
+    <td class="right">6.2</td>
+    <td class="right">18.8</td>
+    <td class="right">31.2</td>
+    <td class="right">31.2</td>
+    <td class="right">6.2</td>
+    <td class="right">6.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">14</td>
+    <td class="right">32</td>
+    <td class="right">3</td>
+    <td class="hl right">4.34</td>
+    <td class="right">7</td>
+    <td class="right">1.18</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+    <td class="right">31.2</td>
+    <td class="right">25.0</td>
+    <td class="right">25.0</td>
+    <td class="right">15.6</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">8</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.34</td>
+    <td class="right">9</td>
+    <td class="right">1.33</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+    <td class="right">15.6</td>
+    <td class="right hl" style="background-color: #fcf6cf;">53.1</td>
+    <td class="right">12.5</td>
+    <td class="right">9.4</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+  </tr>
+  <tr>
+    <td class="right">6</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.41</td>
+    <td class="right">7</td>
+    <td class="right">1.10</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+    <td class="right">12.5</td>
+    <td class="right">43.8</td>
+    <td class="right">28.1</td>
+    <td class="right">6.2</td>
+    <td class="right">6.2</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">13</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.41</td>
+    <td class="right">8</td>
+    <td class="right">1.36</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+    <td class="right">28.1</td>
+    <td class="right">21.9</td>
+    <td class="right">28.1</td>
+    <td class="right">12.5</td>
+    <td class="right">3.1</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+  </tr>
+  <tr>
+    <td class="right">5</td>
+    <td class="right">32</td>
+    <td class="right">2</td>
+    <td class="hl right">4.53</td>
+    <td class="right">7</td>
+    <td class="right">1.24</td>
+    <td class="right">0</td>
+    <td class="right">3.1</td>
+    <td class="right">18.8</td>
+    <td class="right">31.2</td>
+    <td class="right">18.8</td>
+    <td class="right">25.0</td>
+    <td class="right">3.1</td>
+    <td class="right">0</td>
+    <td class="right">0</td>
+  </tr>
+</table>
+
+
+<div class="section" id="ctp">
+<h2>CTP<a class="headerlink" href="#ctp" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_ctp" class="graph"></div>
+
+
+<div class="section" id="hal-1">
+<h2>Hål 1<a class="headerlink" href="#hal-1" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_1" class="graph"></div>
+<div class="section" id="hal-2">
+<h2>Hål 2<a class="headerlink" href="#hal-2" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_2" class="graph"></div>
+<div class="section" id="hal-3">
+<h2>Hål 3<a class="headerlink" href="#hal-3" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_3" class="graph"></div>
+<div class="section" id="hal-4">
+<h2>Hål 4<a class="headerlink" href="#hal-4" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_4" class="graph"></div>
+<div class="section" id="hal-5">
+<h2>Hål 5<a class="headerlink" href="#hal-5" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_5" class="graph"></div>
+<div class="section" id="hal-6">
+<h2>Hål 6<a class="headerlink" href="#hal-6" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_6" class="graph"></div>
+<div class="section" id="hal-7">
+<h2>Hål 7<a class="headerlink" href="#hal-7" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_7" class="graph"></div>
+<div class="section" id="hal-8">
+<h2>Hål 8<a class="headerlink" href="#hal-8" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_8" class="graph"></div>
+<div class="section" id="hal-9">
+<h2>Hål 9<a class="headerlink" href="#hal-9" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_9" class="graph"></div>
+<div class="section" id="hal-10">
+<h2>Hål 10<a class="headerlink" href="#hal-10" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_10" class="graph"></div>
+<div class="section" id="hal-11">
+<h2>Hål 11<a class="headerlink" href="#hal-11" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_11" class="graph"></div>
+<div class="section" id="hal-12">
+<h2>Hål 12<a class="headerlink" href="#hal-12" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_12" class="graph"></div>
+<div class="section" id="hal-13">
+<h2>Hål 13<a class="headerlink" href="#hal-13" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_13" class="graph"></div>
+<div class="section" id="hal-14">
+<h2>Hål 14<a class="headerlink" href="#hal-14" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_14" class="graph"></div>
+<div class="section" id="hal-15">
+<h2>Hål 15<a class="headerlink" href="#hal-15" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_15" class="graph"></div>
+<div class="section" id="hal-16">
+<h2>Hål 16<a class="headerlink" href="#hal-16" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_16" class="graph"></div>
+<div class="section" id="hal-17">
+<h2>Hål 17<a class="headerlink" href="#hal-17" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_17" class="graph"></div>
+<div class="section" id="hal-18">
+<h2>Hål 18<a class="headerlink" href="#hal-18" title="Permlink to this headline">¶</a></h2>
+</div>
+<div id="summary_hole_18" class="graph"></div>
+
+</div>
+</div>
+
+<div id="footer"></div>
+
+
+<script id="source" type="text/javascript">
+$(document).ready(function() {
+    rr_summary_graph("summary_graph", [{"label":"Alla","data":[[1,3.07],[2,3.09],[3,3.2],[4,3.09],[5,3.38],[6,3.36],[7,2.87],[8,3.49],[9,3.55],[10,2.98],[11,3.25],[12,3.13],[13,3.39],[14,3.36],[15,3.14],[16,3.5],[17,3.23],[18,3.12]]},{"label":"Riddare","data":[[1,2.67],[2,2.68],[3,2.81],[4,2.59],[5,2.85],[6,2.85],[7,2.59],[8,2.97],[9,3.16],[10,2.61],[11,2.78],[12,2.73],[13,2.88],[14,2.96],[15,2.63],[16,3.05],[17,2.83],[18,2.74]]},{"label":"Damer","data":[[1,3.55],[2,3.42],[3,3.45],[4,3.53],[5,3.87],[6,3.99],[7,3.14],[8,3.97],[9,3.79],[10,3.48],[11,3.57],[12,3.71],[13,3.83],[14,3.72],[15,3.85],[16,4.08],[17,3.63],[18,3.52]]},{"label":"Knektar","data":[[1,3.11],[2,3.15],[3,3.27],[4,3.17],[5,3.45],[6,3.42],[7,2.91],[8,3.58],[9,3.62],[10,3.01],[11,3.35],[12,3.14],[13,3.47],[14,3.42],[15,3.18],[16,3.55],[17,3.28],[18,3.16]]},{"label":"V&auml;pnare","data":[[1,4.03],[2,4.0],[3,4.19],[4,4.06],[5,4.53],[6,4.41],[7,3.38],[8,4.34],[9,4.31],[10,3.56],[11,3.94],[12,4.19],[13,4.41],[14,4.34],[15,4.03],[16,4.31],[17,4.22],[18,4.06]]}], ["#a02020","#5d407b","#d7b23a","#007e84","#86bc25"]);
+
+
+    rr_summary_ctp_graph("summary_ctp", "det gjorts", [{"label":"Alla","data":[[1,43],[2,26],[3,3],[4,62],[5,29],[6,34],[7,85],[8,12],[9,17],[10,50],[11,18],[12,27],[13,7],[14,5],[15,42],[16,8],[17,30],[18,27]]}], ["#a02020"]);
+
+
+    rr_hole_graph(1, "summary_hole_1", 1, 9, [{"label":"Riddare","data":[[1,0],[2,9.824198552223372],[3,13.650465356773525],[4,1.0341261633919339],[5,0.1034126163391934],[6,0.1034126163391934],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0],[3,4.756980351602896],[4,4.1365046535677354],[5,0.5170630816959669],[6,0],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,7.0320579110651495],[3,43.12306101344364],[4,10.961737331954497],[5,1.344364012409514],[6,0],[7,0.1034126163391934],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.1034126163391934],[3,1.0341261633919339],[4,1.2409513960703205],[5,0.6204756980351602],[6,0.2068252326783868],[7,0.1034126163391934],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(2, "summary_hole_2", 1, 9, [{"label":"Riddare","data":[[1,0],[2,9.927611168562564],[3,12.82316442605998],[4,1.7580144777662874],[5,0.1034126163391934],[6,0],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.5170630816959669],[3,5.170630816959669],[4,3.1023784901758016],[5,0.5170630816959669],[6,0.1034126163391934],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0.1034126163391934],[2,7.755946225439504],[3,40.12409513960703],[4,12.306101344364013],[5,2.1716649431230612],[6,0.2068252326783868],[7,0],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.1034126163391934],[3,0.9307135470527405],[4,1.5511892450879008],[5,0.4136504653567736],[6,0.2068252326783868],[7,0.1034126163391934],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(3, "summary_hole_3", 1, 9, [{"label":"Riddare","data":[[1,0],[2,7.636738906088751],[3,14.138286893704851],[4,2.786377708978328],[5,0.10319917440660474],[6,0],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.20639834881320948],[3,5.159958720330237],[4,3.611971104231166],[5,0.41279669762641896],[6,0],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,5.675954592363261],[3,39.21568627450981],[4,13.622291021671826],[5,3.4055727554179565],[6,0.7223942208462332],[7,0],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.10319917440660474],[3,1.0319917440660475],[4,1.0319917440660475],[5,0.6191950464396285],[6,0.30959752321981426],[7,0.20639834881320948],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(4, "summary_hole_4", 1, 9, [{"label":"Riddare","data":[[1,0],[2,11.867905056759547],[3,11.145510835913312],[4,1.5479876160990713],[5,0.10319917440660474],[6,0],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,1.1351909184726523],[3,3.3023735810113517],[4,3.8183694530443755],[5,1.1351909184726523],[6,0],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,8.04953560371517],[3,38.18369453044376],[4,14.138286893704851],[5,2.063983488132095],[6,0.20639834881320948],[7,0],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0],[3,1.0319917440660475],[4,1.3415892672858616],[5,0.7223942208462332],[6,0.10319917440660474],[7,0.10319917440660474],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(5, "summary_hole_5", 1, 9, [{"label":"Riddare","data":[[1,0],[2,7.739938080495357],[3,13.209494324045407],[4,3.3023735810113517],[5,0.41279669762641896],[6,0],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.20639834881320948],[3,3.611971104231166],[4,3.199174406604747],[5,1.9607843137254901],[6,0.41279669762641896],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,5.985552115583075],[3,30.753353973168213],[4,18.67905056759546],[5,6.29514963880289],[6,0.7223942208462332],[7,0.20639834881320948],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.10319917440660474],[3,0.6191950464396285],[4,1.0319917440660475],[5,0.6191950464396285],[6,0.8255933952528379],[7,0.10319917440660474],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(6, "summary_hole_6", 1, 9, [{"label":"Riddare","data":[[1,0],[2,9.287925696594428],[3,10.62951496388029],[4,4.024767801857585],[5,0.6191950464396285],[6,0.10319917440660474],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.10319917440660474],[3,3.3023735810113517],[4,3.508771929824561],[5,1.6511867905056758],[6,0.7223942208462332],[7,0.10319917440660474],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,6.398348813209494],[3,31.785345717234264],[4,18.059855521155832],[5,4.8503611971104235],[6,1.4447884416924663],[7,0],[8,0.10319917440660474],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.10319917440660474],[3,0.41279669762641896],[4,1.4447884416924663],[5,0.9287925696594427],[6,0.20639834881320948],[7,0.20639834881320948],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(7, "summary_hole_7", 1, 9, [{"label":"Riddare","data":[[1,0.10266940451745381],[2,11.190965092402463],[3,12.217659137577003],[4,0.9240246406570842],[5,0],[6,0],[7,0.10266940451745381],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,1.2320328542094456],[3,5.95482546201232],[4,1.9507186858316223],[5,0.3080082135523614],[6,0],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0.20533880903490762],[2,16.01642710472279],[3,36.652977412731005],[4,9.034907597535934],[5,0.6160164271047228],[6,0.20533880903490762],[7,0],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.6160164271047228],[3,1.4373716632443532],[4,0.6160164271047228],[5,0.6160164271047228],[6,0],[7,0],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(8, "summary_hole_8", 1, 9, [{"label":"Riddare","data":[[1,0],[2,6.46817248459959],[3,13.03901437371663],[4,4.312114989733059],[5,0.7186858316221766],[6,0],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0],[3,3.0800821355236137],[4,4.004106776180698],[5,1.9507186858316223],[6,0.41067761806981523],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,3.4907597535934287],[3,28.64476386036961],[4,22.79260780287474],[5,6.262833675564681],[6,1.4373716632443532],[7,0.10266940451745381],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.10266940451745381],[3,0.5133470225872689],[4,1.7453798767967144],[5,0.41067761806981523],[6,0.3080082135523614],[7,0.10266940451745381],[8,0],[9,0.10266940451745381]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(9, "summary_hole_9", 1, 9, [{"label":"Riddare","data":[[1,0],[2,4.62962962962963],[3,13.37448559670782],[4,4.8353909465020575],[5,1.440329218106996],[6,0.102880658436214],[7,0.102880658436214],[8,0],[9,0]]},{"label":"Damer","data":[[1,0.102880658436214],[2,0.30864197530864196],[3,3.60082304526749],[4,3.292181069958848],[5,1.7489711934156378],[6,0.411522633744856],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,3.292181069958848],[3,26.74897119341564],[4,24.588477366255145],[5,6.893004115226338],[6,1.131687242798354],[7,0.102880658436214],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.205761316872428],[3,0.6172839506172839],[4,1.02880658436214],[5,1.02880658436214],[6,0.205761316872428],[7,0.205761316872428],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(10, "summary_hole_10", 1, 9, [{"label":"Riddare","data":[[1,0],[2,10.585817060637206],[3,12.949640287769784],[4,0.8221993833504625],[5,0.10277492291880781],[6,0],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.9249743062692704],[3,4.110996916752312],[4,3.494347379239465],[5,0.8221993833504625],[6,0.10277492291880781],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,13.257965056526208],[3,37.92394655704008],[4,9.969167523124357],[5,0.9249743062692704],[6,0.513874614594039],[7,0.20554984583761562],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.20554984583761562],[3,1.644398766700925],[4,1.027749229188078],[5,0.20554984583761562],[6,0.20554984583761562],[7,0],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(11, "summary_hole_11", 1, 9, [{"label":"Riddare","data":[[1,0],[2,7.897435897435898],[3,14.256410256410257],[4,1.948717948717949],[5,0.3076923076923077],[6,0],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.5128205128205128],[3,4.102564102564102],[4,3.897435897435898],[5,1.0256410256410255],[6,0],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,6.3589743589743595],[3,34.97435897435898],[4,16.512820512820515],[5,3.5897435897435894],[6,1.1282051282051282],[7,0.10256410256410256],[8,0],[9,0.10256410256410256]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.41025641025641024],[3,0.717948717948718],[4,1.2307692307692308],[5,0.6153846153846154],[6,0.20512820512820512],[7,0.10256410256410256],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(12, "summary_hole_12", 1, 9, [{"label":"Riddare","data":[[1,0],[2,10.185185185185185],[3,11.11111111111111],[4,2.57201646090535],[5,0.411522633744856],[6,0.102880658436214],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.9259259259259258],[3,3.4979423868312756],[4,3.4979423868312756],[5,0.9259259259259258],[6,0.51440329218107],[7,0.205761316872428],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,12.654320987654321],[3,33.744855967078195],[4,12.242798353909464],[5,3.189300411522634],[6,0.823045267489712],[7,0.102880658436214],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0],[3,1.2345679012345678],[4,0.823045267489712],[5,0.9259259259259258],[6,0.205761316872428],[7,0],[8,0],[9,0.102880658436214]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(13, "summary_hole_13", 1, 9, [{"label":"Riddare","data":[[1,0],[2,11.076604554865424],[3,7.763975155279502],[4,3.9337474120082816],[5,1.2422360248447204],[6,0.4140786749482402],[7,0],[8,0.10351966873706005],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.4140786749482402],[3,2.691511387163561],[4,4.865424430641822],[5,1.2422360248447204],[6,0.3105590062111801],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,12.422360248447205],[3,19.25465838509317],[4,22.049689440993788],[5,7.349896480331262],[6,1.1387163561076603],[7,0.4140786749482402],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.10351966873706005],[3,0.9316770186335404],[4,0.7246376811594203],[5,0.9316770186335404],[6,0.4140786749482402],[7,0.10351966873706005],[8,0.10351966873706005],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(14, "summary_hole_14", 1, 9, [{"label":"Riddare","data":[[1,0],[2,5.072463768115942],[3,15.838509316770185],[4,3.2091097308488616],[5,0.4140786749482402],[6,0],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0],[3,4.451345755693581],[4,3.5196687370600417],[5,1.3457556935817805],[6,0.2070393374741201],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,3.4161490683229814],[3,34.05797101449276],[4,21.325051759834366],[5,3.3126293995859215],[6,0.4140786749482402],[7,0.10351966873706005],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0],[3,1.0351966873706004],[4,0.8281573498964804],[5,0.8281573498964804],[6,0.5175983436853002],[7,0.10351966873706005],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(15, "summary_hole_15", 1, 9, [{"label":"Riddare","data":[[1,0.10351966873706005],[2,9.937888198757763],[3,13.457556935817806],[4,0.9316770186335404],[5,0.10351966873706005],[6,0],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.10351966873706005],[3,3.3126293995859215],[4,4.761904761904762],[5,1.0351966873706004],[6,0],[7,0.2070393374741201],[8,0.10351966873706005],[9,0]]},{"label":"Knektar","data":[[1,0],[2,7.246376811594203],[3,40.06211180124223],[4,12.422360248447205],[5,2.691511387163561],[6,0.2070393374741201],[7,0],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.10351966873706005],[3,1.2422360248447204],[4,0.9316770186335404],[5,0.6211180124223602],[6,0.3105590062111801],[7,0.10351966873706005],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(16, "summary_hole_16", 1, 9, [{"label":"Riddare","data":[[1,0],[2,5.077720207253885],[3,14.61139896373057],[4,3.730569948186528],[5,1.0362694300518136],[6,0],[7,0.10362694300518134],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.20725388601036268],[3,2.7979274611398965],[4,4.248704663212435],[5,1.2435233160621761],[6,0.7253886010362695],[7,0.10362694300518134],[8,0.10362694300518134],[9,0.10362694300518134]]},{"label":"Knektar","data":[[1,0],[2,2.4870466321243523],[3,33.26424870466321],[4,19.689119170984455],[5,5.284974093264249],[6,1.3471502590673576],[7,0.20725388601036268],[8,0.31088082901554404],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0],[3,0.6217616580310881],[4,1.2435233160621761],[5,1.2435233160621761],[6,0.20725388601036268],[7,0],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(17, "summary_hole_17", 1, 9, [{"label":"Riddare","data":[[1,0],[2,8.074534161490684],[3,13.146997929606624],[4,2.898550724637681],[5,0.3105590062111801],[6,0.10351966873706005],[7,0],[8,0],[9,0]]},{"label":"Damer","data":[[1,0],[2,1.0351966873706004],[3,3.5196687370600417],[4,3.2091097308488616],[5,1.4492753623188406],[6,0.3105590062111801],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0],[2,9.420289855072465],[3,31.366459627329192],[4,17.598343685300208],[5,3.3126293995859215],[6,0.9316770186335404],[7,0],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.10351966873706005],[3,0.6211180124223602],[4,1.2422360248447204],[5,1.1387163561076603],[6,0.2070393374741201],[7,0],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+    rr_hole_graph(18, "summary_hole_18", 1, 9, [{"label":"Riddare","data":[[1,0],[2,10.858324715615305],[3,10.548086866597725],[4,2.5853154084798344],[5,0.1034126163391934],[6,0],[7,0.3102378490175801],[8,0.1034126163391934],[9,0]]},{"label":"Damer","data":[[1,0],[2,0.7238883143743536],[3,4.239917269906929],[4,3.5160289555325748],[5,0.9307135470527405],[6,0.1034126163391934],[7,0],[8,0],[9,0]]},{"label":"Knektar","data":[[1,0.1034126163391934],[2,10.961737331954497],[3,35.263702171664946],[4,12.719751809720787],[5,2.5853154084798344],[6,0.9307135470527405],[7,0.1034126163391934],[8,0],[9,0]]},{"label":"V&auml;pnare","data":[[1,0],[2,0.2068252326783868],[3,0.5170630816959669],[4,1.5511892450879008],[5,0.9307135470527405],[6,0.1034126163391934],[7,0],[8,0],[9,0]]}], ["#5d407b","#d7b23a","#007e84","#86bc25"]);
+});
+</script>
+
+
+</body>
+</html>
