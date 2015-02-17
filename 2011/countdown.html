@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Riddarrundan 2011</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="Patrik Berglund" />
+  <meta name="robots" content="all" />
+  <link rel="shortcut icon"
+        type="image/x-icon"
+        href="img/favicon_RR_shield.ico" />
+  <link rel="apple-touch-icon"
+        href="img/iDevice_head_RR.png" />
+
+  <link rel="stylesheet" type="text/css" media="screen, projection"
+        href="style/screen.css" />
+  <link rel="stylesheet" type="text/css" media="print"
+        href="style/print.css" />
+
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript">google.load("prototype", "1.6");</script>
+  <script type="text/javascript" src="js/countdown.js"></script>
+  <script type="text/javascript">
+var open_date = new Date(2011, 4 - 1, 19, 18, 30);
+var pex = new PeriodicalExecuter(
+    function(pex) {
+        $("remaining").update(timeLeft(open_date));
+    }, 1);
+document.observe("dom:loaded", pex.callback);
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+
+<body>
+
+  <div id="wrap">
+
+    <div id="content">
+
+      <div id="title">
+        <img src="img/riddarrundan_head.png" alt="" />
+        <p class="center" style="font-size: 150%;">
+          Premiär tisdagen den 19 april 2011 kl. 18.30!
+        </p>
+        <p class="center" style="font-size: 125%; margin-top: 120px;">
+          <span id="remaining">.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

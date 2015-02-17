@@ -1,0 +1,46 @@
+@import "screen.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  background-color: white;
+  color: black;
+}
+
+h1, h2, h3 {
+  color: black;
+}
+
+:link, :visited, :link:hover, :visited:hover {
+  text-decoration: none;
+  color: black;
+  border-bottom: none;
+}
+
+.only-screen {
+  display: none;
+}
+
+#header {
+  display: none;
+}
+
+#content {
+  margin: 0;
+  padding: 0;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.toc {
+  display: none;
+}
+
+/*---------------------------------------------------------------------------*/
+
+table.outlined tr th {
+  min-width: 0;
+  width: 0;
+}

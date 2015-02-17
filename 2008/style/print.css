@@ -1,0 +1,12 @@
+@import "screen.css";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:link, :visited, :link:hover, :visited:hover {
+  text-decoration: none;
+  color: black;
+  border-bottom: none;
+}
