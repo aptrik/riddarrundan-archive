@@ -1,0 +1,150 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2014-08-19
+resultat:
+- spelare: Andreas Litfeldt
+  resultat: 2 3 4 3p 4 3 5 3 3 2 3 3 3 6 3 4 4 3
+  totalt: 61
+  ctp: 10
+- spelare: Ingemar Backman
+  resultat: 3 3 3 4p 2 3 3 3 3 3 3 3 3 3 2 3 4 3
+  totalt: 54
+  ctp: 5
+- spelare: Lotta Blom
+  resultat: 3 4 3 4p 3 5 3 3 3 3 3 4 2 4 3 3 5 4
+  totalt: 62
+  ctp: 13
+- spelare: Patrik Berglund
+  resultat: 2 2 3 2 4p 3 2 3 4 2 2 2 3 4 3 3 2 2
+  totalt: 48
+  ctp: 10
+- spelare: Marianne Söderberg
+  resultat: 2 3 3 4p 4p 4 4 3 5 4p 4 3 2 3 3 3 4 3
+  totalt: 61
+  ctp: 1
+- spelare: Dan Johansson
+  resultat: 3 3 3 2 3 3 3 4 3 2 4 2 2 2 3 3 2 3
+  totalt: 50
+- spelare: John Eriksson
+  resultat: 3 3 3 3 4p 3 3 2 3 4p 4 3 3 2 3 3 4 4
+  totalt: 57
+  ctp: 
+- spelare: Alexander Lian
+  resultat: 4p 4 3 1 4p 4 3 3 3 5p 3 4 3 4 3 4 3 3
+  totalt: 61
+  ctp: 4
+- spelare: Sara
+  resultat: 4 4 6 5p 3 5 6 5 4 4p 3 6 3 5 3 6 4 4
+  totalt: 80
+- spelare: Karen Middleton
+  resultat: 3 3 3 4 5 3 6 4 3 4p 3 3 2 4 2 3 4 3
+  totalt: 62
+  ctp: 15
+- spelare: Malin van Ham
+  resultat: 3 3 3 4p 3 4 6 3 3 4p 4 3 4 4 3 3 4 4
+  totalt: 65
+- spelare: Rickard Sköld
+  resultat: 4p 3 3 3 2 3 3 3 3 4p 2 2 3 4 2 3 3 3
+  totalt: 53
+  ctp: 5 12
+- spelare: Mattias Jorstedt
+  resultat: 2 3 3 4p 3 3 4 2 3 2 3 4 3 3 3 4 3 3
+  totalt: 55
+  ctp: 10
+- spelare: Johan Eriksson
+  resultat: 3 3 3 4p 2 3 4 4 3 4p 3 4 4 4 2 2 4 2
+  totalt: 58
+  ctp: 15
+- spelare: Anders Forsell
+  resultat: 2 3 3 4p 3 3 4 3 2 4p 3 3 4 3 3 3 4 4
+  totalt: 58
+  ctp: 9
+- spelare: David Friberg
+  resultat: 3 4 2 4p 4 3 5 4 5 3p 2 3 3 3 3 3 4 3
+  totalt: 61
+- spelare: Roland Johansson
+  resultat: 3 5 3 3 4 4 4 4 2 2 3 3 3 4 3 5 5 3
+  totalt: 63
+- spelare: Andreas Dackander
+  resultat: 3 3 3 4p 3 4 3 3 4 3p 5 3 2 4 3 2 2 2
+  totalt: 56
+  ctp: 13 17
+- spelare: Johan Rosén
+  resultat: 3 4 3 3 3 4 4 3 3 2 3 3 3 3 3 3 3 2
+  totalt: 55
+  ctp: 10 18
+- spelare: Johan Grotenfelt
+  resultat: 2 2 4 3 3 2 3 5 2 2 4 3 2 3 3 2 3 3
+  totalt: 51
+  ctp: 2 16
+- spelare: Martin Grotenfelt
+  resultat: 2 3 2 4p 3 3 2 3 5 2 4 2 3 3 2 2 4 3
+  totalt: 52
+  ctp: 1 16
+- spelare: Daniel Fuxborg
+  resultat: 2 3 3 4p 4 3 3 3 4 3 2 2 3 4 4 3 4 3
+  totalt: 57
+  ctp: 11
+- spelare: Josef Nilsson
+  resultat: 2 _ _ _ _ _ _ _ _ 3 3 3 2 3 3 4 4 2
+  totalt: DNF
+  ctp: 1 13
+- spelare: Arvid Sollenby
+  resultat: 2 4 3 4p 3 3 4 3 4 3 3 3 2 6 2 2 3 2
+  totalt: 56
+  ctp: 1 13 16
+- spelare: Daniel Nordgren
+  resultat: 4p 3 3 4p 3 3 3 4 3 4p 4 3 3 3 3 2 5 3
+  totalt: 60
+- spelare: Peter Arildsson
+  resultat: 2 7 2 4p 3 3 3 2 3 4p 3 3 3 3 3 4 4 5p
+  totalt: 61
+- spelare: Jared Farrell
+  resultat: 4p 3 2 3p 2 5 4 2 2 2 3 2 3 3 3 3 3 3
+  totalt: 52
+  ctp: 9
+- spelare: Oskar Folkesson
+  resultat: 2 5 3 3p 2 3 3 3 3 2 2 3 3 4 3 3 3 2
+  totalt: 52
+- spelare: Håkan Johansson
+  resultat: 2 3 3 4p 2 3 2 3 2 2 3 3 2 3 2 3 5 3
+  totalt: 50
+  ctp: 7 13
+- spelare: Åsa Hultgren
+  resultat: 3 3 2 3 3 4 3 5 4 4p 4 3 4 4 3 3 4 4
+  totalt: 63
+- spelare: Andreas Petersson
+  resultat: 3 3 3 3 3 3 4 4 4 3 3 3 2 5 2 3 3 4
+  totalt: 58
+- spelare: Robin Larsson
+  resultat: 3 4 5 4p 3 3 6 3 4 2 3 4 3 3 4 3 4 3
+  totalt: 64
+- spelare: André Wollin
+  resultat: 5p 3 3 5p 3 3 5 5 4 2 5 3 4 5 4 3 6 4
+  totalt: 72
+- spelare: Mattias Navinen
+  resultat: 4 3 3 4p 4 5 6 3 4 2 2 3 3 4 4 3 4 6
+  totalt: 67
+- spelare: Kaj Lautiainen
+  resultat: 3 4 2 4p 3 3 2 2 4 2 3 4 3 3 2 2 3 3
+  totalt: 52
+- spelare: Göran Berntsson
+  resultat: 3 3 3 3 4 3 4 3 4 4p 4 4 2 4 4 3 5 5
+  totalt: 65
+  ctp: 13
+- spelare: Shaggy
+  resultat: 3 3 3 4p 4 3 4 3 3 4p 3 2 2 3 3 2 3 3
+  totalt: 55
+  ctp: 12 13
+- spelare: Mattias Larsson
+  resultat: 5p 5 3 4p 3 3 4 3 3 3 3 3 3 3 3 3 4 5p
+  totalt: 63
+- spelare: Tassos Mourelatos
+  resultat: 3 4 4 5 3 5 4 4 4 3 4 4 4 3 3 4 4 4
+  totalt: 69
+- spelare: Salman Ahmad
+  resultat: 2 4 5 2 4 4 4 4 5 7 4 4 2 3 3 3 3 3
+  totalt: 66
+- spelare: Rodrigo Gomes
+  resultat: 5 4 4 3 4 4 4 4 3 4 3 3 3 3 3 5 4 3
+  totalt: 66

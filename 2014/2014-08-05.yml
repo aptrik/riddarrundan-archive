@@ -1,0 +1,290 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2014-08-05
+resultat:
+- spelare: Malin van Ham
+  resultat: 3 3 3 4p 3 4 4 5 2 4p 3 3 3 3 4 3 3 3
+  totalt: 60
+- spelare: Andreas Petersson
+  resultat: 3 3 2 3 3 3 4 3 2 5p 3 3 3 3 3 2 3 3
+  totalt: 54
+- spelare: Robin Larsson
+  resultat: 3 2 3 2 3 3 3 3 3 4p 3 4 3 3  4 4 3 4
+  totalt: 57
+  ctp: 2
+- spelare: Kaj Lautiainen
+  resultat: 4p 2 3 2 4 4 5 2 4 2 4 3 3 5 2 3 3 3
+  totalt: 58
+- spelare: Patrik Axelsson
+  resultat: 2 3 3 2 2 3 2 2 2 2 3 3 2 4 3 3 4 3
+  totalt: 48
+  ctp: 7 10
+- spelare: Ingemar Backman
+  resultat: 2 3 3 2 3 3 2 3 2 2 2 3 3 3 3 3 3 2
+  totalt: 47
+- spelare: Jared Farrell
+  resultat: 2 2 2 2 3 3 4 2 2 3 2 2 2 2 2 3 2 3
+  totalt: 43
+  ctp: 9 12 17
+- spelare: Jed Farrell
+  resultat: 4p 3 3 4p 2 3 2 3 3 4p 3 3 2 4 3 3 3 3
+  totalt: 55
+  ctp: 7 13
+- spelare: Martin Skoog
+  resultat: 2 4 4 5p 3 3 3 4 3 4p 2 3 2 2 3 4 4 3
+  totalt: 58
+- spelare: Andreas Kahnberg
+  resultat: 2 3 3 4p 3p 3 3 4 3 4p 3 3 2 3 2 4 4 3
+  totalt: 56
+  ctp: 1
+- spelare: Filip Siewertz
+  resultat: 2 3 3 2 2 3 3 3 2 3 4 3 2 3 2 3 4 3
+  totalt: 50
+  ctp: 9
+- spelare: Henrik Bäck
+  resultat: 4p 3 4 4p 2 3 3 3 2 4p 3 3 3 4 3 2 3 2
+  totalt: 55
+  ctp: 9
+- spelare: Stellan Modigh
+  resultat: 2 3 2 2 4p 3 2 3 4 3 4 3 3 3 2 3 2 3
+  totalt: 51
+- spelare: Svante Möller
+  resultat: 4p 4 3 4p 3 3 4 2 2 4p 3 2 3 5 3 3 4 3
+  totalt: 59
+  ctp: 9 12
+- spelare: Mangee Flank
+  resultat: 2 3 2 3 3 4 4 2 2 2 3 2 3 4 3 2 4 2
+  totalt: 50
+  ctp: 1 3 10 12
+- spelare: Tomi Lyyski
+  resultat: 4p 2 3 4p 2 3 5 3 2 4p 4 3 4 3 3 4 3 3
+  totalt: 59
+- spelare: Anders Forsell
+  resultat: 2 2 3 4p 3 4 3 4 4 3 3 2 3 3 3 3 2 2
+  totalt: 53
+  ctp: 12
+- spelare: Johanna Pålsson
+  resultat: 4p 5 3 4 3 4 4 3 3 4p 4 4 4 4 3 3 4 3
+  totalt: 66
+- spelare: Erik Andersson
+  resultat: 3 4 2 3 3 4 3 4 3 2 3 2 3 3 3 3 3 3
+  totalt: 54
+- spelare: Linda Emanuelsson
+  resultat: 2 3 3 3 3 4 3 4 4 2 4 3 2 3 4 3 4 2
+  totalt: 56
+  ctp: 1 10
+- spelare: Karen Middleton
+  resultat: 3 3 3 4p 3 5 4 4 4 3 3 3 2 3 2 4 4 4
+  totalt: 61
+- spelare: David Lundqvist
+  resultat: 3 2 3 4p 2 3 3 3 3 4p 3 3 3 3 2 3 3 3
+  totalt: 53
+- spelare: Mats Lundqvist
+  resultat: 2 3 2 2 3 3 4 4 3 3 3 2 2 3 3 3 3 3
+  totalt: 51
+  ctp: 12 13
+- spelare: Marianne Söderberg
+  resultat: 3 4 3 5p 4p 3 4 3 3 2 3 4 3 3 2 3 5 3
+  totalt: 60
+- spelare: Robin Tegerot
+  resultat: 3 3 2 4p 3 4 4 3 3 4p 3 4 2 3 3 4 2 2
+  totalt: 56
+  ctp: 18
+- spelare: André Wollin
+  resultat: 2 3 2 4 3 6 5 4 3 5p 4 5 4 4 3 3 4 4
+  totalt: 68
+- spelare: Mattias Navinen
+  resultat: 2 3 3 4p 3 3 4 4 3 4p 5 3 3 5 4 4 4 3
+  totalt: 64
+- spelare: Göran Berntsson
+  resultat: 4p 4 5 4p 3 4 3 4 3 4p 4 3 3 5 3 4 4 2
+  totalt: 66
+- spelare: Jonny Johansson
+  resultat: 3 3 2 3 2 3 3 4 3 4p 3 3 3 3 3 3 4 3
+  totalt: 55
+- spelare: Patrik Wedlin
+  resultat: 4 4 3 4p 4 4 3 4 3 4p 3 4 3 3 2 3 4 3
+  totalt: 62
+- spelare: Rodrigo Gomes
+  resultat: 3 4 3 4p 4 4 5 4 5 4p 3 3 3 5 4 3 4 3
+  totalt: 68
+- spelare: Marcus Hallbjörner
+  resultat: 3 3 3 3 4p 3 3 3 3 3 3 3 3 4 3 3 4 3
+  totalt: 57
+- spelare: Peter Arildsson
+  resultat: 3 3 4 3 4 4 5 4 3 3 3 3 3 3 3 2 4 4
+  totalt: 61
+- spelare: Josef Alexandersson
+  resultat: 4p 3 3 2 4 3 3 3 2 3 3 2 4 3 3 3 3 3
+  totalt: 54
+- spelare: Daniel Lindqvist
+  resultat: 3 2 3 3 4p 3 4 4 3 4p 3 3 3 4 4 4 5 4
+  totalt: 63
+- spelare: Andreas Haraldsson
+  resultat: 3 3 3 4 3 4 3 5 2 2 3 2 3 4 3 4 3 3
+  totalt: 57
+  ctp: 9 12
+- spelare: David Friberg
+  resultat: 3p 2 2 2 4 3 4 3 4 4p 4 3 3 4 3 3 3 3
+  totalt: 57
+- spelare: John Finer
+  resultat: 2 3 2 3 3 4 5 4 3 4p 5 4 3 3 3 4 4 3
+  totalt: 62
+- spelare: John Lund
+  resultat: 4 4 5 4p 3 4 6 4 5 4p 3 4 2 4 3 4 4 4
+  totalt: 71
+- spelare: Joakim Isaksson
+  resultat: 4p 3 3 5p 4 4 4 5 6 3p 4 4 4 3 4 5 4 3
+  totalt: 72
+- spelare: Andreas Litfeldt
+  resultat: 5p 3 3 4p 3 3 3 5 4 4 3 3 2 3 3 2 3 3
+  totalt: 59
+- spelare: Mats Lindgren
+  resultat: 3 4 2 2 2 3 4 4 4 2 4 4 2 4 3 3 4 3
+  totalt: 57
+- spelare: Åsa Hultgren
+  resultat: 3 3 3 2 3 3 3 3 4 4 3 6 3 3 3 3 3 2
+  totalt: 57
+- spelare: Lotta Blom
+  resultat: _ 4 3 4p 3 4 4 3 3 4 4 _ _ _ _ _ _ _
+  totalt: DNF
+- spelare: Henrik Bergqvist
+  resultat: 2 3 5 4p 2 3 3 3 4 3 3 3 2 3 3 3 3 5
+  totalt: 57
+- spelare: Reza Hedayati
+  resultat: 3 3 3 4p 4 4 2 3 3 2 3 4 3 3 3 3 3 3
+  totalt: 56
+- spelare: David Gjergji
+  resultat: 4 4 3 3 3 4 3 4 3 2 3 4 3 5 3 4 4 3
+  totalt: 62
+  ctp: 10
+- spelare: Johan Hansson
+  resultat: 3 3 2 4 4 3 4 4 4 2 4 3 3 3 4 3 4 3
+  totalt: 60
+  ctp: 9 10
+- spelare: Andreas Löf
+  resultat: 4 3 2 3 3 3 4 3 3 4 3 3 3 2 4 3 3 2
+  totalt: 55
+- spelare: Mikael Slivander
+  resultat: 4 4 3 4 4 4 3 5 4 3 4 3 3 4 3 4 4 4
+  totalt: 67
+- spelare: Mattias Jorstedt
+  resultat: 2 3 2 4 2 3 3 3 3 4p 3 3 3 2 3 3 2 3
+  totalt: 51
+  ctp: 1
+- spelare: Caroline Whitworth
+  resultat: 3 4 2 4p 4 3 3 3 3 2 2 2 2 5 2 3 4 3
+  totalt: 54
+  ctp: 10
+- spelare: Robert Sjölander
+  resultat: 4 2 3 4p 3 3 4 3 3 4p 3 3 3 2 2 3 3 3
+  totalt: 55
+- spelare: Johan Elmqvist
+  resultat: 2 3 3 2 4 4 4 4 3 2 3 2 2 4 2 2 4 3
+  totalt: 53
+  ctp: 12 16
+- spelare: Oskar Folkesson
+  resultat: 3 3 2 2 2 2 3 4 4 4p 3 3 2 2 3 3 3 3
+  totalt: 51
+- spelare: Anders Derkum
+  resultat: 2 2 2 4p 2 3 2 3 2 2 2 3 2 3 3 3 2 3
+  totalt: 45
+  ctp: 7 10
+- spelare: Johan Axenborg
+  resultat: 2 2 3 4p 3 3 3 3 4 2 3 2 3 4 3 3 2 3
+  totalt: 52
+- spelare: Anders Axenborg
+  resultat: 5p 3 3 4p 4 3 3 4 3 4p 3 3 3 4 2 3 5 3
+  totalt: 62
+- spelare: Marcus Slobo
+  resultat: 4p 4 3 2 2 3 3 3 5 2 2 3 4 3 3 2 3 2
+  totalt: 53
+- spelare: Patrik Berglund
+  resultat: 2 3 2 2 2 2 2 4p 2 3 2 3 2 3 3 3 3 2
+  totalt: 45
+  ctp: 3 7 9 11
+- spelare: Christer Köhler
+  resultat: 4p 3 3 2 2 3 3 3 5 2 3 3 3 3 2 3 4 2
+  totalt: 53
+- spelare: Therese Neihoff
+  resultat: 4 3 4 4p 5p 6 4 4 4 4p 4 4 3 4 4 4 6 3
+  totalt: 74
+- spelare: Karl Arnby
+  resultat: 2 2 2 2 2 3 2 3 3 2 3 2 2 3 2 3 2 2
+  totalt: 42
+  ctp: 3 13
+- spelare: Jonas Dahlöf
+  resultat: 4p 2 4 2 3 3 3 3 3 3 3 3 3 4 3 3 5 5
+  totalt: 59
+- spelare: Tassos Mourelatos
+  resultat: 3 5 6 4p 4 4 3 3 4 4p 4 5 4 4 3 5 6 3
+  totalt: 74
+- spelare: Salman Ahmad
+  resultat: 2 3 3 3 3 2 3 3 3 4p 4 3 4 3 3 3 4 3
+  totalt: 56
+- spelare: Håkan Johansson
+  resultat: 3 2 2 2 3 3 2 2 2 2 3 2 3 4 2 3 2 3
+  totalt: 45
+  ctp: 3 7 10 12
+- spelare: Fredrik Ivarsson
+  resultat: 3 2 3 2 4p 2 2 3 4 4p 4 3 2 3 3 2 3 3
+  totalt: 52
+  ctp: 7
+- spelare: Johan Rosén
+  resultat: 3 3 3 2 2 2 2 2 3 2 2 2 2 2 3 2 3 3
+  totalt: 43
+  ctp: 6 7 13
+- spelare: Johan Grotenfelt
+  resultat: 3p 3 4 2 5p 2 3 3 2 4p 3 3 2 5 3 2 4 3
+  totalt: 56
+  ctp: 6
+- spelare: Martin Grotenfelt
+  resultat: 3 3 3 3 2 3 2 3 3 2 3 3 2 3 4 4 4 3
+  totalt: 53
+  ctp: 7
+- spelare: Arvid Sollenby
+  resultat: 2 3 2 3 3 2 3 4 2 2 2 3 2 3 2 3 2 3
+  totalt: 46
+  ctp: 10 11
+- spelare: Sami Eskelinen
+  resultat: 2 3 2 4p 3 3 4 2 3 4p 2 2 3 4 3 2 3 3
+  totalt: 52
+  ctp: 1 11 12
+- spelare: Johan Eriksson
+  resultat: 4p 2 3 2 4 2 3 5 3 3 3 2 3 3 4 3 3 2
+  totalt: 54
+- spelare: Josef Nilsson
+  resultat: 3 2 2 3 3 3 3 3 3 3p 2 3 2 4 2 2 3 2
+  totalt: 48
+- spelare: Felix Nylander
+  resultat: 2 4 3 3 3 2 5 4 3 2 4 3 3 3 3 3 3 3
+  totalt: 56
+- spelare: Emanuel Nylander
+  resultat: 3 3 3 3 2 3 4 3 2 2 2 3 3 3 3 2 2 2
+  totalt: 48
+  ctp: 16
+- spelare: David Johansen
+  resultat: 2 3 2 4p 4 3 2 3 3 3p 3 2 2 4 2 3 3 3
+  totalt: 51
+- spelare: Victor Johansen
+  resultat: 2 3 3 4p 2 4 3 4 2 3 3 3 2 4 3 1 5 2
+  totalt: 53
+  ctp: 16
+- spelare: Dan Johansson
+  resultat: 2 2 2 4 2 2 3 3 3 2 3 2 2 2 3 2 2 3
+  totalt: 44
+- spelare: Andreas Ljungmark
+  resultat: 3 3 3 4p 4 3 4 3 4 3 3 3 3 4 2 2 3 2
+  totalt: 56
+- spelare: Alex Runge
+  resultat: 2 3 2 4p 3 3 3 2 2 2 2 3 3 3 2 3 2 3
+  totalt: 47
+  ctp: 10 11
+- spelare: Daniel Fuxborg
+  resultat: 2 3 3 2 2 2 3 3 2 3 2 3 3 4 2 3 3 2
+  totalt: 47
+  ctp: 15
+- spelare: Daniel Nordgren
+  resultat: 4p 2 3 4p 3 3 2 2 5 2 3 3 2 4 3 4 3 3
+  totalt: 55
+  ctp: 2 13

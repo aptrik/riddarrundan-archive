@@ -1,0 +1,196 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2014-04-29
+resultat:
+- spelare: Per Brantgärde
+  resultat: 4p 3 2 5p 3 3 4 3 3 4p 2 2 3 3 3 2 3 2
+  totalt: 54
+  ctp: 11
+- spelare: Martin Skoog
+  resultat: _ _ _ _ _ 4 3 3 _ _ _ _ _ _ _ _ _ _
+  totalt: DNF
+- spelare: Johan Elmqvist
+  resultat: 2 3 3 3 4p 3 3 4 3 4p 2 2 2 2 3 3 3 3
+  totalt: 52
+  ctp: 1 12
+- spelare: Gunnar Kenne
+  resultat: 3 4 2 2 2 2 2 2 3 2 2 3 3 3 3 3 3 2
+  totalt: 46
+  ctp: 18
+- spelare: Carl Ulvinen
+  resultat: 3 2 4 2 3 3p 3 3 4 2 2 2 3 3 2 2 2 3
+  totalt: 48
+- spelare: Nemanja Milenkovic
+  resultat: 3 2 3 2 4 3 3 3 4 4 4 3 2 3 3 3 3 4
+  totalt: 56
+- spelare: Richard Kilander
+  resultat: 4 3 2 2 3 3 2 3 2 2 4 3 3 3 3 2 4 2
+  totalt: 50
+  ctp: 3 7 10 18
+- spelare: Ragnar Lagergren
+  resultat: 3 3 3 4p 2 3 2 3 2 3 3 3 2 4 3 3 4 3
+  totalt: 53
+  ctp: 7 13
+- spelare: Patrik Axelsson
+  resultat: 3 2 2 2 2 3 2 2 4 4p 3 2 2 3 3 4 3 3
+  totalt: 49
+  ctp: 2 3 12 13
+- spelare: Andreas Litfeldt
+  resultat: 4 4 2 2 2 4 3 2 3 2 3 4 3 4 3 2 3 2
+  totalt: 52
+  ctp: 3 4
+- spelare: Håkan Johansson
+  resultat: 2 2 4 4p 3 3 2 3 3 4p 2 2 2 2 2 3 3 3
+  totalt: 49
+- spelare: Jared Farrell
+  resultat: 4p 2 2 4p 3 3 2 2 2 2 4 3 3 3 3 3 3 2
+  totalt: 50
+  ctp: 3 9 10 18
+- spelare: Karen Middleton
+  resultat: 3 3 3 2 3 3 3 5 4 3 4 3 3 4 3 4 4 4
+  totalt: 61
+- spelare: Jason Middleton
+  resultat: 2 3 3 3 3 4 4 3 5 4p 7 4 4 5 4 5 4 5
+  totalt: 72
+- spelare: Malin van Ham
+  resultat: 3 3 3 4p 2 3 4 3 3 3 3 3 3 3 3 5 4 5
+  totalt: 60
+  ctp: 5
+- spelare: Caroline Whitworth
+  resultat: 2 2 3 4p 3 4 5 3 3 4p 4 4 3 3 2 4 6 3
+  totalt: 62
+- spelare: Reza Hedayati
+  resultat: 3 3 3 2 2 4 6 3 4 2 4 2 3 3 3 2 3 3
+  totalt: 55
+- spelare: Lotta Blom
+  resultat: 3 3 3 5 3 4 5 3 3 4p 3 4 2 3 3 4 4 3
+  totalt: 62
+- spelare: Andreas Petersson
+  resultat: 2 3 3 4 2 4 3 3 2 2 4 2 4 3 3 3 4 2
+  totalt: 53
+- spelare: Marcus Nordén
+  resultat: 2 2 2 3 4 3 3 4 3 4p 2 2 3 3 3 3 2 3
+  totalt: 51
+  ctp: 1
+- spelare: Josef Nilsson
+  resultat: 2 3 3 2 3 3 4 3 4 2 2 3 2 3 3 3 3 3
+  totalt: 51
+  ctp: 1
+- spelare: Jacob Rubensson
+  resultat: 4p 3 3 4 3 4 3 4 3 4 3 3 3 4 2 3 5 3
+  totalt: 61
+- spelare: Arvid Sollenby
+  resultat: 2 4 3 3 3 3 3 5 3 2 3 3 2 3 2 3 3 3
+  totalt: 53
+  ctp: 10
+- spelare: Marianne Söderberg
+  resultat: 3 3 5 4 2 4 4 6 5 4 4 3 3 4 4 4 4 3
+  totalt: 69
+- spelare: Mangee Flank
+  resultat: 2 3 7 2 3 3 3 5 2 2 4 3 3 3 3 3 4 3
+  totalt: 58
+  ctp: 10
+- spelare: John Eriksson
+  resultat: 2 5 2 4p 2 4 3 3 2 4p 3 3 2 3 3 3 3 3
+  totalt: 54
+- spelare: Mikael Johansson
+  resultat: 3 3 2 4p 3 3 5 3 5 3 3 3 3 3 3 3 3 4p
+  totalt: 59
+- spelare: Patrik Einarsson
+  resultat: 2 2 2 3 3 3 4 3 3 2 3 3 3 3 3 3 3 3
+  totalt: 51
+  ctp: 3 10
+- spelare: Oskar Folkesson
+  resultat: 2 3 2 4 2 3 2 2 2 2 3 2 3 5 3 3 3 4
+  totalt: 50
+  ctp: 9
+- spelare: Daniel Nordgren
+  resultat: 3 3 2 3 3 4 3 4 4 4 2 3 3 4 3 3 4 3
+  totalt: 58
+- spelare: Andreas Ljungmark
+  resultat: 4 3 4 2 3 3 5 4 4 2 2 4 3 4 4 3 4 2
+  totalt: 60
+- spelare: Roland Johansson
+  resultat: 4 5 4 4 5 4 3 4 4 4p 3 4 4 7 3 4 7 3
+  totalt: 76
+- spelare: Mattias Jorstedt
+  resultat: 2 3 3 4p 3 3 3 3 2 3p 3 3 3 3 2 2 3 3
+  totalt: 51
+- spelare: Alex Runge
+  resultat: 2 2 2 4p 2 3 3 3 2 3 2 4 3 3 2 3 3 2
+  totalt: 48
+- spelare: Daniel Fuxborg
+  resultat: 3 2 3 2 2 4 3 2 2 2 2 2 3 3 4 3 3 2
+  totalt: 47
+  ctp: 2 9 11 12 18
+- spelare: Anders Forsell
+  resultat: 2 3 3 4p 3p 3 4 4 4 4p 4 3 3 3 3 3 3 3
+  totalt: 59
+  ctp: 1
+- spelare: Jonny Johansson
+  resultat: 3 4 3 4p 3 3 3 3 3 3 4 3 3 3 4 3 3 3
+  totalt: 58
+- spelare: Göran Berntsson
+  resultat: 3 4 4 4p 4 4 3 4 3 4p 4 4 3 4 3 4 5 4
+  totalt: 68
+- spelare: Kaj Lautiainen
+  resultat: 3 4 3 4p 4 3 3 3 3 2 3 2 3 3 3 3 3 3
+  totalt: 55
+- spelare: Henke Mårtensson
+  resultat: 4p 3 4 4 3 3 3 4 2 3 4 4 2 4 2 3 4 2
+  totalt: 58
+- spelare: Svante Möller
+  resultat: 3 3 3 4p 3 4 3 2 3 4p 3 3 3 4 3 4 3 3
+  totalt: 58
+- spelare: Jimmy Lernbom
+  resultat: 2 2 3 3 4 3 4 3 3 4p 3 4 4 6 3 4 4 4p
+  totalt: 63
+  ctp: 2
+- spelare: Johnny Ehlersson
+  resultat: 4 3 3 4 5 6 5 4 4 3 4 3 3 4 5 4 6 4
+  totalt: 74
+- spelare: Rickard Salén
+  resultat: 2 3 5 4p 4 3 6 5 3 4p 4 3 3 5 3 3 5 4
+  totalt: 69
+- spelare: Marcus Hallbjörner
+  resultat: 3 3 2 3 3 3 5 3 2 4p 4 4 3 4 2 4 4 3
+  totalt: 59
+- spelare: Patrik Wedlin
+  resultat: 2 4 3 2 3 4 3 5 3 4p 3 3 2 4 4 3 4 3
+  totalt: 59
+- spelare: Robin Tegerot
+  resultat: 3 4 3 2 2 4 3 3 4 4p 3 3 3 4 3 3 4 4
+  totalt: 59
+- spelare: Andreas Åberg
+  resultat: 2 3 3 5p 4 3 4 4 6 4p 3 5 2 4 3 5 4 3
+  totalt: 67
+  ctp: 13
+- spelare: Andreas Kahnberg
+  resultat: 3 3 3 2 4 4 3 4 4 2 2 3 3 3 3 3 3 3
+  totalt: 55
+- spelare: Robert Sjölander
+  resultat: 5p 3 3 4p 3 3 4 3 4 2 3 3 3 4 3 3 4 3
+  totalt: 60
+- spelare: Henrik Bäck
+  resultat: 2 2 3 2 2 4p 3 3 4 3 3 3 3 3 2 3 3 3
+  totalt: 51
+- spelare: Andreas Haraldsson
+  resultat: 4 4 4 4p 3 4 4 3 2 4 3 3 3 3 3 5 4 5
+  totalt: 65
+  ctp: 9
+- spelare: Andreas Dackander
+  resultat: 2 2 3 4p 2 3 3 3 3 2 2 2 2 2 3 2 3 3
+  totalt: 46
+  ctp: 10
+- spelare: Martin Grotenfelt
+  resultat: 2 3 3 2 2 3 2 5 2 3 2 2 4 3 4 3 3 3
+  totalt: 51
+  ctp: 9 12
+- spelare: Johan Grotenfelt
+  resultat: 3 3 3 2 3 2 3 4 2 2 3 2 3 3 3 3 2 3
+  totalt: 49
+  ctp: 10 12
+- spelare: Johan Rosén
+  resultat: 2 2 3 2 3 3 2 3 3 3 2 2 2 2 3 3 3 2
+  totalt: 45
+  ctp: 2

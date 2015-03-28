@@ -1,0 +1,210 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2013-06-25
+resultat:
+- spelare: Johan Grotenfelt
+  resultat: 3 2 2 3p 3 2 2 2 3 4p 3 3 3 3 2 4p 3 4p
+  totalt: 51
+  ctp: 3 6
+- spelare: Martin Grotenfelt
+  resultat: 2 3 2 3 3 2 3 3 3 2 3 3 3 3 3 4 3 3
+  totalt: 51
+  ctp: 1 10
+- spelare: Johan Rosén
+  resultat: 2 2 2 2 3 2 2 3 3 2 3 2 4 3 3 4p 3 3
+  totalt: 48
+- spelare: Mihaly Rapcak
+  resultat: 2 3 2 4p 4 3 3 3 3 4p 3 3 3 2 3 3 4 3
+  totalt: 55
+- spelare: Jared Farrell
+  resultat: 4p 2 3 2 2 2 2 3 3 2 3 2 2 3 2 3p 3 3
+  totalt: 46
+  ctp: 7 12 15
+- spelare: Håkan Johansson
+  resultat: 2 2 3 2 4 2 3 3 2 4p 2 3 2 2 2 2 3 2
+  totalt: 45
+  ctp: 2 16
+- spelare: Dan Johansson
+  resultat: 2 4 2 4p 2 2 3 3 3 4p 2 3 2 2 2 2 2 3
+  totalt: 47
+  ctp: 1 15 16
+- spelare: Martin Molin
+  resultat: 2 3 2 3 3 3 2 3 3 4p 2 2 4 2 3 4p 3 2
+  totalt: 50
+- spelare: Oskar Folkesson
+  resultat: 4p 3 2 4p 3 2 3 3 2 2 3 3 3 2 3 2 2 2
+  totalt: 48
+  ctp: 16
+- spelare: Patrik Berglund
+  resultat: 2 3 2 2 3 2 2 3 3 2 3 2 2 3 3 2 3 2
+  totalt: 44
+  ctp: 1 6 7 12
+- spelare: Ingemar Backman
+  resultat: 4p 3 3 2 3 3 4 4 2 2 3 2 3 3 3 3 2 3
+  totalt: 52
+  ctp: 9
+- spelare: Tobias Östling
+  resultat: 2 3 3 2 3 3 2 2 3 2 3 2 3 2 3 4p 3 3
+  totalt: 48
+  ctp: 12
+- spelare: Martin Rasch
+  resultat: 4p 2 2 3p 3 2 3 4 4 2 2 3 3 3 2 3 3 2
+  totalt: 50
+  ctp: 3 15
+- spelare: Richard Kilander
+  resultat: 3 3 2 2 3 3 3 3 2 4p 2 3 3 2 3 3 2 2
+  totalt: 48
+- spelare: Gunnar Kenne
+  resultat: 3 4 4 2 3 2 2 3 3 2 3 2 4 2 3 2 3 3
+  totalt: 50
+  ctp: 16
+- spelare: Tomas Carlqvist
+  resultat: 2 2 3 2 3 4 3 3 2 4p 3 2 3 3 3 4 3 2
+  totalt: 51
+  ctp: 1 18
+- spelare: Patrik Andersson
+  resultat: 4p 3 3 4p 3 3 3 3 4 3p 2 3 5 4 3 3 4 3
+  totalt: 60
+- spelare: Erik Åkerlund
+  resultat: 4p 4 4 4p 3 3 3 4 3 4p 4 4 4 2 3 4p 4 3
+  totalt: 64
+- spelare: Ragnar Lagergren
+  resultat: 4p 2 2 4p 2 3 3 3 3 4p 2 3 3 2 3 4p 4 3
+  totalt: 54
+  ctp: 5
+- spelare: Josef Alexandersson
+  resultat: 2 3 2 2 3 2 2 3 3 2 3 2 4 3 3 4p 3 3
+  totalt: 49
+  ctp: 10
+- spelare: Fredrik Andersson
+  resultat: 2 3 2 2 2 3 2 3 2 2 3 3 3 3 3 2 2 3
+  totalt: 45
+  ctp: 16
+- spelare: Linda Emanuelsson
+  resultat: 4p 3 3 3 3 3 4 4 4 2 3 4 3 4 3 4p 3 3
+  totalt: 60
+  ctp: 10
+- spelare: Malin van Ham
+  resultat: 3 3 4 4p 4 4 4 4 3 2 3 4 4 3 3 3 4 3
+  totalt: 62
+- spelare: Marianne Söderberg
+  resultat: 3 3 3 4 3 4 3 4 4 4p 4 3 4 4 3 3 5 4
+  totalt: 65
+- spelare: Suzan Edvardsson
+  resultat: 5p 3 3 3 4 4 5 4 3 4p 3 3 4 3 3 4p 3 3
+  totalt: 64
+- spelare: Åsa Hultgren
+  resultat: 4p 3 4 3 5 5 5 3 3 4p 4 4 5 3 3 4 4 4
+  totalt: 70
+- spelare: Saga Strindberg
+  resultat: 3 4 4 4p 5 7 5 4 4 3 4 4 6 5 3 4 5 3
+  totalt: 77
+- spelare: Jeremy Rocchio
+  resultat: 2 3 4 2 3 2 2 3 4 4p 3 3 3 2 4 2 4 4
+  totalt: 54
+  ctp: 16
+- spelare: Spencer Bryan
+  resultat: 2 4 2 3 4 3 3 3 3 4p 2 4 5 4 2 4p 4 3
+  totalt: 59
+- spelare: Jonatan Karlsson
+  resultat: 3 3 4 3 3 2 4 3 3 2 3 3 3 3 4 2 3 3
+  totalt: 54
+- spelare: Daniel Karlsson
+  resultat: 2 3 2 2 3 3 3 3 3 4p 2 2 4 4 2 4p 4 2
+  totalt: 52
+  ctp: 18
+- spelare: Marcus Nordén
+  resultat: 2 4 3 4p 3 3 2 5p 3 4p 4 2 3 3 3 4p 3 3
+  totalt: 58
+  ctp: 1
+- spelare: Reza Hedayati
+  resultat: 4p 3 3 4p 3 5 3 3 3 3 4 4 4 1 2 2 4 3
+  totalt: 58
+  ctp: 14 16
+- spelare: Jörgen Berntsen
+  resultat: 4p 4 3 4p 4 3 3 5 3 4p 3 5 5 3 4 2 4 3
+  totalt: 66
+- spelare: Janne
+  resultat: 3 3 4 4p 5 4 5 3 3 2 3 4 4 4 3 3 4 3
+  totalt: 64
+- spelare: Magnus Andersson
+  resultat: 2 6 3 4p 4 3 3 3 3 4p 3 3 3 3 2 2 4 4p
+  totalt: 59
+- spelare: Mikael Kyrklund
+  resultat: 3 4 3 4p 4 3 4 3 3 4p 3 4 4 3 3 2 2 3
+  totalt: 59
+- spelare: Urban Lindgren
+  resultat: 2 3 2 4p 3 3 5 3 4 3p 3 3 5 3 2 2 4 3
+  totalt: 57
+- spelare: Mattias Johansson
+  resultat: 4p 6 4 5p 5 4 4 4 3 4p 3 4 4 5 5 4p 5 6
+  totalt: 79
+- spelare: John Mayall
+  resultat: 3 4 3 3 4 3 3 3 4 4p 3 3 4 4 4 4 4 4
+  totalt: 64
+- spelare: Arvid Sollenby
+  resultat: 3 3 3 3p 4 2 2 2 4 2 4 3 3 2 3 4 3 3
+  totalt: 53
+  ctp: 7 8
+- spelare: Josef Nilsson
+  resultat: 2 5 2 2 3 2 3 3 2 3 4 2 3 2 4 4 3 4
+  totalt: 53
+- spelare: Filip Sievertz
+  resultat: 4p 3 3 4 4 3 3 3 5 3 4 3 5 5 4 2 4 3
+  totalt: 65
+  ctp: 16
+- spelare: Jimmy Lernbom
+  resultat: 3 3 4 6p 5 3 5 3 5 4p 4 3 4 4 4 4 4 4
+  totalt: 72
+- spelare: Henke
+  resultat: 4p 3 4 5p 4 3 2 4 2 4p 4 3 3 3 4 4p 4 2
+  totalt: 62
+- spelare: Sami Eskelinen
+  resultat: 3 2 2 2 3 2 4 3 4 3p 3 3 2 3 2 4p 3 3
+  totalt: 51
+- spelare: Roland Johansson
+  resultat: 3 4 3 5p 5 4 5 5 5 4p 4 6 4 4 4 4p 4 4
+  totalt: 77
+- spelare: Gustaf Sjöbratt
+  resultat: 2 3 5 3 4p 2 3 3 4 4p 2 4 4 4 3 3 3 3
+  totalt: 59
+- spelare: Andreas Litfeldt
+  resultat: 5 4 2 3 3 3 3 2 5 2 4 4 3 2 3 4 4 4
+  totalt: 60
+- spelare: Patrik Einarsson
+  resultat: 3 4 3 2 3 3 4 4 3 2 5 3 4 3 3 2 5 2
+  totalt: 58
+  ctp: 4 10 16
+- spelare: Mats Lindgren
+  resultat: 4 3 3 4 3 2 3 3 3 3 3 4 2 3 3 3 3 3
+  totalt: 55
+  ctp: 13
+- spelare: Andreas Jorstedt
+  resultat: 3 4 3 4 3 4 2 2 5 4 3 3 2 2 3 2 3 3
+  totalt: 55
+- spelare: Johan Elmqvist
+  resultat: 3 2 4 2 4 3 4 4 2 2 4 3 5 3 2 5 3 2
+  totalt: 57
+  ctp: 10
+- spelare: Martin Skoog
+  resultat: 2 3 3 3 3 3 4 3 5 3 2 2 2 3 3 3 5 3
+  totalt: 55
+- spelare: Andreas Kahnberg
+  resultat: 3 3 2 2 4 3 2 3 2 2 3 3 3 3 5 4 4 3
+  totalt: 54
+- spelare: Henrik Bäck
+  resultat: 4 3 3 2 3 3 2 2 3 2 2 3 3 3 2 2 3 3
+  totalt: 48
+  ctp: 10 16
+- spelare: Nemanja Milenkovic
+  resultat: 2 2 4 2 4 4 4 2 4 2 3 4 2 4 3 3 2 3
+  totalt: 54
+  ctp: 2 17
+- spelare: Jeroen Brüs
+  resultat: 3 2 3 4 3 3 3 2 5 4 3 3 4 3 3 4 4 4
+  totalt: 60
+  ctp: 2
+- spelare: Ray
+  resultat: 4 3 3 3 4 5 3 3 4 2 4 2 3 3 3 3 3 4
+  totalt: 59
+  ctp: 2 10

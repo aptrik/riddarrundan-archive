@@ -1,0 +1,136 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2014-05-06
+resultat:
+- spelare: Andreas Kahnberg
+  resultat: 2 2 3 2 3 4 2 3 2 2 2 3 3 4 3 3 4 3
+  totalt: 50
+  ctp: 1 11
+- spelare: Per Brantgärde
+  resultat: 2 3 4 2 4 4 4 3 3 2 2 3 4 3 3 3 3 3
+  totalt: 55
+  ctp: 10 11
+- spelare: Robert Sjölander
+  resultat: 2 3 2 2 3 3 2 3 2 2 4 3 3 4 3 3 2 2
+  totalt: 48
+  ctp: 10
+- spelare: Johan Elmqvist
+  resultat: 3 4 3 2 3 4 3 3 4 3 3 3 3 3 3 2 3 4
+  totalt: 56
+  ctp: 4
+- spelare: Josef Nilsson
+  resultat: 3 3 3 2 2 3 3 4 4 2 3 3 2 2 2 2 3 2
+  totalt: 48
+  ctp: 5
+- spelare: Arvid Sollenby
+  resultat: 3 2 3 5p 2 3 3 3 4 2 3 2 2 3 3 5 3 2
+  totalt: 53
+  ctp: 5 10 18
+- spelare: Mattias Jorstedt
+  resultat: 2 4 3 2 2 3 4 3 3 3p 3 2 3 3 3 4 3 3
+  totalt: 53
+  ctp: 1 5
+- spelare: Malin van Ham
+  resultat: 3 5 3 3 2 4 4 4 2 4 3 3 3 3 3 3 3 3
+  totalt: 58
+  ctp: 5
+- spelare: Andreas Petersson
+  resultat: 3 4 3 4p 4 3 3 4 4 3 3 2 3 3 2 3 3 3
+  totalt: 57
+- spelare: Filip Siewertz
+  resultat: 3 4 2 2 3 3 4 3 3 2 3 3 2 4 3 4 3 3
+  totalt: 54
+  ctp: 10
+- spelare: Sebastian Molander
+  resultat: 3 4 4 2 4 2 4 3 5 4 3 3 3 3 3 3 2 4
+  totalt: 59
+- spelare: Allan Lundenberg
+  resultat: 4p 3 5 4 4 4 4 3 5 2 3 4 2 3 3 4 4 3
+  totalt: 64
+- spelare: Mattias Andersson
+  resultat: 3 3 5 4p 4 3 3 3 4 2 3 3 4 3 2 3 4 3
+  totalt: 59
+- spelare: Jared Farrell
+  resultat: 3 3 2 2 2 3 3 3 3 4p 3 2 2 3 3 3 3 2
+  totalt: 49
+  ctp: 3 5 13
+- spelare: David Friberg
+  resultat: 3 3 4 4 3 4 3 3 3 4p 4 3 3 5 4 3 4 5p
+  totalt: 65
+- spelare: Ida Olsson
+  resultat: 4 5 5 6 5 7 5 5 5 4p 5 5 4 5 5 5 6 5
+  totalt: 91
+- spelare: Janne
+  resultat: 4 4 3 2 5 3 4 3 4 2 3 3 2 4 3 2 4 3
+  totalt: 58
+  ctp: 13 16
+- spelare: Peter Arildsson
+  resultat: 3 3 3 4 4 3 5 3 4 4p 3 4 3 4 3 4 3 3
+  totalt: 63
+- spelare: Roland Johansson
+  resultat: 3 4 5 4 4 4 5 4 4 4p 3 3 3 7 8 3 4 3
+  totalt: 75
+- spelare: Daniel Nordgren
+  resultat: 4p 3 4 4p 4p 4 3 3 5 4p 3 2 2 4 3 4 4 3
+  totalt: 63
+  ctp: 12
+- spelare: Andreas Ljungmark
+  resultat: 3 6 4 4p 3 4 4 6 3 4p 3 4 3 4 4 3 5 4
+  totalt: 71
+- spelare: Daniel Fuxborg
+  resultat: 4p 3 3 2 3 3 3 3 3 2 2 3 2 2 3 3 4 4
+  totalt: 52
+- spelare: Alex Runge
+  resultat: 3 3 3 4 3 3 3 3 3 4p 2 3 3 4 3 2 3 2
+  totalt: 54
+- spelare: Kaj Lautiainen
+  resultat: 3 3 2 4p 5p 4 3 4 4 3 3 2 2 4 2 4 4 4p
+  totalt: 60
+  ctp: 13
+- spelare: Göran Berntsson
+  resultat: 4p 3 4 3 3 4 4 4 4 3 4 3 3 4 4 4 3 3
+  totalt: 64
+- spelare: Martin Skoog
+  resultat: 3 3 2 4p 4 4 2 3 4 4p 3 2 3 3 3 4 6 3
+  totalt: 60
+  ctp: 12
+- spelare: Marcus Nordén
+  resultat: 3 2 2 4p 3 3 4 3 2 3 3 3 2 3 2 3 3 3
+  totalt: 51
+  ctp: 3
+- spelare: Andreas Dackander
+  resultat: 3 2 3 2 2 3 4 2 3 4p 2 3 2 3 3 2 3 3
+  totalt: 49
+  ctp: 11 16
+- spelare: Johan Rosén
+  resultat: 2 3 2 4p 3 4 3 6 4 4p 3 3 3 3 3 3 4 3
+  totalt: 60
+  ctp: 1
+- spelare: Nemanja Milenkovic
+  resultat: 2 3 2 2 3 4 3 3 3 2 3 3 3 3 4 3 3 3
+  totalt: 52
+  ctp: 3
+- spelare: Tobias Östling
+  resultat: 2 3 2 2 2 3 3 4 3 2 2 3 3 5 2 3 3 2
+  totalt: 49
+  ctp: 3 4 18
+- spelare: Mangee Flank
+  resultat: 3 3 3 4 2 4 2 4 3 3 4 4 2 3 2 4 3 3
+  totalt: 56
+  ctp: 13
+- spelare: Jimmy Lernbom
+  resultat: 3 3 3 4 3 3 3 3 3 3 3 3 2 6 2 4 5 3
+  totalt: 59
+- spelare: Robin Wanger
+  resultat: 6 4 4 4 3 4 5 4 4 4p 3 3 3 5 4 4 7 5
+  totalt: 76
+- spelare: Dan Johansson
+  resultat: 2 3 2 4p 3 2 4 4 2 2 2 3 3 4 3 2 3 3
+  totalt: 51
+  ctp: 1 6
+- spelare: Åsa Hultgren
+  resultat: 2 5 2 4 3 4 4 4 3 4p 4 3 3 4 5 4 3 3
+  totalt: 64
+- spelare: Andreas Litfeldt
+  resultat: 3 3 3 2 4 3 3 4 4 4p 3 3 3 4 4 3 2 3
+  totalt: 58

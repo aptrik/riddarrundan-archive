@@ -1,0 +1,182 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2013-08-13
+
+resultat:
+- spelare: Tobias Östling
+  totalt: 45
+  resultat: 2 2 2 2 3 2 3 2 2 2 3 3 4 3 3 3 2 2
+- spelare: David Johansen
+  totalt: 50
+  resultat: 2 3 3 4 3 3 3 2 3 2 3 3 2 2 3 4 2 3
+- spelare: Emmanuel Nylander
+  totalt: 57
+  resultat: 3 4 4 4 3 3 3 3 3 2 3 3 3 3 3 3 4 3
+- spelare: Philip Beckman
+  totalt: 56
+  resultat: 4 3 3 3 3 3 3 2 3 4x 3 2 3 3 3 5 3 3
+- spelare: Mattias Jorstedt
+  totalt: 56
+  resultat: 4x 3 3 4x 3 3 4 3 2 4x 2 3 3 3 2 4 3 3
+  ctp: 9
+- spelare: Patrik Axelsson
+  totalt: 50
+  resultat: 2 2 2 2 3 3 3 4 4 2 2 2 4 3 3 4 3 2
+  ctp: 1 10 12
+- spelare: Ingemar Backman
+  totalt: 50
+  resultat: 2 4 3 4x 3 2 3 3 3 2 2 3 3 2 2 3 3 3
+  ctp: 1
+- spelare: Fredrik Andersson
+  totalt: 47
+  resultat: 2 2 3 4x 3 3 3 3 2 2 2 3 3 3 2 3 2 2
+  ctp: 18
+- spelare: Håkan Johansson
+  totalt: 49
+  resultat: 3 2 2 4x 3 2 2 2 3 3 3 3 4 2 3 2 3 3
+  ctp: 7 16
+- spelare: Jeremy Rocchio
+  totalt: 53
+  resultat: 3 4 3 4x 3 3 2 3 3 2 3 3 3 3 3 2 3 3
+  ctp: 10 16
+- spelare: Jared Farrell
+  totalt: 46
+  resultat: 2 3 2 2 3 2 3 3 2 2 3 3 2 3 2 4x 2 3
+  ctp: 15
+- spelare: Martin Molin
+  totalt: 49
+  resultat: 2 3 2 2 4 3 2 3 4 2 2 2 2 4 3 4x 3 2
+  ctp: 1 10 12
+- spelare: Johan Grotenfelt
+  totalt: 47
+  resultat: 4x 3 2 2 3 2 4 2 2 2 2 3 2 4 2 2 3 3
+  ctp: 6 10 15
+- spelare: Andreas Dackander
+  totalt: 46
+  resultat: 2 3 3 2 2 3 3 2 3 2 2 3 2 4 2 2 3 3
+  ctp: 1 5 10
+- spelare: Martin Grotenfelt
+  totalt: 53
+  resultat: 3 3 3 2 4 3 5 3 3 2 2 3 3 2 3 4 3 2
+- spelare: Johan Rosén
+  totalt: 49
+  resultat: 2 3 2 2 4 2 4 3 2 2 2 3 3 3 3 4x 2 3
+  ctp: 6 10
+- spelare: Dan Johansson
+  totalt: 47
+  resultat: 3 4 2 3 3 2 3 2 2 2 3 2 3 2 2 3 4 2
+  ctp: 8 10 15
+- spelare: Patrik Berglund
+  totalt: 45
+  resultat: 3 3 2 2 3 2 4 2 2 2 3 2 3 3 2 2 2 3
+  ctp: 8
+- spelare: Ragnar Lagergren
+  totalt: 48
+  resultat: 2 3 2 2 4 3 2 4 2 2 2 3 2 3 3 3 4 2
+  ctp: 1 10
+- spelare: Richard Kilander
+  totalt: 47
+  resultat: 2 3 2 2 3 3 2 3 2 2 3 3 3 3 3 3 3 2
+  ctp: 1 10
+- spelare: Martin Rasch
+  totalt: 46
+  resultat: 4x 2 3 3 3 2 2 3 2 2 2 2 2 3 3 3 2 3
+  ctp: 7 10 12
+- spelare: Calle Ulvinen
+  totalt: 50
+  resultat: 2 3 3 2 5 3 3 2 3 4x 2 2 4 3 2 2 3 2
+  ctp: 15
+- spelare: Linda Emanuelsson
+  totalt: 58
+  resultat: 4 3 3 2 4 4 4 3 4 2 3 3 3 2 3 4x 3 4
+- spelare: Karl Arnby
+  totalt: 44
+  resultat: 2 2 3 2 3 2 2 3 2 2 3 3 3 2 2 4 2 2
+  ctp: 10 14
+- spelare: Malin van Ham
+  totalt: 60
+  resultat: 3 4 3 4 4 4 3 3 4 3 3 3 4 3 3 3 3 3
+- spelare: Andreas Petersson
+  totalt: 59
+  resultat: 3 3 3 4x 5 3 3 3 4 2 3 3 4 3 3 4x 3 3
+  ctp: 10
+- spelare: Reza Hedayati
+  totalt: 56
+  resultat: 3 2 3 2 3 3 3 4 3 5 3 2 3 3 3 4x 4 3
+  ctp: 12
+- spelare: Nemanja Milenkovic
+  totalt: DNF
+  resultat: 2 3 3 4x 4 3 5 4 3 4 3 - - - - 4 3 3
+- spelare: John Eriksson
+  totalt: 61
+  resultat: 4x 4 3 5x 3 3 4 3 4 2 3 3 3 4 3 2 4 4
+  ctp: 10
+- spelare: Suzan Edvardsson
+  totalt: 64
+  resultat: 3 4 3 3 4 3 4 4 3 4x 3 5 3 4 3 4 4 3
+- spelare: Marianne Söderberg
+  totalt: 62
+  resultat: 3 3 3 4 4 3 5 4 3 4x 3 3 5 3 3 3 3 3
+- spelare: Åsa Hultgren
+  totalt: 71
+  resultat: 4x 4 3 5x 5 3 3 3 3 4x 5 3 5 4 3 5x 5 4
+- spelare: Alex Runge
+  totalt: 54
+  resultat: 2 3 3 4x 4 3 4 2 3 4x 3 3 2 2 4 3 3 2
+- spelare: Caroline Whitworth
+  totalt: 69
+  resultat: 4 4 3 2 4 4 3 5 3 4x 6 3 4 5 6 3 3 3
+- spelare: Martin Skoog
+  totalt: 55
+  resultat: 4x 3 2 2 3 3 2 3 3 4x 4 3 3 3 3 4 3 3
+- spelare: Anders Forsell
+  totalt: 59
+  resultat: 3 4 3 3 3 3 4 3 3 3 3 3 4 3 3 4 5 2
+- spelare: Daniel Fuxborg
+  totalt: 54
+  resultat: 3 3 3 2 3 3 3 3 3 2 3 2 6 3 2 4 3 3
+- spelare: Daniel Nordgren
+  totalt: 58
+  resultat: 4 4 5 4 3 3 2 3 2 2 3 3 3 3 2 5 4 3
+  ctp: 7 10 15
+- spelare: Andreas Ljungmark
+  totalt: 63
+  resultat: 4 3 5 3 2 3 4 3 4 4 2 3 4 5 4 3 4 3
+  ctp: 5
+- spelare: Josef Nilsson
+  totalt: 54
+  resultat: 2 4 4 4x 4 2 3 2 4 4 2 3 3 3 3 3 2 2
+- spelare: Andreas Litfeldt
+  totalt: 60
+  resultat: 2 3 3 3 3 3 4 3 4 4 3 3 4 3 3 5 3 4
+- spelare: Sebastian Molander
+  totalt: 60
+  resultat: 2 2 3 4x 3 3 3 3 4 4 3 3 6 3 3 3 5 3
+- spelare: Charlotte Persson
+  totalt: 65
+  resultat: 3 3 4 4x 6 3 3 3 3 4 4 4 3 5 3 4 3 3
+- spelare: Sami Eskelinen
+  totalt: 52
+  resultat: 2 3 3 3 3 3 2 4 2 4x 3 3 2 3 3 3 3 3
+  ctp: 13
+- spelare: Henke
+  totalt: 61
+  resultat: 3 4 3 4x 3 3 3 4 3 4x 4 2 4 4 3 4x 3 3
+- spelare: Kaj L
+  totalt: 59
+  resultat: 3 3 3 3 3 2 4 3 3 4x 3 4 6 3 2 4x 4 2
+- spelare: Jeroen Brüs
+  totalt: 57
+  resultat: 4 3 2 3 5 3 3 3 4 2 3 3 3 3 3 2 5 3
+  ctp: 10
+- spelare: Lotta Blom
+  totalt: 70
+  resultat: 4 5 4 4 4 3 4 4 4 4 4 4 4 3 4 4 4 3
+- spelare: Ray
+  totalt: 61
+  resultat: 3 3 4 4 4 3 2 3 3 4 3 3 6 3 2 4 4 3
+  ctp: 15
+- spelare: Oskar Folkesson
+  totalt: 53
+  resultat: 3 3 4 4 3 4 3 3 3 2 3 4 2 2 2 2 3 3
+  ctp: 15 16

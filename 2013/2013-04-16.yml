@@ -1,0 +1,151 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2013-04-16
+resultat:
+- spelare: Oskar Folkesson
+  resultat: 2 3 3 3 4 2 2 3 2 2 3 3 2 2 2 2 3 3
+  totalt: 46
+  ctp: 7 10 14 16
+- spelare: Patrik Berglund
+  resultat: 3 2 3 2 3 2 4 2 2 2 3 2 3 2 2 2 2 2
+  totalt: 43
+  ctp: 6 8 12 14 16
+- spelare: Richard Kilander
+  totalt: 55
+  resultat: 2 3 4 4p 4 3 3 3 5 4p 2 3 2 2 2 3 3 3
+  ctp: 14 15
+- spelare: Jared Farrell
+  resultat: 2 3 3 4p 3 3 4 4 3 2 3 2 3 3 3 2 3 4p
+  totalt: 54
+  ctp: 16
+- spelare: Dan Johansson
+  resultat: 3 2 3 2 2 2 2 3 3 2 3 3 3 3 2 2 8 4
+  totalt: 52
+  stp: 6 16
+- spelare: Patrik Axelsson
+  resultat: 2 3 3 4p 4p 2 3 3 2 3 3 2 3 3 3 3 4 3
+  totalt: 53
+- spelare: Ingemar Backman
+  resultat: 3 4 2 4p 3 2 4 5 3 4p 3 3 3 3 3 4p 3 2
+  totalt: 58
+- spelare: Martin Rasch
+  resultat: 2 2 4 3 3 2 3 2 2 2 3 2 3 3 2 4 3 3
+  totalt: 48
+  ctp: 6 12 15
+- spelare: Calle Ulvinen
+  resultat: 2 2 3 2 4 3 2 3 4 4p 3 2 4 3 3 2 2 3
+  totalt: 51
+  ctp: 7 16
+- spelare: Mattias Jorstedt
+  resultat: 3 4 2 4p 5 3 2 3 3 2 2 3 2 2 2 3 3 3
+  totalt: 51
+  ctp: 10 15
+- spelare: Josef Alexandersson
+  resultat: 2 3 3 3 3 3 3 3 3 2 3 2 3 2 2 2 4 3
+  totalt: 49
+  ctp: 14 16
+- spelare: Tomas Carlqvist
+  resultat: 3 4 5 3 3 2 3 4 3 4 6 3 3 3 3 4p 3 3
+  totalt: 62
+- spelare: Johan Grotenfelt
+  resultat: 3 2 3 4 3 3 3 3 3 4 4 3 3 3 3 2 3 3
+  totalt: 55
+- spelare: Mihaly Rapcak
+  resultat: 4 3 2 2 3 3 2 4 4 3 4 4 5 3 2 2 3 3
+  totalt: 56
+  ctp: 16
+- spelare: Martin Grotenfelt
+  resultat: 3 3 3 2 3 3 2 4 3 3 3 3 3 3 2 2 2 3
+  totalt: 50
+  ctp: 15 16
+- spelare: Linda Emanuelsson
+  resultat: 3 3 3 3 4 3 6 2 3 2 3 3 3 2 3 4p 4 3
+  totalt: 57
+  ctp: 10
+- spelare: Emma Larsson
+  resultat: 4 4 4 4 5 5 3 4 3 3 5 4 5 4 3 5 6 4
+  totalt: 75
+- spelare: Åsa Hultgren
+  resultat: 5p 4 3 5 6 4 4 5 5 4p 3 4 5 3 3 4 7 4
+  totalt: 78
+- spelare: Malin van Ham
+  resultat: 4 4 4 5p 3 3 4 3 4 4p 3 3 5 4 3 4 5 4
+  totalt: 69
+- spelare: Marianne Söderberg
+  resultat: 3 3 3 3 3 4 3 4 5 4 3 3 4 4 4 2 5 3
+  totalt: 63
+- spelare: Jessika Edvardsson
+  resultat: 3 3 4 3 4 3 4 3 3 2 2 2 3 3 2 3 2 3
+  totalt: 52
+- spelare: Suzan Edvardsson
+  resultat: 4 3 4 4 4 4 5 4 5 4 3 3 3 4 4 4p 5 4
+  totalt: 71
+- spelare: Roland Johansson
+  resultat: 4 4 7 5p 6 5 4 5 4 4 3 7 5 3 3 3 6 3
+  totalt: 81
+- spelare: Andreas Litfeldt
+  resultat: 4 3 2 4p 4 4 3 3 2 4 2 3 3 3 3 2 3 4p
+  totalt: 56
+  ctp: 16
+- spelare: Andreas Jorstedt
+  resultat: 4 3 2 4p 3 3 3 3 3 2 3 3 2 3 3 4p 3 3
+  totalt: 54
+- spelare: Magnus Bäckström
+  resultat: 3 3 4 3 3 5 5 3 3 2 2 2 4 3 3 2 4 3
+  totalt: 57
+  ctp: 10 12
+- spelare: Kaj L
+  resultat: 4p 2 3 2 3 3 3 5 4 4 3 3 3 3 3 4p 4 3
+  totalt: 59
+  ctp: 2
+- spelare: Mikael Kyrklund
+  resultat: 3 4 3 4p 4 3 3 3 3 2 3 4 4 3 3 3 5 3
+  totalt: 60
+  ctp: 10
+- spelare: John Mayall
+  resultat: 3 4 3 6p 5 6 4 4 4 5p 3 5 4 3 4 4 4 4
+  totalt: 75
+- spelare: Nemanja Milenkovic
+  resultat: 2 4 2 3 4 2 3 3 4 4 3 3 4 4 3 4 4 4
+  totalt: 60
+  ctp: 6
+- spelare: Robert Svensson
+  resultat: 6p 4 4 3 5p 3 3 4 4 4p 3 4 3 4 4 4 6p 2
+  totalt: 70
+- spelare: Marcus Grüner
+  resultat: 3 3 3 4p 4 4 6 4 3 4p 4 3 3 2 3 6p 4 3
+  totalt: 66
+- spelare: Albert Alvén
+  resultat: 3 3 4 4p 3 3 3 5 4 3 4 3 3 3 2 4p 6 3
+  totalt: 63
+  ctp: 15
+- spelare: Kristofer Paulsson
+  resultat: 3 4 4 4p 4 4 3 5 4 4p 5 3 4 4 3 2 4 4
+  totalt: 68
+  ctp: 16
+- spelare: Magnus Andersson
+  resultat: 3 3 3 3 4 4 5 4 3 4p 3 5 4 2 3 4p 5 3
+  totalt: 65
+- spelare: Tommy Karlsson
+  resultat: 2 3 3 3 4 4 2 3 4 3 6 3 3 3 3 2 4 2
+  totalt: 57
+  ctp: 18
+- spelare: Daniel Hansson
+  resultat: 4 3 3 4 3 4 5 3 3 4 3 3 4 4 3 3 5 4
+  totalt: 65
+- spelare: Johan Elmqvist
+  resultat: _ _ 3 4 4 3 3 2 2 3 3 3 3 3 4 2 5 4
+  totalt: DNF
+- spelare: Martin Skoog
+  resultat: _ _ 2 4 3 3 4 5 3 3 4 _ _ _ _ _ _ _
+  totalt: DNF
+- spelare: Jimmy Byström
+  resultat: 4p 4 4 3 5p 3 2 4 4 2 3 4 5 3 3 3 5 3
+  totalt: 64
+  ctp: 10
+- spelare: Erik Åkerlund
+  resultat: 2 3 3 4p 4 3 5 3 4 3 3 4 4 3 3 5 4 3
+  totalt: 63
+- spelare: Max Jacobsson
+  resultat: 3 4 5 3 3 3 4 4 3 3 4 3 3 3 3 4 3 3
+  totalt: 61

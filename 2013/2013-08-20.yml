@@ -1,0 +1,226 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2013-08-20
+
+resultat:
+- spelare: David Johansen
+  totalt: 53
+  resultat: 5 5 3 2 3 3 2 3 3 3p 3 2 3 3 2 3 3 2
+- spelare: Viktor Johansen
+  totalt: 59
+  resultat: 2 3 2 4 4 2 3 3 3 2 4 3 7 3 3 4p 4 3
+- spelare: Victor Lagerqvist
+  totalt: 54
+  resultat: 2 4 3 4 3 2 3 4 3 4p 3 3 3 3 3 2 3 2
+- spelare: Andreas Dackander
+  totalt: 46
+  resultat: 2 3 3 2 3 3 3 3 3 2 3 3 2 2 2 2 2 3
+- spelare: Mattias Jorstedt
+  totalt: 54
+  resultat: 2 3 3 2 3 5 3 3 3 2 3 4 4 3 2 4p 2 3
+  ctp: 15
+- spelare: Patrik Axelsson
+  totalt: 50
+  resultat: 2 2 2 3 2 2 5 4 3 3p 2 3 4 3 2 3 3 2
+  ctp: 1
+- spelare: Ingemar Backman
+  totalt: 53
+  resultat: 2 4 3 4p 3 2 3 3 3 2 2 3 3 2 3 5p 3 3
+  ctp: 11 14
+- spelare: Ragnar Lagergren
+  totalt: 53
+  resultat: 4p 2 3 4p 3 3 3 3 3 4p 2 3 4 3 2 2 3 2
+  ctp: 16
+- spelare: Johan Grotenfelt
+  totalt: 52
+  resultat: 3 2 2 5p 2 2 3 3 3 2 3 4 3 3 3 4p 2 3
+- spelare: Johan Rosén
+  totalt: 48
+  resultat: 4p 3 2 2 3 3 2 2 2 2 3 2 4 2 3 3 3 3
+  ctp: 10
+- spelare: Richard Kilander
+  totalt: 51
+  resultat: 4p 2 2 2 3 3 3 3 3 4p 2 3 3 2 3 3 3 3
+- spelare: Mihaly Rapcak
+  totalt: 52
+  resultat: 2 3 2 3 4 3 4 3 2 4p 2 3 3 3 3 2 3 3
+  ctp: 1
+- spelare: Josef Alexandersson
+  totalt: 56
+  resultat: 5pp 3 3 2 5 3 2 3 3 4p 3 2 3 3 3 3 3 3
+  ctp: 7
+- spelare: Tomas Carlqvist
+  totalt: 56
+  resultat: 3 4 4 3 4 3 3 2 3 3 2 3 3 3 3 4 3 3
+- spelare: Martin Molin
+  totalt: 51
+  resultat: 2 3 4 2 4 3 2 3 2 2 3 3 3 2 3 2 4 4p
+  ctp: 1 7 9 10 16
+- spelare: Håkan Johansson
+  totalt: 48
+  resultat: 2 3 2 2 3 3 2 4 3 2 2 3 3 4 2 2 4 2
+  ctp: 1 10 15 16
+- spelare: Jared Farrell
+  totalt: 51
+  resultat: 3 2 3 4p 3 4 3 2 2 3p 3 3 3 3 3 2 2 3
+  ctp: 16
+- spelare: Calle Ulvinen
+  totalt: 48
+  resultat: 1 3 3 2 3 2 3 4 2 5p 3 2 3 2 2 3 3 2
+  ctp: 1 12 15
+- spelare: Oskar Folkesson
+  totalt: 46
+  resultat: 3 2 2 3 2 2 3 3 2 2 3 3 3 3 2 2 3 3
+- spelare: Fredrik Andersson
+  totalt: 48
+  resultat: 2 2 2 3 3 3 3 3 3 4p 2 2 3 3 3 3 2 2
+  ctp: 1 12 18
+- spelare: Dan Johansson
+  totalt: 42
+  resultat: 2 2 2 4p 2 2 2 2 2 4p 2 2 2 2 2 3p 2 3
+  ctp: 3 15
+- spelare: Karl Arnby
+  totalt: 45
+  resultat: 3 2 2 2 3 3 3 2 4 2 3 2 3 3 2 2 2 2
+  ctp: 2 3 10 15
+- spelare: Linda Emanuelsson
+  totalt: 60
+  resultat: 4p 3 3 3 3 3 3 3 3 4p 3 4 3 3 3 4 4 4
+- spelare: Malin van Ham
+  totalt: 65
+  resultat: 4p 4 4 4 4 3 4 5 4 4p 3 3 3 4 3 3 3 3
+- spelare: Lotta Blom
+  totalt: 68
+  resultat: 3 4 3 3 5 3 4 4 4 4 4 4 4 4 4 4p 4 3
+- spelare: Sofia Fredman
+  totalt: 68
+  resultat: 3 3 3 3 5 5 5 4 3 4 3 4 6 2 3 4 4 4
+- spelare: Charlotte Persson
+  totalt: 83
+  resultat: 4 4 4 5 6 4 4 5 6 4 4 4 4 5 5 5 5 5
+- spelare: Caroline Whitworth
+  totalt: 64
+  resultat: 2 5 2 4p 5 3 4 3 3 4p 3 3 5 3 3 5p 3 4
+  ctp: 1
+- spelare: Sabine Forsell
+  totalt: 78
+  resultat: 4 4 4 4 5p 3 7 4 4 4p 4 3 6 5 5 5p 4 3
+- spelare: Camilla Karlsson
+  totalt: 70
+  resultat: 3 3 3 4 4 4 6 4 4 4p 4 3 4 4 3 5p 4 4
+- spelare: Susann Bokdalen
+  totalt: 61
+  resultat: 4 4 3 4p 3 4 4 3 4 4p 3 3 3 3 2 3 4 3
+  ctp: 15
+- spelare: Marianne Söderberg
+  totalt: 65
+  resultat: 3 3 4p 3 5 3 5 4 4 4p 2 3 4 3 3 5p 4 3
+- spelare: Åsa Hultgren
+  totalt: 60
+  resultat: 3 4 3 3 3 5 3 3 3 4p 4 3 4 2 3 2 3 5
+- spelare: Jessika Edvardsson
+  totalt: 54
+  resultat: 3 3 3 2 3 3 4 3 3 3p 3 3 3 3 3 3 3 3
+- spelare: Suzan Edvardsson
+  totalt: 62
+  resultat: 3 4 4 3 3 4 4 3 5 3 3 3 4 4 3 3 3 3
+- spelare: Peter Arildsson
+  totalt: 70
+  resultat: 3 4 4 4p 3 3 5 4 4 4p 5 4 3 5 3 2 4 6p
+- spelare: Josef Nilsson
+  totalt: 51
+  resultat: 2 3 3 2 4 2 2 4 3 2 3 2 4 3 3 3 3 3
+  ctp: 1 7
+- spelare: Sebastian Molander
+  totalt: 62
+  resultat: 3 2 4 2 5 3 5 4 3 2 3 4 3 5 3 4p 4 3
+- spelare: Arvid Sollenby
+  totalt: 57
+  resultat: 2 3 4 4p 3 3 4 4 3 4p 3 2 3 3 3 3 3 3
+  ctp: 12
+- spelare: Marcus Nordén
+  totalt: 50
+  resultat: 2 3 3 2 3 2 4 4 3 2 3 3 3 3 2 3 2 3
+  ctp: 1 10 15
+- spelare: Sami Eskelinen
+  totalt: 52
+  resultat: 4p 3 2 2 3 2 2 3 3 4p 2 3 3 3 3 4p 3 3
+- spelare: Henrik Bäck
+  totalt: 52
+  resultat: 3 2 3 2 3 3 2 4 3 4p 3 3 3 2 3 3 4 2
+  ctp: 7 14
+- spelare: Filip Sievertz
+  totalt: 61
+  resultat: 4p 3 3 4p 4 4 3 3 4 4p 3 3 4 3 3 2 4 3
+- spelare: Martin Skoog
+  totalt: 57
+  resultat: 3 4 3 4p 3 3 4 3 3 2 3 3 4 2 2 4p 3 4
+- spelare: Henke
+  totalt: 59
+  resultat: 3 3 3 4p 4 3 2 3 3 4p 5 3 3 4 4 2 4 2
+  ctp: 7
+- spelare: Kaj L
+  totalt: 55
+  resultat: 2 2 2 4p 4 2 5 5 3 3 3 2 4 3 3 2 3 3
+  ctp: 1
+- spelare: Magnus Bäckström
+  totalt: 56
+  resultat: 4p 3 3 4p 3 3 3 5p 3 2 3 2 4 3 3 3 3 2
+  ctp: 12
+- spelare: Andreas Jorstedt
+  totalt: 54
+  resultat: 2 3 3 3 4 3 3 4 3 3 2 4 3 3 3 3 3 2
+  ctp: 1
+- spelare: Andreas Litfeldt
+  totalt: 58
+  resultat: 4 3 2 4p 4 3 3 2 4 3 2 3 4 3 3 4p 4 3
+- spelare: Patrik Einarsson
+  totalt: 57
+  resultat: 4 3 3 4p 4 4 2 2 2 4p 3 3 2 3 3 4p 4 3
+  ctp: 7 9
+- spelare: John Eriksson
+  totalt: 56
+  resultat: 2 3 3 4p 3 3 4 3 3 2 3 3 3 3 3 4 4 3
+- spelare: Andreas Petersson
+  totalt: 60
+  resultat: 3 4 2 4p 3 3 4 4 3 2 4 3 4 2 3 5p 4 3
+- spelare: Ray
+  totalt: 60
+  resultat: 4p 3 3 4p 4 3 4 3 3 3 3 3 4 4 2 4 3 3
+  ctp: 15
+- spelare: Roland Johansson
+  totalt: 76
+  resultat: 4 4 4 4p 5 4 4 5 4 2 5 5 6 4 3 5 5 3
+  ctp: 10
+- spelare: John Mayall
+  totalt: 60
+  resultat: 4 4 2 4p 4 3 4 3 5 2 4 3 3 2 3 4p 3 3
+  ctp: 10
+- spelare: Mikael Kyrklund
+  totalt: 59
+  resultat: 3 3 3 3 3 3 3 3 3 4p 4 3 4 3 4 3 4 3
+- spelare: Anders Forsell
+  totalt: 63
+  resultat: 2 6 5 3 3 3 4 5 4 4p 3 2 2 4 4 2 4 3
+- spelare: Albert Alvén
+  totalt: 57
+  resultat: 2 4 2 3 4 2 2 3 2 4p 5 3 5 3 3 3 4 3
+  ctp: 3 6
+- spelare: Mattias Patroni
+  totalt: 60
+  resultat: 3 3 2 6p 3 4 4 3 3 2 4 3 3 3 3 4p 4 3
+- spelare: Daniel Fuxborg
+  totalt: 52
+  resultat: 3 4 3 2 3 3 3 3 2 2 4 3 3 2 2 4 3 3
+  ctp: 15
+- spelare: Daniel Nordgren
+  totalt: 64
+  resultat: 3 3 3 4 4 3 5 3 6 4 4 2 3 3 3 4 4 3
+  ctp: 12
+- spelare: Andreas Ljungmark
+  totalt: 60
+  resultat: 3 4 4 4 5 4 3 3 4 2 3 2 3 3 4 3 3 3
+- spelare: Alex Runge
+  totalt: 47
+  resultat: 2 4 2 2 4 2 2 3 3 3 4 3 3 2 2 2 2 2
+  ctp: 14

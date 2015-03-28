@@ -1,0 +1,91 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2013-05-21
+resultat:
+- spelare: Johan Rosén
+  resultat: 3 4 2 3 3 3 2 3 4 3 3 3 3 3 2 4p 3 2
+  totalt: 53
+  ctp: 15
+- spelare: Dan Johansson
+  resultat: 4p 2 2 2 3 3 2 3 2 4p 2 3 2 2 3 3 2 3
+  totalt: 47
+- spelare: Tomas Carlqvist
+  resultat: 4p 4 3 4p 5 3 3 3 3 4p 3 3 3 2 3 2 4 3
+  totalt: 59
+- spelare: Josef Alexandersson
+  resultat: 2 4 4 4p 3 3 3 3 4 2 3 3 3 3 3 4 3 3
+  totalt: 57
+- spelare: Mattias Jorstedt
+  resultat: 3 3 2 4p 6 4 5 3 3 2 3 3 4 3 3 4 3 3
+  totalt: 61
+- spelare: Jens Ewald
+  resultat: 4p 2 3 3 3 3 3 3 2 2 3 4 3 3 3 3 4 3
+  totalt: 54
+  ctp: 9 10
+- spelare: Linda Emanuelsson
+  resultat: 4 4 3 3 4 3 3 3 3 3 3 2 4 3 3 4 3 3
+  totalt: 58
+  ctp: 12
+- spelare: Emma Larsson
+  resultat: 5 6 3 4 4 5 5 4 3 5p 4 5 6 3 5 3 5 4
+  totalt: 79
+- spelare: Malin van Ham
+  resultat: 3 4 4 3 5 4 5 3 3 4p 3 3 5 2 3 3 3 4
+  totalt: 64
+- spelare: Camilla Karlsson
+  resultat: 3 5 5 3 5 5 4 4 3 5p 5 3 5 4 5 3 4 3
+  totalt: 74
+- spelare: Filip Sievertz
+  resultat: 4p 3 4 4 4 3 3 3 4 3 5 4 4 4 3 4p 5 4
+  totalt: 68
+- spelare: Albert Alvén
+  resultat: 3 3 3 2 3 3 3 3 3 4p 3 3 5 3 3 4p 3 3
+  totalt: 57
+- spelare: Kristofer Paulsson
+  resultat: 2 4 4 3 3 4 4 4 4 2 4 3 6 2 3 4p 3 4
+  totalt: 63
+  ctp: 14
+- spelare: Jimmy Byström
+  resultat: 3 3 3 5 2 3 2 3 2 2 4 3 3 3 3 3 3 4
+  totalt: 54 SUDDEN
+  ctp: 9
+- spelare: Magnus Andersson
+  resultat: 4 3 2 3 4 3 3 4 3 4p 3 3 4 5 3 4 3 4
+  totalt: 62
+- spelare: Arvid Sollenby
+  resultat: 2 3 3 3 4 4 3 3 4 3 3 4 3 3 3 3 3 3
+  totalt: 57
+- spelare: Josef Nilsson
+  resultat: 3 3 4 3 4 3 3 3 4 4 2 3 4 3 3 4 4 3
+  totalt: 60
+- spelare: Mats Lindgren
+  resultat: 3 3 2 4 3 3 4 4 3 4 3 3 3 2 3 4 4 3
+  totalt: 58
+- spelare: John Eriksson
+  resultat: 4p 5 2 3 4 4 4 4 3 3 2 4 4 2 4 6 4 3
+  totalt: 65
+- spelare: Kaj L
+  resultat: 4 3 3 4 3 3 4 3 3 4 3 2 3 2 4 2 4 3
+  totalt: 57
+- spelare: Nemanja Milenkovic
+  resultat: 2 4 3 2 3 3 5 3 3 4 3 3 5 3 3 4 5 3
+  totalt: 61
+- spelare: Henke
+  resultat: 4 2 4 4 5 3 4 4 3 5 4 3 3 2 5 3 4 2
+  totalt: 64
+- spelare: Marcus
+  resultat: 3 3 3 4 5 4 4 3 3 4 4 3 3 4 3 5 4 4
+  totalt: 66
+- spelare: Ray
+  resultat: 4p 3 3 3 3 3 4 4 3 3 3 4 5 3 4 4 3 3
+  totalt: 62
+- spelare: Marius Adrion
+  resultat: 4 4 5 5 4 4 4 8 4 4 4 4 4 4 4 4p 5 4
+  totalt: 79
+- spelare: Jeroen Brüs
+  resultat: 4p 4 4 4 5 3 2 4 3 2 3 3 3 3 3 4p 5 3
+  totalt: 62
+  ctp: 10
+
+# angiven summa 81 för Marius Adrion den 2013-05-21, är felaktig: 4 + 4 + 5 + 5 + 4 + 4 + 4 + 8 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4p + 5 + 4 = 79
+# angiven summa 62 för Jeroen Brüs den 2013-05-21, är felaktig: 4p + 4 + 4 + 4 + 5 + 3 + 2 + 4 + 2 + 2 + 2 + 3 + 3 + 3 + 3 + 4p + 5 + 3 = 60

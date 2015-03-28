@@ -1,0 +1,198 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2013-08-06
+
+resultat:
+- spelare: Patrik Berglund
+  totalt: 44
+  resultat: 2 3 4 2 2 2 4 3 3 2 2 2 3 2 2 2 2 2
+  ctp: 1 4 5 6 12 16 17
+- spelare: Gunnar Kenne
+  totalt: 58
+  resultat: 5x 4 4 3 3 2 4 4 2 4x 2 3 4 2 2 4x 3 3
+  ctp: 14 15
+- spelare: Martin Rasch
+  totalt: 45
+  resultat: 2 3 2 3 3 2 2 3 2 3 2 2 3 3 2 4x 2 2
+  ctp: 1 7 9 12
+- spelare: Dan Johansson
+  totalt: 41
+  resultat: 2 2 2 2 3 2 3 2 3 2 2 3 3 2 2 2 2 2
+  ctp: 10 16
+- spelare: Andreas Dackander
+  totalt: 46
+  resultat: 2 2 4 3 3 2 2 3 3 3 2 2 3 2 2 2 3 3
+  ctp: 12
+- spelare: Patrik Axelsson
+  totalt: 47
+  resultat: 2 3 2 2 3 3 2 2 2 3 3 3 4 3 3 2 3 2
+  ctp: 1
+- spelare: Ted Andersson
+  totalt: 50
+  resultat: 2 4 3 3 3 3 3 3 3 2 4 2 3 2 2 2 2 4
+  ctp: 1 10 15 16 17
+- spelare: Ingemar Backman
+  totalt: 50
+  resultat: 2 3 2 3 3 3 4 2 2 2 2 2 4 3 3 4x 3 3
+- spelare: Martin Grotenfelt
+  totalt: 53
+  resultat: 4x 3 3 2 3 2 3 3 3 2 2 2 3 3 3 3 4 5x
+  ctp: 12
+- spelare: Mihaly Rapcak
+  totalt: 55
+  resultat: 2 3 3 2 5x 3 3 3 3 2 3 3 4 2 4 4x 3 3
+  ctp: 14
+- spelare: Johan Rosén
+  totalt: 53
+  resultat: 3 3 3 2 2 5 2 2 3 2 3 3 3 3 3 4 4x 3
+  ctp: 7 8 10
+- spelare: Ragnar Lagergren
+  totalt: 53
+  resultat: 3 2 2 4x 3 3 2 4 3 3 3 3 3 2 3 3 4 3
+  ctp: 2
+- spelare: Karl Arnby
+  totalt: 43
+  resultat: 2 3 2 3 2 2 3 2 2 2 2 2 3 2 2 3 3 3
+  ctp: 10
+- spelare: Fredrik Andersson
+  totalt: 47
+  resultat: 3 3 2 2 3 2 4 3 2 2 2 3 3 3 3 2 2 3
+  ctp: 6 10
+- spelare: Jens Ewald
+  totalt: 53
+  resultat: 2 2 2 2 2 4 4 3 2 2 3 3 4 3 3 4 4 4
+  ctp: 10
+- spelare: Robin Forsberg
+  totalt: 63
+  resultat: 4 4 3 2 3 3 4 3 4 5 3 3 3 3 4 4 4 4
+- spelare: Tomas Carlqvist
+  totalt: 58
+  resultat: 3 3 3 3 4 5 4 3 3 4x 2 3 3 2 2 3 5 3
+  ctp: 15
+- spelare: Linda Emanuelsson
+  totalt: 59
+  resultat: 3 4 3 4x 4 2 4 3 2 3 3 3 3 5 2 5 2 4
+- spelare: Martin Molin
+  totalt: 53
+  resultat: 4x 4 2 5x 2 2 3 2 3 2 4 3 4 3 3 2 3 2
+  ctp: 8
+- spelare: Oskar Folkesson
+  totalt: 52
+  resultat: 2 2 2 2 4 2 3 3 4 4x 3 5 3 3 2 2 3 3
+  ctp: 6
+- spelare: Sebastian Molander
+  totalt: 65
+  resultat: 3 4 5 4x 4 2 3 4 3 4x 3 4 3 3 3 5x 5 3
+- spelare: Gustaf Sjöbratt
+  totalt: 58
+  resultat: 3 3 2 3 4 2 3 4 3 4x 3 3 4 3 2 6x 4 2
+- spelare: Roy Brevik
+  totalt: 61
+  resultat: 3 3 3 4x 3 3 5 3 4 4x 3 3 4 3 3 4 4 2
+- spelare: Sami Eskelinen
+  totalt: 50
+  resultat: 3 3 2 2 3 3 3 3 3 2 3 3 3 2 2 4x 3 3
+- spelare: Alex Runge
+  totalt: 52
+  resultat: 2 3 3 3 2 3 3 2 4 5x 2 3 3 3 3 3 2 3
+  ctp: 1 17
+- spelare: Caroline Whitworth
+  totalt: DNS
+- spelare: Daniel Fuxborg
+  totalt: 52
+  resultat: 3 3 2 4x 2 4 3 3 3 2 3 2 4 2 3 3 3 3
+  ctp: 10
+- spelare: Daniel Nordgren
+  totalt: 64
+  resultat: 3 4 3 4x 4 5 3 4 5 4x 3 3 3 2 3 5 3 3
+
+- spelare: Calle Ulvinen
+  resultat: 2 2 4 2 5p 2 3 4 2 2 4 4 2 3 3 4p 4 3
+  totalt: 55
+  ctp: 1 9 10 13
+- spelare: Malin van Ham
+  resultat: 3 3 3 3 3 3 3 4 3 4p 3 4 4 4 4 4p 4 3
+  totalt: 62
+- spelare: Emma Larsson
+  resultat: 3 5 4 4p 6 4 4 5 4 5p 4 4 4 5 4 4 4 4
+  totalt: 77
+- spelare: Marianne Söderberg
+  resultat: 4p 5 3 3 3 3 5 3 3 4p 3 3 6 3 3 3 4 2
+  totalt: 63
+- spelare: Suzan Edvardsson
+  resultat: 3 4 4 3 4 3 3 3 3 6 4 3 4 2 3 2 4 4
+  totalt: 62
+- spelare: Johanna Pålsson
+  resultat: 4 4 3 4p 4 4 3 4 4 4p 3 3 5 4 3 5 3 3
+  totalt: 67
+- spelare: Therese Johansson
+  resultat: 3 5 6 5 5 4 5 5 5 4p 6 4 6 4 5 4 5 6
+  totalt: 87
+- spelare: Jeroen Brüs
+  resultat: 3 5 3 2 3 3 4 3 4 4 2 2 3 4 4 2 4 3
+  totalt: 58
+- spelare: Calum Minnes
+  resultat: 2 4 4 4 4 4 5 5 4 3 3 2 5 3 4 3 3 3
+  totalt: 65
+- spelare: Filip Sievertz
+  resultat: 2 4 3 4 4 3 3 4 3 2 4 3 3 4 3 4 5 3
+  totalt: 61
+- spelare: Ross
+  resultat: 3 4 5 4 3 3 3 4 3 4 3 3 4 4 3 4 4 3
+  totalt: 64
+- spelare: Nemanja Milenkovic
+  resultat: 4 3 4 2 4 3 3 2 5 6 3 3 3 3 3 5 3 4
+  totalt: 63
+- spelare: Jonatan Karlsson
+  resultat: 3 3 3 2 3 3 3 3 3 2 4 3 2 3 3 4p 3 3
+  totalt: 53
+- spelare: Martin Skoog
+  resultat: 1 4 3 2 3 3 3 2 3 5 4 2 5 2 3 2 3 3
+  totalt: 53
+  ctp: 1 8
+- spelare: Johan Elmqvist
+  resultat: 3 4 4 4 4 3 3 3 3 3 3 3 3 3 3 4 3 3
+  totalt: 59
+- spelare: Henrik Bäck
+  resultat: 3 3 3 4 4 3 3 4 3 2 2 3 3 3 2 3 4 3
+  totalt: 55
+- spelare: Josef Nilsson
+  resultat: 2 3 4 _ _ _ _ _ 4 4 2 3 3 3 5 2 5 3
+  totalt: DNF
+  ctp: 1
+- spelare: Jimmy Byström
+  resultat: 2 3 4 4p 4 4 4 3 4 4p 3 4 3 3 4 4p 4 3
+  totalt: 64
+- spelare: Niklas Emanuelsson
+  resultat: 4 3 3 4p 4 4 4 5 4 3 3 2 4 3 3 4p 3 3
+  totalt: 63
+  ctp: 12
+- spelare: Magnus Bäckström
+  resultat: 4p 3 3 4p 3 3 3 3 4 2 3 3 5 3 3 2 3 3
+  totalt: 57
+  ctp: 10
+- spelare: Andreas Petersson
+  resultat: 4 3 3 5p 4 4 5 3 2 3 4 3 5 5 2 2 5 4p
+  totalt: 66
+- spelare: Kaj L
+  resultat: 2 3 5 4p 3 3 2 3 3 4p 3 4 3 4 3 5 3 4
+  totalt: 61
+  ctp: 1 7
+- spelare: Henke
+  resultat: 3 3 4 2 3 3 5 4 3 3 3 2 3 3 3 2 3 4p
+  totalt: 56
+- spelare: Anders Forsell
+  resultat: 2 4 4 4p 3 3 4 3 4 4p 4 2 4 3 3 2 4 4
+  totalt: 61
+  ctp: 1 16
+- spelare: Roland Johansson
+  resultat: 4 4 5 4 4 5 6 4 4 5p 3 4 6 4 3 4p 4 4
+  totalt: 77
+- spelare: Jimmy Lernbom
+  resultat: 4 3 2 3 4 4 3 3 2 4 4 3 5 3 3 4 3 3
+#resultat/2013-08-06.yml:193:angiven summa 61 för Jimmy Lernbom den 2013-08-06, är felaktig: 4 + 3 + 2 + 3 + 4 + 4 + 3 + 3 + 2 + 4 + 4 + 3 + 5 + 3 + 3 + 4 + 3 + 3 = 60
+#  totalt: 61
+  totalt: 60
+- spelare: Jacob Rubensson
+  totalt: 70
+  resultat: 3 4 3 4 4 3 3 4 4 3 3 4 6 3 4 4 5 6

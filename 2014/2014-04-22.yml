@@ -1,0 +1,198 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2014-04-22
+resultat:
+- spelare: Arvid Sollenby
+  resultat: 3 2 3 3 2 4 3 3 3 3p 3 3 3 3 2 3 3 2
+  totalt: 51
+  ctp: 2
+- spelare: Josef Nilsson
+  resultat: 2 2 3 2 2 4p 3 3 2 3 3 2 2 2 2 3 3 2
+  totalt: 45
+  ctp: 1 2 5 13 18
+- spelare: Jacob Rubensson
+  resultat: 3 3 3 4 3 3 5 3 5 4 4 3 2 4 2 4 4 2
+  totalt: 61
+- spelare: Marcus Nordén
+  resultat: 2 3 2 4p 3 3 2 4 3 4 3 3 3 3 3 4 2 4p
+  totalt: 55
+- spelare: Christer Köhler
+  resultat: 3 3 2 2 3 2 3 3 3 4p 3 4 2 4 4 2 3 2
+  totalt: 52
+  ctp: 3
+- spelare: David Johansen
+  resultat: 2 3 3 2 2 3 4 2 3 3 2 3 3 4 3 3 3 3
+  totalt: 51
+  ctp: 1 11
+- spelare: Henrik Johansen
+  resultat: 4p 2 2 2 2 3 3 4 2 2 3 2 2 3 2 2 2 3
+  totalt: 45
+  ctp: 2
+- spelare: Andreas Dackander
+  resultat: 2 2 2 4p 2 2 3 3 2 4p 3 3 2 3 2 3 2 2
+  totalt: 46
+  ctp: 1 5 9 17
+- spelare: Martin Grotenfelt
+  resultat: 4p 2 3 2 2 2 3 4 2 4p 3 3 2 3 3 3 2 3
+  totalt: 50
+  ctp: 2 13
+- spelare: Johan Grotenfelt
+  resultat: 2 3 2 4p 4 3 2 3 3 4p 2 2 2 3 2 3 3 3
+  totalt: 50
+  ctp: 1 13
+- spelare: Johan Rosén
+  resultat: 3 3 2 2 4p 3 3 3 2 4p 2 3 2 4 3 3 3 3
+  totalt: 52
+  ctp: 9
+- spelare: Richard Kilander
+  resultat: 2 2 3 2 2 3 3 4 3 2 3 3 2 2 3 3 3 2
+  totalt: 47
+  ctp: 10 13 14
+- spelare: Patrik Axelsson
+  resultat: 2 2 2 2 2 2 3 3 4 2 3 3 3 6 2 3 3 2
+  totalt: 49
+  ctp: 5 10 18
+- spelare: Ingemar Backman
+  resultat: 2 2 2 2 2 3 4 3 2 3 3 2 2 3 3 4 4 2
+  totalt: 48
+  ctp: 2
+- spelare: Andreas Litfeldt
+  resultat: 2 3 2 4p 4p 2 4 2 3 3p 2 2 3 4 3 3 3 2
+  totalt: 51
+  ctp:
+- spelare: Filip Siewertz
+  resultat: 3 2 4 4p 2 3 3 3 2 3 3 2 2 4 3 3 3 5p
+  totalt: 54
+- spelare: Daniel Nordgren
+  resultat: 4 4 3 4 4 3 4 3 3 3 3 3 3 5 3 3 3 4
+  totalt: 62
+- spelare: Andreas Ljungmark
+  resultat: 4 3 4 3 3 3 4 3 3 4 3 3 2 4 3 4 3 2
+  totalt: 58
+  ctp: 18
+- spelare: Daniel Fuxborg
+  resultat: 3 3 3 3 2 2 3 4 3 3 2 2 2 4 3 3 3 2
+  totalt: 50
+  ctp: 6 12
+- spelare: Caroline Whitworth
+  resultat: 2 5 3 4 4 5 4 4 4 3 3 4 3 4 4 5 4 3
+  totalt: 68
+  ctp: 1
+- spelare: Peter Arildsson
+  resultat: 3 4 2 3 3 3 3 4 5 3 3 3 3 4 3 3 3 3
+  totalt: 58
+- spelare: Martin Engström
+  resultat: 4 3 3 4 4 4 3 4 3 4 5 4 3 5 4 3 5 4
+  totalt: 69
+- spelare: John Eriksson
+  resultat: 2 2 2 3 3 4 3 5 3 2 3 3 2 2 3 3 3 3
+  totalt: 51
+  ctp: 1 10
+- spelare: Reza Hedayati
+  resultat: 2 3 4 4 4 4 4 4 4 4 3 3 3 3 4 3 3 3
+  totalt: 62
+- spelare: Göran Berntsson
+  resultat: 3 3 3 4p 4p 5 4 4 4 4p 3 4 2 4 3 3 3 4
+  totalt: 64
+  ctp: 13
+- spelare: Kaj Lautiainen
+  resultat: 2 3 2 4p 2 3 3 3 3 4p 2 3 3 3 2 3 3 3
+  totalt: 51
+  ctp: 15
+- spelare: Sebastian Molander
+  resultat: 2 3 4 4p 3 3 3 3 3 4p 3 2 3 3 4 4 3 4
+  totalt: 58
+  ctp: 12
+- spelare: Henke Mårtensson
+  resultat: 2 3 4 4p 4p 3 3 5 4 4p 3 3 3 3 3 3 3 3
+  totalt: 60
+  ctp: 1
+- spelare: Martin Skoog
+  resultat: 2 2 4 3 2 3 3 3 3 4 3 3 2 4 3 3 2 3
+  totalt: 52
+  ctp: 2
+- spelare: Andreas Kahnberg
+  resultat: 4 3 3 3 5 3 4 4 3 4 3 6 3 4 3 4 2 3
+  totalt: 64
+- spelare: Johan Elmqvist
+  resultat: 4 3 2 4 4p 3 4 5 3 4 3 2 3 3 3 2 3 3
+  totalt: 58
+  ctp: 12
+- spelare: Robert Sjölander
+  resultat: 2 3 2 4 3 4p 3 3 4 2 2 2 2 3 3 3 3 3
+  totalt: 51
+  ctp: 1 11 12 13
+- spelare: Carl Ulvinen
+  resultat: 2 2 3 3p 3 2 4 3 3 2 3 3 3 2 3 4 3 2
+  totalt: 50
+  ctp: 1 2
+- spelare: Jimmy Lernbom
+  resultat: 3 3 3 4 3 3 4 3 4 4 4 3 2 4 2 3 4 3
+  totalt: 59
+- spelare: Nemanja Milenkovic
+  resultat: 4 2 2 3 3 3 3 2 3 3 2 4 3 5 3 4 2 2
+  totalt: 53
+  ctp: 18
+- spelare: Dan Johansson
+  resultat: 2 3 2 4 4 3 2 2 4 3p 4 3 2 3 2 3 2 2
+  totalt: 50
+- spelare: Karen Middleton
+  resultat: 3 3 4 3 3 4 3 4 4 3 4 3 3 4 3 4 4 3
+  totalt: 62
+- spelare: Mats Lundqvist
+  resultat: 3 3 2 5 2 3 3 3 4 2 3 2 3 3 3 3 4 3
+  totalt: 54
+- spelare: David Lundqvist
+  resultat: 3 4 3 4 3 3 5 3 3 4 5 2 3 2 3 6 3 3
+  totalt: 62
+- spelare: Patrik Wedlin
+  resultat: 4 3 4 4p 4 4 3 3 4 4p 5 3 3 5 3 3 3 3
+  totalt: 65
+- spelare: Robin Tegerot
+  resultat: 2 4 4 4 2 3 4 4 2 2 4 3 3 4 3 5 4 3
+  totalt: 60
+  ctp: 5
+- spelare: Marcus Hallbjörner
+  resultat: 2 3 3 4p 3 4 4 3 3 2 3 3 2 4 3 3 3 2
+  totalt: 54
+  ctp: 10 13
+- spelare: Malin van Ham
+  resultat: 2 3 3 4p 3 3 4 3 3 5p 3 4 3 3 3 3 3 3
+  totalt: 58
+- spelare: Lotta Blom
+  resultat: 4p 3 3 3 2 4 3 5 3 6p 3 3 2 4 4 4 4 4
+  totalt: 64
+  ctp: 13
+- spelare: Åsa Hultgren
+  resultat: 4 4 5 3 3 4 3 3 5 4p 3 4 3 5 4 3 4 3
+  totalt: 67
+- spelare: Marianne Söderberg
+  resultat: 3 3 4 4 4 4 4 4 4 4p 5 4 3 6 3 4 4 3
+  totalt: 70
+- spelare: Suzan Edwardsson
+  resultat: 3 3 3 3 3p 3 4 4 2 4p 4 3 3 4 3 4 5 4
+  totalt: 62
+- spelare: Jonny Johansson
+  resultat: 4p 3 2 5p 3 2 3 3 2 2 4 4 3 3 3 3 3 3
+  totalt: 55
+  ctp: 9 10
+- spelare: Daniel Lindqvist
+  resultat: 4 3 3 3 3 2 4 3 4 4p 4 3 3 3 4 4 4 3
+  totalt: 61
+- spelare: Roland Johansson
+  resultat: 3 3 4 5p 3 4 4 6 5 4p 4 6 3 6 4 4 4 3
+  totalt: 75
+- spelare: Jared Farrell
+  resultat: 2 3 2 3p 3 3 3 3 2 2 2 2 2 3 2 2 3 2
+  totalt: 44
+  ctp: 13 16
+- spelare: Oskar Folkesson
+  resultat: 2 3 2 6p 3 2 3 4 3 4p 2 4 2 4 3 2 4 3
+  totalt: 56
+  ctp: 6
+- spelare: Martin Molin
+  resultat: 4p 3 3 4p 3 3 2 2 3 2 3 3 2 3 3 2 3 4p
+  totalt: 52
+- spelare: Ragnar Lagergren
+  resultat: 4p 3 2 3 3 3 3 3 3 3 3 4 2 4 2 3 3 2
+  totalt: 53

@@ -1,0 +1,135 @@
+# -*- mode:yaml; coding:utf-8; -*-
+---
+omgång: 2014-07-15
+resultat:
+- spelare: Göran Berntsson
+  resultat: 4 4 4 5p 3 3 3 4 3 4p 4 4 2 3 2 3 4 3
+  totalt: 62
+- spelare: Andreas Petersson
+  resultat: 2 5 2 4p 3 3 3 4 3 2 2 3 2 3 3 3 3 3
+  totalt: 53
+  ctp: 10
+- spelare: Anders Derkum
+  resultat: 2 2 3 2 3 3 2 3 3 4p 3 2 3 3 3 2 3 4
+  totalt: 50
+- spelare: David Friberg
+  resultat: 3 4 3 4 4p 4 3 4 4 3 3 4 3 5 4 3 5 4
+  totalt: 67
+- spelare: Johan Eriksson
+  resultat: 3 3 3 4 4 2 3 4 2 4p 4 4 3 3 3 3 5 3
+  totalt: 60
+  ctp: 6
+- spelare: Janne
+  resultat: 3 3 3 6p 4 3 5 4 3 5p 3 2 3 4 4 3 2 3
+  totalt: 63
+  ctp: 12
+- spelare: Robert Sjölander
+  resultat: 3 3 3 2 2 3 4 5 3 4p 2 2 2 3 2 3 4 4
+  totalt: 54
+  ctp: 5 13
+- spelare: Henrik Bäck
+  resultat: 2 3 3 3 3 2 4 3 2 2 2 3 3 4 2 3 3 2
+  totalt: 49
+  ctp: 18
+- spelare:  Andreas Kahnberg
+  resultat: 3 3 2 2 3 3 3 4 3 4p 2 3 3 3 3 3 3 3
+  totalt: 53
+  ctp: 11
+- spelare: Roland Johansson
+  resultat: 3 3 3 4 4 5 6 4 4 4p 5 3 3 4 3 6 4 3
+  totalt: 71
+- spelare: Mats Lindgren
+  resultat: 3 3 2 4p 3 4 4 3 3 3 3 2 3 4 3 3 4 3
+  totalt: 57
+- spelare: Jared Farrell
+  resultat: 2 3 2 2 2 4 3 2 2 2 3 3 2 3 2 3 3 2
+  totalt: 45
+  ctp: 1 9 13
+- spelare: Carl Ulvinen
+  resultat: 5po 3 2 3 2 2 2 3 2 3p 3 2 2 2 3 3 2 3
+  totalt: 47
+  ctp: 9
+- spelare: Svante Möller
+  resultat: 3 3 3 4p 4 3 3 2 4 3 4 3 3 5 4 3 3 3
+  totalt: 60
+- spelare: Anders Forsell
+  resultat: 3 3 4 3 2 4 4 3 3 2 4 4 3 4 4 4 4 3
+  totalt: 61
+  ctp: 10
+- spelare: Johanna Pålsson
+  resultat: 3 5 2 3 5 5 3 3 5 4p 5 3 3 5 4 3 6 3
+  totalt: 70
+- spelare: Linda Emanuelsson
+  resultat: 3 2 2 3 4p 4 4 3 3 2 3 3 5 4 3 3 4 3
+  totalt: 58
+  ctp: 10
+- spelare: Ingemar Backman
+  resultat: 2 3 3 4p 3 5 3 4 3 4p 2 3 2 4 3 3 4 3
+  totalt: 58
+  ctp: 13
+- spelare: Josef Nilsson
+  resultat: 3 3 2 4p 2 2 3 3 3 2 3 3 3 2 3 2 4 4p
+  totalt: 51
+  ctp: 3 6
+- spelare: Arvid Sollenby
+  resultat: 4 3 3 4p 3 3 2 2 2 2 2 3 3 4 2 3 2 3
+  totalt: 50
+  ctp: 15
+- spelare: Marianne Söderberg
+  resultat: 3 3 3 5p 3 3 3 3 5 3 4 3 4 5 4 3 4 3
+  totalt: 64
+- spelare: Johan Hansson
+  resultat: 2 4 3 4p 3 3 5 3 2 2 3 3 3 4 2 3 4 3
+  totalt: 56
+- spelare: Daniel Nordgren
+  resultat: 3 3 3 4p 4p 4 3 3 3 4p 3 3 2 4 3 3 3 3
+  totalt: 58
+- spelare: Andreas Ljungmark
+  resultat: 4p 4 6 3 4p 3 4 3 4 4p 2 4 2 4 3 4 4 4
+  totalt: 66
+- spelare: Daniel Fuxborg
+  resultat: 3 4 3 4p 2 5 2 3 4 2 2 2 2 4 3 3 3 3
+  totalt: 54
+  ctp: 7 10 13
+- spelare: Sebastian Molander
+  resultat: 4 3 4 3 4p 3 2 3 4 4p 3 3 4 3 4 4 4 4
+  totalt: 63
+  ctp: 7
+- spelare: Robin Larsson
+  resultat: 2 3 3 4p 2 3 4 4 3 4p 3 4 3 3 4 3 5 3
+  totalt: 60
+  ctp: 1
+- spelare: Marcus Slobo
+  resultat: 2 3 3 3p 3 3 3 4 4 5p 3 2 3 2 3 4 3 3
+  totalt: 56
+  ctp: 1
+- spelare: Mattias Jorstedt
+  resultat: 1 3 2 4p 2 3 4 4 3 2 4 2 2 4 3 4 4 3
+  totalt: 54
+  ctp: 10 12 13
+- spelare: Lotta Blom
+  resultat: 4p 3 3 5p 4 3 3 4 3 2 4 6 2 3 4 4 3 4
+  totalt: 64
+  ctp: 10 13
+- spelare: Albert Alvén
+  resultat: 3 3 2 3 3 3 3 3 3 2 3 3 3 3 3 2 4 3
+  totalt: 52
+- spelare: Reza Hedayati
+  resultat: 3 4 2 5p 2 3 4 3 3 2 3 3 3 3 2 3 2 3
+  totalt: 53
+  ctp: 3 17
+- spelare: Åsa Hultgren
+  resultat: 4p 3 3 4p 4p 4 3 4 4 2 4 3 3 6 3 3 5 5p
+  totalt: 67
+- spelare: John Eriksson
+  resultat: 4 3 3 2 4 5 5 4 3 4 2 2 2 2 3 3 4 3
+  totalt: 58
+- spelare: Kaj Lautiainen
+  resultat: 2 4 4 3 4 3 6 3 3 4p 2 3 3 3 2 2 3 3
+  totalt: 57
+- spelare: André Wollin
+  resultat: 2 4 3 3 3 3 4 5 4 4p 5 3 2 4 4 4 4 4
+  totalt: 65
+- spelare: Andreas Fuxborg
+  resultat: 3 3 3 2 4p 2 4 4 4 3 5 3 4 2 3 3 4 3
+  totalt: 59
