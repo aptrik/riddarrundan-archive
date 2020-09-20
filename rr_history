@@ -6,6 +6,7 @@ import glob
 import json
 import os.path
 import re
+
 import yaml
 
 
@@ -25,20 +26,21 @@ def _pretty(o):
     if isinstance(o, datetime.date):
         return o.isoformat()
     if isinstance(o, Result):
-        return dict(
-            date=o.date.isoformat(),
-            name=o.name.encode('utf-8'),
-            total=o.total,
-            score=o.score)
+        return {
+            "date": o.date.isoformat(),
+            "name": o.name,
+            "total": o.total,
+            "score": o.score,
+        }
+    return o
 
 
 def _pp(x):
-    print json.dumps(
-        x, sort_keys=True, default=_pretty, indent=2)
+    print(json.dumps(x, sort_keys=True, default=_pretty, indent=2))
 
 
 def _extract_total(tot_string):
-    md = re.compile(r'(\d+)').match(tot_string)
+    md = re.compile(r"(\d+)").match(tot_string)
     if md:
         return int(md.group(1))
     return None
@@ -47,8 +49,8 @@ def _extract_total(tot_string):
 def _extract_score(score_string):
     score = []
     for x in score_string.split():
-        x = re.sub(re.compile(r'[xp]+$'), '', x)
-        if re.compile(r'\d+$').match(x):
+        x = re.sub(re.compile(r"[xp]+$"), "", x)
+        if re.compile(r"\d+$").match(x):
             score.append(int(x))
         else:
             score.append(None)
@@ -64,38 +66,39 @@ def load_dat(history, filename):
         for line in f.readlines():
             line_num += 1
             line = line.strip()
-            line = re.sub(re.compile(r'#.*$'), '', line)
-            line = re.sub(re.compile(r'\s*$'), '', line)
+            line = re.sub(re.compile(r"#.*$"), "", line)
+            line = re.sub(re.compile(r"\s*$"), "", line)
             if not line:
                 continue
-            if re.compile(r'\s*--+').match(line):
+            if re.compile(r"\s*--+").match(line):
                 continue
 
-            md = re.compile(r'^Bana\s*:\s*(.+)').match(line)
+            md = re.compile(r"^Bana\s*:\s*(.+)").match(line)
             if md:
-                # course = unicode(md.group(1), 'utf-8')
-                # print "+++ Course:", course
+                # course = md.group(1)
+                # print("+++ Course:", course)
                 continue
 
-            md = re.compile(r'^Division\s*:\s*(\S+)').match(line)
+            md = re.compile(r"^Division\s*:\s*(\S+)").match(line)
             if md:
-                # division = unicode(md.group(1), 'utf-8')
-                # print "+++ Division:", division
+                # division = md.group(1)
+                # print("+++ Division:", division)
                 continue
 
-            md = re.compile(r'^Namn\s*:\s*(.*)').match(line)
+            md = re.compile(r"^Namn\s*:\s*(.*)").match(line)
             if md:
-                name = unicode(md.group(1), 'utf-8')
+                name = md.group(1)
                 continue
 
             md = re.compile(
-                r'^(\d+-\d+-\d+)\s*:'
-                r'\s*(SUDDEN|CTP|CTP\d{2})?\s*'
-                r'(\d+|DNF)\s*='
-                r'\s*([^:]*)\s*(:\s*(ctp=([\d+,]+)))?', re.I).match(line)
+                r"^(\d+-\d+-\d+)\s*:"
+                r"\s*(SUDDEN|CTP|CTP\d{2})?\s*"
+                r"(\d+|DNF)\s*="
+                r"\s*([^:]*)\s*(:\s*(ctp=([\d+,]+)))?",
+                re.I,
+            ).match(line)
             if md:
-                date = datetime.datetime.strptime(
-                    md.group(1), "%Y-%m-%d").date()
+                date = datetime.datetime.strptime(md.group(1), "%Y-%m-%d").date()
                 # sudden = md.group(2)
                 tot_string, score_string = md.group(3, 4)
                 # ctp_string = md.group(7)
@@ -105,50 +108,50 @@ def load_dat(history, filename):
                     if len(score) != 18:
                         raise SyntaxError(
                             "{}:{}: wrong number of results ({}): {}".format(
-                                filename, line_num,
-                                len(score), score))
+                                filename, line_num, len(score), score
+                            )
+                        )
                     tot = _extract_total(tot_string)
                     history.append(Result(date, name, tot, score))
                     continue
 
             raise SyntaxError(
-                "{}:{}: Unknown syntax on line: {}".format(
-                    filename, line_num,
-                    line))
+                "{}:{}: Unknown syntax on line: {}".format(filename, line_num, line)
+            )
 
 
 def load_yaml(history, filename):
     with open(filename) as f:
-        data = yaml.load(f)
-        date = data[u'omgång']
-        for res in data[u'resultat']:
-            name = res['spelare']
-            tot = _extract_total(str(res['totalt']))
+        data = yaml.safe_load(f)
+        date = data[u"omgång"]
+        for res in data[u"resultat"]:
+            name = res["spelare"]
+            tot = _extract_total(str(res["totalt"]))
             score = []
-            if 'resultat' not in res:
+            if "resultat" not in res:
                 score = [None] * 18
             else:
-                score = _extract_score(res['resultat'])
+                score = _extract_score(res["resultat"])
             history.append(Result(date, name, tot, score))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     archive = os.path.dirname(__file__)
 
     rr_history = []
-    for fname in [os.path.join(archive, str(y) + ".dat")
-                  for y in range(2006, 2013)]:
+    for fname in [os.path.join(archive, str(y) + ".dat") for y in range(2006, 2013)]:
         load_dat(rr_history, fname)
     for year in range(2013, 2015):
         dname = os.path.join(archive, str(year))
-        for fname in sorted(glob.glob('{}/{}*.yml'.format(dname, year))):
+        for fname in sorted(glob.glob("{}/{}*.yml".format(dname, year))):
             load_yaml(rr_history, fname)
 
-    with open(os.path.basename(__file__) + '.json', 'w') as fw:
+    with open(os.path.basename(__file__) + ".json", "w") as fw:
         json.dump(
-            rr_history, fw,
+            rr_history,
+            fw,
             indent=2,
             sort_keys=True,
             default=_pretty,
             ensure_ascii=False,
-            encoding='utf-8')
+        )
