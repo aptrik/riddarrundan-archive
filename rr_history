@@ -135,13 +135,15 @@ def load_yaml(history, filename):
             history.append(Result(date, name, tot, score))
 
 
-if __name__ == "__main__":
+def main():
     archive = os.path.dirname(__file__)
 
     rr_history = []
-    for fname in [os.path.join(archive, str(y) + ".dat") for y in range(2006, 2013)]:
+    for fname in [
+        os.path.join(archive, str(y) + ".dat") for y in range(2006, 2012 + 1)
+    ]:
         load_dat(rr_history, fname)
-    for year in range(2013, 2015):
+    for year in (2013, 2014):
         dname = os.path.join(archive, str(year))
         for fname in sorted(glob.glob("{}/{}*.yml".format(dname, year))):
             load_yaml(rr_history, fname)
@@ -155,3 +157,7 @@ if __name__ == "__main__":
             default=_pretty,
             ensure_ascii=False,
         )
+
+
+if __name__ == "__main__":
+    main()
